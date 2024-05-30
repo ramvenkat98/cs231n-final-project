@@ -291,9 +291,11 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 ckpt_path = "internlm/internlm-xcomposer2-vl-1_8b"
 tokenizer = AutoTokenizer.from_pretrained(ckpt_path, trust_remote_code=True) # .cuda()
+print("About to load model")
 # Set `torch_dtype=torch.float16` to load model in float16, otherwise it will be loaded as float32 and might cause OOM Error.
-model = AutoModelForCausalLM.from_pretrained(ckpt_path, torch_dtype=torch.bfloat16, trust_remote_code=True).cuda()
-model = model.eval()
+model = AutoModelForCausalLM.from_pretrained(ckpt_path, torch_dtype=torch.bfloat16, trust_remote_code=True).cuda().eval()
+print("Loaded model")
+# model = model.eval()
 model.tokenizer = tokenizer
 
 # Load Dataset
