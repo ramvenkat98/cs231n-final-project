@@ -7,7 +7,7 @@ for d in dataset["testmini"]:
     if d['question_type'] != 'multi_choice':
       continue
     id = d['pid']
-    image = '/home/ramvenkat98/cs231n-final-project/cs231n-final-project/image_data/' + d['image']
+    image = '/home/ramvenkat98/cs231n-final-project/image_data/' + d['image']
     q = d['query']
     text = '<ImageHere>' + q
     correct_choice =  chr(ord('A') + d['choices'].index(d['answer']))

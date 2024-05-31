@@ -1,1 +1,1 @@
-/home/ramvenkat98/cs231n-final-project/cs231n-final-project/testmini_example.json 1
+/home/ramvenkat98/cs231n-final-project/testmini_example.json 1
