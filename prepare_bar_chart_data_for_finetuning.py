@@ -4,12 +4,15 @@ import ast
 BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_train.json'
 BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
-BLOCKLIST = [i for i in range(1, 26)] + [2, 5, 7, 8, 9, 15, 41, 66]
+BLOCKLIST = [i for i in range(1, 26)] + [
+    2, 5, 7, 8, 9, 15, 41, 66, 154, 164, 200, 202, 219, 237, 260, 278, 282, 289,
+    301, 331, 0, 421, 434, 463, 494
+]
 
 with open(BAR_CHARTS_ORIGINAL_JSON_FILE_PATH, 'r') as file:
     data = json.load(file)
 
-def generate_formatted_question_and_answer(image, question, choices, answer):
+def generate_formatted_question_and_answer(image, question, choices, answer, id):
     hint = "Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end."
     question_formatted = f"Question: {question}"
     options_formatted = "Choices:"
@@ -25,12 +28,21 @@ def generate_formatted_question_and_answer(image, question, choices, answer):
         answer = answer[1:-2]
     elif answer[-1] == '.':
         answer = answer[:-1]
+    elif answer.startswith("Answer: '"):
+        answer = answer[len("Answer: '") : -1]
+    elif answer.startswith('Answer: "'):
+        answer = answer[len('Answer: "') : -1]
+    elif answer.startswith('Answer: '):
+        answer = answer[len('Answer: ') : ]
+    elif answer.startswith("`Answer: "):
+        answer = answer[len("`Answer: ") : -1]
     for (i, choice) in enumerate(choices):
         letter = chr(ord('A') + i)
         options_formatted += f"\n({letter}) {choice}"
     try:
         correct_choice =  chr(ord('A') + choices.index(answer))
     except:
+        print("Id", id)
         print("Choices", choices, type(choices[0]))
         print("Answer", answer, type(answer))
         raise ValueError
@@ -61,11 +73,12 @@ for (i, d) in enumerate(data):
         print("Id", id, "in blocklist")
         continue
     if id in already_appeared_ids:
+        print("Id", id)
         assert(False)
     already_appeared_ids.add(id)
     assert(choices is not None) # MCQ only for now
     image = IMAGE_PATH + image
-    q, a = generate_formatted_question_and_answer(image, question, choices, answer)
+    q, a = generate_formatted_question_and_answer(image, question, choices, answer, id)
     # print(q)
     # print(a)
     text = '<ImageHere>' + q
