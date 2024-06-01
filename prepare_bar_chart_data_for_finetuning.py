@@ -1,9 +1,12 @@
 import json
 import ast
+import random
 
-# BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_train.json'
-BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/Users/ramvenkat98/Desktop/stanford_courses/cs231n/cs231n_final_project/bar_charts/bar_charts_visual_linguistic_train.json'
-BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train.json'
+randomize_ordering = True
+
+BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_train.json'
+# BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/Users/ramvenkat98/Desktop/stanford_courses/cs231n/cs231n_final_project/bar_charts/bar_charts_visual_linguistic_train.json'
+BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train_randomized.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
 BLOCKLIST = [i for i in range(1, 26)] + [
     2, 5, 7, 8, 9, 15, 41, 66, 154, 164, 200, 202, 219, 237, 260, 278, 282, 289,
@@ -23,6 +26,8 @@ def generate_formatted_question_and_answer(image, question, choices, answer, id)
         assert(isinstance(choices, str))
         choices = ast.literal_eval(choices)
     choices = [str(c) for c in choices]
+    if randomize_ordering:
+        random.shuffle(choices)
     if answer[0] == answer[-1] == "'":
         answer = answer[1:-1]
     elif answer[0] == answer[-1] =='"':
