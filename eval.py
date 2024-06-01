@@ -15,10 +15,10 @@ if not finetuned:
     print("Loaded model")
     # model = model.eval()
     model.tokenizer = tokenizer
-    filename = 'model_eval_1_8b.pkl'
+    filename = 'model_eval_1_8b_lora_on_339_sample_barchart_fixed_vit.pkl'
 else:
     from peft import AutoPeftModelForCausalLM
-    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output/finetune'
+    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_339_sample_barchart_fixed_vit/finetune'
     model = AutoPeftModelForCausalLM.from_pretrained(path_to_adapter, device_map="auto", trust_remote_code=True).eval()
     tokenizer = AutoTokenizer.from_pretrained(path_to_adapter, trust_remote_code = True)
     model.tokenizer = tokenizer

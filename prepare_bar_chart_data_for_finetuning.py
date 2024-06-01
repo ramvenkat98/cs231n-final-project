@@ -113,9 +113,7 @@ for (i, d) in enumerate(data):
 for k in sorted(STATS_BY_NUM_CHOICES.keys()):
     print(f"{sum(STATS_BY_NUM_CHOICES[k])} questions with {k} choices. Distribution is {STATS_BY_NUM_CHOICES[k]}.")
 
-'''
 print(len(L), "samples generated.")
 
 with open(BAR_CHARTS_PROCESSED_FILE_PATH, 'w') as file:
     json.dump(L, file, indent = 4)
-'''
