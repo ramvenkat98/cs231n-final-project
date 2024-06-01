@@ -1,0 +1,834 @@
+[
+    {
+        "id": 27,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/27.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which plant type has the second highest number in the bar chart?\nChoices:\n(A) Violets\n(B) Sunflowers\n(C) Daisies\n(D) Hydrangeas"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/29.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: : Is the plant type with the highest number of species 'Red Maple'?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/31.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which type of Festival has the second highest attendance?\nChoices:\n(A) Music\n(B) Film\n(C) Art\n(D) Food\n(E) Cultural"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/32.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Who has the highest grade in 'Math' subject?\nChoices:\n(A) Student A\n(B) Student B"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/33.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: How many Fiction books are there in the chart?\nChoices:\n(A) 10\n(B) 15\n(C) 20\n(D) 25\n(E) 30"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/34.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What type of house is the least popular according to the chart?\nChoices:\n(A) Small Apartments\n(B) Medium Apartments\n(C) Large Apartments\n(D) Small Houses\n(E) Medium Houses\n(F) Large Houses\n(G) Villas\n(H) Mansions"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (H)."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/35.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which mode of travel is preferred by the least number of travelers according to the chart?\nChoices:\n(A) By Air\n(B) By Train\n(C) By Bus\n(D) By Car\n(E) By Bike"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/36.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which type of dog is more popular in the neighborhood according to the bar chart?\nChoices:\n(A) Labrador\n(B) Beagle"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/37.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the highest income for Category 8 comes from Salaries?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/38.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which breed of cat has the highest total number?\nChoices:\n(A) Persian\n(B) Maine Coon\n(C) Siamese\n(D) Ragdoll\n(E) Sphynx"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/39.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which toy category had the least combined revenue in 2019 and 2020?\nChoices:\n(A) Action Figures\n(B) Cars & Trucks\n(C) Building Blocks\n(D) Dolls\n(E) Board Games\n(F) Educational\n(G) Musical\n(H) Puzzles\n(I) Sports\n(J) Stuffed Animals"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (F)."
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/40.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is 'Hanukkah' festival the most popular according to the chart?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/42.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the sum of ratings and usage of YouTube higher than that of Facebook?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/43.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the bar chart, which technology sector has the least number of available jobs?\nChoices:\n(A) Artificial Intelligence\n(B) Machine Learning\n(C) Data Science\n(D) Web Development\n(E) Mobile App Development"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/44.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which conservation effort has the highest importance on a scale out of 100 in the bar chart?\nChoices:\n(A) Recycling\n(B) Less Meat\n(C) Tree Planting\n(D) Public Awareness\n(E) Govt. Policy\n(F) NGO Work\n(G) Research"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (G)."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/45.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the 'Pizza' category having the lowest value in the chart?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/46.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the sales of Residential real estate increase from 2018 to 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/47.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: : Is the quantity of Bass fish caught by the Kaishu Fishing method greater than that caught by the Muroto Fishing method?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/49.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which type of medicine is most common according to the chart?\nChoices:\n(A) Antivirals\n(B) Analgesics\n(C) Antimalarials\n(D) Antibiotics\n(E) Vaccines"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/50.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the chart, what is the sum of the Hardware and Software value for the category \"Computer Software\"?\nChoices:\n(A) 100\n(B) 110\n(C) 105\n(D) 120"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/52.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does the Labrador count more than the Poodle in the bar chart?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/54.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did more tourists visit Europe than Asia in the year 2021?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/56.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which bird appears the most frequently according to the chart?\nChoices:\n(A) Sparrow\n(B) Hawk\n(C) Hummingbird\n(D) Penguin\n(E) Stork\n(F) Dove\n(G) Parrot\n(H) Eagle\n(I) Ostrich"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/58.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which category of Real Estate properties has the maximum inventory?\nChoices:\n(A) Condos\n(B) Townhouses\n(C) Semi-Detached Houses\n(D) Lofts\n(E) Bungalows\n(F) Detached Houses"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (F)."
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/59.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What environmental issue has the highest level of concern according to the bar chart?\nChoices:\n(A) Air Pollution\n(B) Deforestation\n(C) Waste Disposal"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/60.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: According to the bar chart, what was the percentage increase in hours spent by users on Online Shopping from 2019 to 2020?\nChoices:\n(A) 20%\n(B) 25%\n(C) 33.33%\n(D) 50%\n(E) 66.67%"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/61.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the energy production of Solar in 2025 less than that of Nuclear in 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/62.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: : Are there more Dresses than Shirts for Women?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/63.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: According to the bar chart, what is the quantity of the Chicken consumed?\nChoices:\n(A) 10\n(B) 15\n(C) 20\n(D) 25"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/65.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What is the sum of the users of the two least used languages on the chart?\nChoices:\n(A) 30\n(B) 50\n(C) 55\n(D) 65\n(E) 85"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/68.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the total number of Long Hair cats in the age range of 1-10 years equal to 85?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/69.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What is the sum of values for 'Dogs', 'Parrots' and 'Elephants'?\nChoices:\n(A) 80\n(B) 90\n(C) 100\n(D) 110\n(E) 120"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/70.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which Social Network has received the 4th largest investment in Advertising in 2021?\nChoices:\n(A) Facebook\n(B) Instagram\n(C) Twitter\n(D) Snapchat\n(E) YouTube\n(F) LinkedIn\n(G) Pinterest\n(H) Reddit"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/72.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What transportation type has the maximum public transportation and what is its percentage?\nChoices:\n(A) Bicycles - 5%\n(B) Motorbikes - 0%\n(C) Cars - 0%\n(D) Buses - 40%\n(E) Vans - 20%\n(F) Trucks - 0%\n(G) Trains - 60%\n(H) Planes - 15%\n(I) Ships - 35%\n(J) Subways - 100%"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (J)."
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/74.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: If USSR is represented by the color '#04ab06', did USSR have the most events in the Cold War compared to both USA and China?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/75.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is 'Defense Budget' the topic with the highest percentage in the public opinion polls?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/77.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of doctors depicted in the bar chart 175?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/79.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does Facebook spend more on advertising than Linkedin?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/81.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the usage of 'Python' more than 'Java'?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/85.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the number of biography books increase from 2019 to 2020?\nChoices:\n(A) yes\n(B) no"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/86.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: \"What art period has the highest number of European paintings?\"\nChoices:\n(A) Renaissance\n(B) Romanticism\n(C) Baroque\n(D) Neoclassicism"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/87.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which category of agricultural production has the highest production of 50 tons?\nChoices:\n(A) Grains\n(B) Fruits\n(C) Vegetables\n(D) Dairy\n(E) Poultry\n(F) Fishery"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (F)."
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/88.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of Action movies produced in 2018 less than the number of Drama movies produced in the same year?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/89.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Knowledge Level in 'Artificial Intelligence' greater than 'Programming'?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/90.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Has the internet usage in Germany reached 70% of the population?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/93.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What is the population of Germany in the chart?\nChoices:\n(A) 145 Million\n(B) 83 Million\n(C) 67 Million\n(D) 65 Million\n(E) 60 Million\n(F) 47 Million\n(G) 10 Million"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/94.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Are 'Cats' represented by the smallest total bar in the chart?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/95.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does the bar chart show that over 50% of people in a country have completed high school?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/96.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which cat breed has a popularity of 70?\nChoices:\n(A) Persian\n(B) Bengal\n(C) British Shorthair\n(D) Maine Coon\n(E) Ragdoll"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/98.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which year experienced the highest population growth in Country B?\nChoices:\n(A) 2000\n(B) 2005\n(C) 2010\n(D) 2015\n(E) 2020"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/99.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does the sector 'Manufacturing' employ more men than women?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic/train/100.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which environmental issue has seen the biggest percentage increase in concern from 1970 to 2020 based on the bar chart?\nChoices:\n(A) Deforestation\n(B) Pollution\n(C) Global Warming\n(D) Overpopulation\n(E) Natural Resource Depletion\n(F) Waste Disposal\n(G) Climate Change\n(H) Loss of Biodiversity\n(I) Genetic Modification"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    }
+]

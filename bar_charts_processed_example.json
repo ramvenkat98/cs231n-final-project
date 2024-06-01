@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/test/test.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As shown in the figure, if CB = 4.0, DB = 7.0, and D is the midpoint of AC, then the length of AC is ()\nChoices:\n(A) 6cm\n(B) 7cm\n(C) 4cm\n(D) 5cm"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/0.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which energy source had the closest to 80 million tons of production in 2020?\nChoices:\n(A) Nuclear\n(B) Hydroelectric\n(C) Solar\n(D) Wind"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/1.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Neurology the medical specialty with the least number of patients?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/2.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the chart, is the percentage of women higher than men in high school level?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/3.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the 'Rock' category, which group scored higher?\nChoices:\n(A) Men\n(B) Women\n(C) Both scored the same"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/bar_charts/4.png"
+        ],
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of people with a Bachelor's degree higher than those with a High School diploma?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    }
+]

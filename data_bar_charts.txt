@@ -1,0 +1,1 @@
+/home/ramvenkat98/cs231n-final-project/bar_charts_processed_visual_linguistic_train.json 1
