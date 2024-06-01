@@ -1,5 +1,11 @@
 [
     {
+        "question": "As shown in the figure, if CB = 4.0, DB = 7.0, and D is the midpoint of AC, then the length of AC is ()",
+        "answer": "6cm",
+        "choices": ["6cm", "7cm", "4cm", "5cm"],
+        "image": "test/test.png"
+    },
+    {
         "question": "Which energy source had the closest to 80 million tons of production in 2020?",
         "answer": "'Solar'",
         "choices": "['Nuclear', 'Hydroelectric', 'Solar', 'Wind']",

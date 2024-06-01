@@ -2,4 +2,5 @@ huggingface_mathvista_dataset/
 image_data/
 InternLM-XComposer/
 *.pkl
+__pycache__/
 
