@@ -20,13 +20,17 @@ if not finetuned:
     filename = 'model_eval_on_visuolinguistic_val_set_1_8b.pkl'
 else:
     from peft import AutoPeftModelForCausalLM
-    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_339_sample_barchart_fixed_vit/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_339_sample_barchart_fixed_vit/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_fixed_vit/finetune'
+    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit/finetune'
     # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_530_sample_barchart_fixed_vit/finetune'
     model = AutoPeftModelForCausalLM.from_pretrained(path_to_adapter, device_map="auto", trust_remote_code=True).eval()
     tokenizer = AutoTokenizer.from_pretrained(path_to_adapter, trust_remote_code = True)
     model.tokenizer = tokenizer
     # filename = 'model_eval_1_8b_finetuned.pkl'
-    filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_339_sample_barchart_fixed_vit.pkl'
+    # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_339_sample_barchart_fixed_vit.pkl'
+    # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judgefixed_vit.pkl'
+    filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit.pkl'
     # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_530_sample_barchart_fixed_vit.pkl'
     print(f"Finetuned model at path {path_to_adapter}")
 

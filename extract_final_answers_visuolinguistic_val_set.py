@@ -5,7 +5,10 @@ from tqdm import tqdm
 
 # filename = 'model_eval_on_visuolinguistic_val_set_1_8b.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_530_sample_barchart_fixed_vit.pkl'
-filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_339_sample_barchart_fixed_vit.pkl'
+# filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_339_sample_barchart_fixed_vit.pkl'
+# filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judgefixed_vit.pkl'
+filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit.pkl'
+
 with open(filename, 'rb') as f:
   eval_1_8 = pickle.load(f)
 
