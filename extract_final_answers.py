@@ -8,7 +8,7 @@ dataset = load_dataset("AI4Math/MathVista")
 
 # filename = 'model_eval_1_8b.pkl'
 # filename = 'model_eval_1_8b_finetuned.pkl'
-filename = 'model_eval_1_8b_lora_on_339_sample_barchart_fixed_vit.pkl'
+filename = 'output_1_8b_lora_on_530_sample_barchart_fixed_vit.pkl'
 with open(filename, 'rb') as f:
   eval_1_8 = pickle.load(f)
 

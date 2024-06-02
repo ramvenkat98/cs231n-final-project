@@ -1,1 +1,1 @@
-/home/ramvenkat98/cs231n-final-project/bar_charts_processed_visual_linguistic_train.json 1
+/home/ramvenkat98/cs231n-final-project/bar_charts_processed_visual_linguistic_train_randomized_llm_as_a_judge_460.json 1

@@ -3,24 +3,15 @@ import ast
 import random
 
 randomize_ordering = True
-use_llm_correctness_eval = True
 
-BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_train.json'
+BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_test.json'
 # BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/Users/ramvenkat98/Desktop/stanford_courses/cs231n/cs231n_final_project/bar_charts/bar_charts_visual_linguistic_train.json'
-BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train_randomized_llm_as_a_judge_460.json'
-LLM_AS_A_JUDGE_FILE_PATH = 'bar_charts/llm_as_judge_results.json'
+BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_val_randomized.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
-BLOCKLIST = [i for i in range(1, 26)] + [
-    2, 5, 7, 8, 9, 15, 41, 66, 154, 164, 200, 202, 219, 237, 260, 278, 282, 289,
-    301, 331, 0, 421, 434, 463, 494, 719, 766, 784, 842, 874, 925, 931, 937, 942,
-    946, 974, 994, 1011, 1022,
-]
+BLOCKLIST = [1, 2, 3, 7, 9, 10, 12, 23, 45, 50, 73, 100]
 
 with open(BAR_CHARTS_ORIGINAL_JSON_FILE_PATH, 'r') as file:
     data = json.load(file)
-
-with open(LLM_AS_A_JUDGE_FILE_PATH, 'r') as file:
-    llm_as_a_judge_data = json.load(file)
 
 STATS_BY_NUM_CHOICES = {}
 
@@ -60,18 +51,13 @@ for (i, d) in enumerate(data):
         # print(d['id'])
         position_before_number = d['id'].rfind("-")
         id = int(d['id'][position_before_number + 1 : ])
-        # print(id)
+        print(id)
     else:
         assert(False)
         id = i
     if id in BLOCKLIST:
         print("Id", id, "in blocklist")
         continue
-    if use_llm_correctness_eval and d['id'] not in llm_as_a_judge_data['corrects']:
-        print(f"Dropping {id} because not correct")
-        continue
-    else:
-        print(id, "is correct")
     if id in already_appeared_ids:
         print("Id", id)
         assert(False)
