@@ -1,0 +1,4627 @@
+[
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-1",
+        "question": "Which city has the highest total count when considering population, area and parks?",
+        "answer": "'City9'",
+        "choices": [
+            "City1",
+            "City2",
+            "City3",
+            "City4",
+            "City5",
+            "City6",
+            "City7",
+            "City8",
+            "City9"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Which category has second highest number of animals?",
+        "answer": "Cats",
+        "choices": [
+            "Cats",
+            "Dogs",
+            "Rats",
+            "Bats"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-4",
+        "question": "In which sector is the employment rate the highest?",
+        "answer": "'IT'",
+        "choices": [
+            "Manufacturing",
+            "IT",
+            "Health & Care"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-6",
+        "question": "Does the Fiction category have more books than the Educational category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "Does France get more tourists than the USA?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Does Spain have more modernist buildings than Italy?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "Which historical event has a fictional value of 225 in the chart?",
+        "answer": "'Fall of Berlin Wall'",
+        "choices": [
+            "Bastille Stormed",
+            "U.S. Independence",
+            "Fall of Berlin Wall",
+            "Moon Landing",
+            "World War II Ends"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "What is the total number of birds observed for Group B?",
+        "answer": "530",
+        "choices": [
+            "540",
+            "420",
+            "490",
+            "560"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-11",
+        "question": "Did the 'Dolls' category get more preference from Men than Women?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-13",
+        "question": "Based on the bar chart, which natural disaster occurred more frequently?",
+        "answer": "B. Floods",
+        "choices": [
+            "A. Earthquakes",
+            "B. Floods",
+            "C. Both occurred equally",
+            "D. The chart does not provide sufficient information to answer the question"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-14",
+        "question": "Are there more pigeons than eagles in the chart?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-15",
+        "question": "What is the total number of patients across all categories?",
+        "answer": "550.",
+        "choices": [
+            400,
+            450,
+            500,
+            550,
+            600
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-16",
+        "question": "Does New York have a higher population than London?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-20",
+        "question": "Is the Dog Food Consumption more than Dog Toy Usage in the chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-21",
+        "question": "Which greenhouse has more Flowers?",
+        "answer": "Greenhouse 1",
+        "choices": [
+            "Greenhouse 1",
+            "Greenhouse 2"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-22",
+        "question": "Is the 'Automobile' category with less sales in 2019 than in 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "Which breed category has the largest number of dogs according to the bar chart?",
+        "answer": "Labrador",
+        "choices": [
+            "Bulldog",
+            "Poodle",
+            "Beagle",
+            "Rottweiler",
+            "Chihuahua",
+            "Labrador",
+            "Husky",
+            "Dachshund"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-15",
+        "question": "Is Python more popular than JavaScript according to the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-25",
+        "question": "Based on the Bar Chart, do the wildfires affect more people than the earthquakes?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-27",
+        "question": "Which plant type has the second highest number in the bar chart?",
+        "answer": "'Daisies'",
+        "choices": [
+            "Violets",
+            "Sunflowers",
+            "Daisies",
+            "Hydrangeas"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-29",
+        "question": ": Is the plant type with the highest number of species 'Red Maple'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-31",
+        "question": "Which type of Festival has the second highest attendance?",
+        "answer": "Food",
+        "choices": [
+            "Music",
+            "Film",
+            "Art",
+            "Food",
+            "Cultural"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-32",
+        "question": "Who has the highest grade in 'Math' subject?",
+        "answer": "'Student A'",
+        "choices": [
+            "Student A",
+            "Student B"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-33",
+        "question": "How many Fiction books are there in the chart?",
+        "answer": "15",
+        "choices": [
+            10,
+            15,
+            20,
+            25,
+            30
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-34",
+        "question": "What type of house is the least popular according to the chart?",
+        "answer": "'Mansions'",
+        "choices": [
+            "Small Apartments",
+            "Medium Apartments",
+            "Large Apartments",
+            "Small Houses",
+            "Medium Houses",
+            "Large Houses",
+            "Villas",
+            "Mansions"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-35",
+        "question": "Which mode of travel is preferred by the least number of travelers according to the chart?",
+        "answer": "By Bike",
+        "choices": [
+            "By Air",
+            "By Train",
+            "By Bus",
+            "By Car",
+            "By Bike"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-36",
+        "question": "Which type of dog is more popular in the neighborhood according to the bar chart?",
+        "answer": "Labrador",
+        "choices": [
+            "Labrador",
+            "Beagle"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-37",
+        "question": "Is the highest income for Category 8 comes from Salaries?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-38",
+        "question": "Which breed of cat has the highest total number?",
+        "answer": "Ragdoll",
+        "choices": [
+            "Persian",
+            "Maine Coon",
+            "Siamese",
+            "Ragdoll",
+            "Sphynx"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-39",
+        "question": "Which toy category had the least combined revenue in 2019 and 2020?",
+        "answer": "\"Educational\"",
+        "choices": [
+            "Action Figures",
+            "Cars & Trucks",
+            "Building Blocks",
+            "Dolls",
+            "Board Games",
+            "Educational",
+            "Musical",
+            "Puzzles",
+            "Sports",
+            "Stuffed Animals"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-40",
+        "question": "Is 'Hanukkah' festival the most popular according to the chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-41",
+        "question": "What is the total return value for the 'Meat' category?",
+        "answer": "400",
+        "choices": [
+            "340",
+            "350",
+            "360",
+            "370",
+            "380"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-42",
+        "question": "Is the sum of ratings and usage of YouTube higher than that of Facebook?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-43",
+        "question": "Based on the bar chart, which technology sector has the least number of available jobs?",
+        "answer": "Artificial Intelligence",
+        "choices": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Data Science",
+            "Web Development",
+            "Mobile App Development"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-44",
+        "question": "Which conservation effort has the highest importance on a scale out of 100 in the bar chart?",
+        "answer": "Research",
+        "choices": [
+            "Recycling",
+            "Less Meat",
+            "Tree Planting",
+            "Public Awareness",
+            "Govt. Policy",
+            "NGO Work",
+            "Research"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-45",
+        "question": "Is the 'Pizza' category having the lowest value in the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-46",
+        "question": "Did the sales of Residential real estate increase from 2018 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-47",
+        "question": ": Is the quantity of Bass fish caught by the Kaishu Fishing method greater than that caught by the Muroto Fishing method?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "Is the total gross for Thriller movies more than for Drama movies?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-49",
+        "question": "Which type of medicine is most common according to the chart?",
+        "answer": "'Vaccines'",
+        "choices": [
+            "Antivirals",
+            "Analgesics",
+            "Antimalarials",
+            "Antibiotics",
+            "Vaccines"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-50",
+        "question": "Based on the chart, what is the sum of the Hardware and Software value for the category \"Computer Software\"?",
+        "answer": "105",
+        "choices": [
+            "100",
+            "110",
+            "105",
+            "120"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-52",
+        "question": "Does the Labrador count more than the Poodle in the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-54",
+        "question": "Did more tourists visit Europe than Asia in the year 2021?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-56",
+        "question": "Which bird appears the most frequently according to the chart?",
+        "answer": "Stork",
+        "choices": [
+            "Sparrow",
+            "Hawk",
+            "Hummingbird",
+            "Penguin",
+            "Stork",
+            "Dove",
+            "Parrot",
+            "Eagle",
+            "Ostrich"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-58",
+        "question": "Which category of Real Estate properties has the maximum inventory?",
+        "answer": "'Detached Houses'",
+        "choices": [
+            "Condos",
+            "Townhouses",
+            "Semi-Detached Houses",
+            "Lofts",
+            "Bungalows",
+            "Detached Houses"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-59",
+        "question": "What environmental issue has the highest level of concern according to the bar chart?",
+        "answer": "Deforestation",
+        "choices": [
+            "Air Pollution",
+            "Deforestation",
+            "Waste Disposal"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-60",
+        "question": "According to the bar chart, what was the percentage increase in hours spent by users on Online Shopping from 2019 to 2020?",
+        "answer": "33.33%",
+        "choices": [
+            "20%",
+            "25%",
+            "33.33%",
+            "50%",
+            "66.67%"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-61",
+        "question": "Is the energy production of Solar in 2025 less than that of Nuclear in 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-62",
+        "question": ": Are there more Dresses than Shirts for Women?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-63",
+        "question": "According to the bar chart, what is the quantity of the Chicken consumed?",
+        "answer": "20",
+        "choices": [
+            10,
+            15,
+            20,
+            25
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-65",
+        "question": "What is the sum of the users of the two least used languages on the chart?",
+        "answer": "65",
+        "choices": [
+            30,
+            50,
+            55,
+            65,
+            85
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-66",
+        "question": "What is the total energy production for all the categories combined?",
+        "answer": "None of the above options match the correct answer. It seems there's a mistake since none of the options are close to the calculated total energy production. Please check again.",
+        "choices": [
+            345,
+            365,
+            545,
+            425
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "\"What is the number of albums in the Pop genre?\"",
+        "answer": "20",
+        "choices": [
+            15,
+            30,
+            20,
+            60
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-68",
+        "question": "Is the total number of Long Hair cats in the age range of 1-10 years equal to 85?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-69",
+        "question": "What is the sum of values for 'Dogs', 'Parrots' and 'Elephants'?",
+        "answer": "110",
+        "choices": [
+            80,
+            90,
+            100,
+            110,
+            120
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-70",
+        "question": "Which Social Network has received the 4th largest investment in Advertising in 2021?",
+        "answer": "YouTube",
+        "choices": [
+            "Facebook",
+            "Instagram",
+            "Twitter",
+            "Snapchat",
+            "YouTube",
+            "LinkedIn",
+            "Pinterest",
+            "Reddit"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Which category has seen a decrease in internet usage from the year 2021 to 2022?",
+        "answer": "Chat",
+        "choices": [
+            "Chat",
+            "Email",
+            "News",
+            "Social",
+            "Search",
+            "Ecommerce",
+            "Video",
+            "Banking",
+            "Coding"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-72",
+        "question": "What transportation type has the maximum public transportation and what is its percentage?",
+        "answer": "Subways - 100%",
+        "choices": [
+            "Bicycles - 5%",
+            "Motorbikes - 0%",
+            "Cars - 0%",
+            "Buses - 40%",
+            "Vans - 20%",
+            "Trucks - 0%",
+            "Trains - 60%",
+            "Planes - 15%",
+            "Ships - 35%",
+            "Subways - 100%"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-74",
+        "question": "If USSR is represented by the color '#04ab06', did USSR have the most events in the Cold War compared to both USA and China?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-75",
+        "question": "Is 'Defense Budget' the topic with the highest percentage in the public opinion polls?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-77",
+        "question": "Is the number of doctors depicted in the bar chart 175?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "Which sector has the highest employment?",
+        "answer": "'Education'",
+        "choices": [
+            "Finance",
+            "Healthcare",
+            "Technology",
+            "Manufacturing",
+            "Education",
+            "Retail"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-79",
+        "question": "Does Facebook spend more on advertising than Linkedin?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "Does the 'Ocean' category have a larger value than the 'Mountain' category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-81",
+        "question": "Is the usage of 'Python' more than 'Java'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "In which Biome are Flowers the least prevalent?",
+        "answer": "'Desert', 'Tundra'",
+        "choices": [
+            "Rainforest",
+            "Desert",
+            "Mountain",
+            "Aquatic",
+            "Grassland",
+            "Tundra",
+            "Coniferous Forest",
+            "Deciduous Forest"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-4",
+        "question": "Is the sales of 'Shoes' more than 'Bags'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Which plant has the second highest popularity score?",
+        "answer": "'Tulips'",
+        "choices": [
+            "Roses",
+            "Tulips",
+            "Daisies",
+            "Orchids"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-85",
+        "question": "Did the number of biography books increase from 2019 to 2020?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-86",
+        "question": "\"What art period has the highest number of European paintings?\"",
+        "answer": "Neoclassicism",
+        "choices": [
+            "Renaissance",
+            "Romanticism",
+            "Baroque",
+            "Neoclassicism"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-87",
+        "question": "Which category of agricultural production has the highest production of 50 tons?",
+        "answer": "Fishery",
+        "choices": [
+            "Grains",
+            "Fruits",
+            "Vegetables",
+            "Dairy",
+            "Poultry",
+            "Fishery"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-88",
+        "question": "Is the number of Action movies produced in 2018 less than the number of Drama movies produced in the same year?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-89",
+        "question": "Is Knowledge Level in 'Artificial Intelligence' greater than 'Programming'?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-90",
+        "question": "Has the internet usage in Germany reached 70% of the population?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Is the CO2 emissions from Asia in the year 2000 less than in Europe?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-93",
+        "question": "What is the population of Germany in the chart?",
+        "answer": "'83 Million'",
+        "choices": [
+            "145 Million",
+            "83 Million",
+            "67 Million",
+            "65 Million",
+            "60 Million",
+            "47 Million",
+            "10 Million"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-94",
+        "question": "Are 'Cats' represented by the smallest total bar in the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-95",
+        "question": "Does the bar chart show that over 50% of people in a country have completed high school?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-96",
+        "question": "Which cat breed has a popularity of 70?",
+        "answer": "British Shorthair",
+        "choices": [
+            "Persian",
+            "Bengal",
+            "British Shorthair",
+            "Maine Coon",
+            "Ragdoll"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-98",
+        "question": "Which year experienced the highest population growth in Country B?",
+        "answer": "2020",
+        "choices": [
+            "2000",
+            "2005",
+            "2010",
+            "2015",
+            "2020"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-99",
+        "question": "Does the sector 'Manufacturing' employ more men than women?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-100",
+        "question": "Which environmental issue has seen the biggest percentage increase in concern from 1970 to 2020 based on the bar chart?",
+        "answer": "Overpopulation",
+        "choices": [
+            "Deforestation",
+            "Pollution",
+            "Global Warming",
+            "Overpopulation",
+            "Natural Resource Depletion",
+            "Waste Disposal",
+            "Climate Change",
+            "Loss of Biodiversity",
+            "Genetic Modification"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "Which mode of transportation has the third highest usage?",
+        "answer": "Buses",
+        "choices": [
+            "Bicycles",
+            "Buses",
+            "Subways",
+            "Trains",
+            "Private Cars",
+            "Motorbikes"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-102",
+        "question": "Did the production of wheat increase from 2020 to 2021?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-103",
+        "question": "Is 'Rock' music the category with the maximum amount of hours spent weekly according to the bar chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-104",
+        "question": "Is the food category \"Burger\" more popular among adults than kids?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "Which income category has the highest income?",
+        "answer": "Capital gains",
+        "choices": [
+            "Salary",
+            "Rent income",
+            "Dividends",
+            "Interest",
+            "Capital gains",
+            "Royalties",
+            "Pensions",
+            "Business income"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-106",
+        "question": "Does the bar chart show that the number of nurses is more than the number of doctors?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-107",
+        "question": "Which cat breed has the highest population according to the bar chart?",
+        "answer": "Maine Coon",
+        "choices": [
+            "Calico",
+            "Maine Coon",
+            "Siamese",
+            "Tabby",
+            "Ragdoll",
+            "Bengal"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-108",
+        "question": "In which genre did the casual readers read more books than the avid readers?",
+        "answer": "None",
+        "choices": [
+            "Romance",
+            "Mystery",
+            "Fantasy",
+            "None"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-109",
+        "question": "Is the value of Rental real estate in Australia higher than the value of Commercial real estate in Australia?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "Out of all presented cities, which one had the highest number of visits?",
+        "answer": "'Rome'",
+        "choices": [
+            "London",
+            "Paris",
+            "Rome",
+            "Sydney",
+            "Tokyo"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-113",
+        "question": "Is the highest score in the Aerobics category achieved by Women?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-114",
+        "question": "Is 'Regeneration' a more recognized category in Forestry than 'Deforestation'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-115",
+        "question": "Is the 'Tech' field the one with highest employment among all the given sectors?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-116",
+        "question": "What is the number of missions by SpaceX in 2021 according to the grouped bar chart?",
+        "answer": "25",
+        "choices": [
+            "10",
+            "15",
+            "20",
+            "25",
+            "30"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-117",
+        "question": "How many companies are categorized under Artificial Intelligence according to the bar chart?",
+        "answer": "25",
+        "choices": [
+            10,
+            20,
+            25,
+            30
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-118",
+        "question": "Which student has a higher grade in Music subject?",
+        "answer": "'Student2'",
+        "choices": [
+            "Student1",
+            "Student2",
+            "Both have same grade",
+            "None of them"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-119",
+        "question": "Does the 'Public Transport' category have the lowest usage percentage?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-120",
+        "question": "Which category of literature has the highest number of works?",
+        "answer": "Answer: 'Short Stories'",
+        "choices": [
+            "Novels",
+            "Poems",
+            "Plays",
+            "Short Stories",
+            "Essays"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-121",
+        "question": "Is the number of students that received grade 'A' more than the students that received 'B'?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-122",
+        "question": "Is the Rhino the animal with the least funded conservation projects?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-123",
+        "question": "Which category of books are most in number?",
+        "answer": "School Textbooks",
+        "choices": [
+            "Novels",
+            "Self-Help Books",
+            "School Textbooks"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-124",
+        "question": "Is the `Bus` category in the bar chart represented by the color `#0549d2`?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-125",
+        "question": "Did Nuclear energy production increase from 2019 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-127",
+        "question": "Is San Antonio the city with the highest popularity score?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-128",
+        "question": "What region has the highest international tourism?",
+        "answer": "Europe",
+        "choices": [
+            "Asia",
+            "Africa",
+            "Europe",
+            "North America",
+            "South America",
+            "Oceanic"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-129",
+        "question": "Does the 'Eid' festival have more than 200 million attendees?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Is New York the city with the highest population according to the bar chart?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "What is the total number of natural disasters occurred in 2010 according to the bar chart?",
+        "answer": "70",
+        "choices": [
+            "70",
+            "55",
+            "80",
+            "60"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-132",
+        "question": "What category of animals has the highest number?",
+        "answer": "'Horses'",
+        "choices": [
+            "Cats",
+            "Dogs",
+            "Sheep",
+            "Cows",
+            "Horses",
+            "Birds"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-135",
+        "question": ": Did Pharmacy have higher sales in 2020 than in 2019?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "Is the 'Finance' sector contributing the most to the economy according to the bar chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-137",
+        "question": "What is the total number of Desktops and Laptops distributed by Dell?",
+        "answer": "40",
+        "choices": [
+            20,
+            25,
+            35,
+            40
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-138",
+        "question": "Which country had the largest increase in CO2 emissions from 2000 to 2020?",
+        "answer": "China",
+        "choices": [
+            "USA",
+            "China",
+            "India",
+            "Russia"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-139",
+        "question": "How many users, in units of thousand, prefer cars as their means of transportation as per the chart?",
+        "answer": "`Answer: 100`",
+        "choices": [
+            "50",
+            "75",
+            "100",
+            "125"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-142",
+        "question": "Does 'CO2 emissions' have a significance level of 85?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-143",
+        "question": "Did the number of occurred Earthquakes exceed 20?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-144",
+        "question": "According to the chart, what is the combined total of the population (in millions) and GDP (in trillions) of Germany?",
+        "answer": "87",
+        "choices": [
+            "80",
+            "83",
+            "87",
+            "90"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-145",
+        "question": "Is the number of participants for Weight Training greater than those for Kickboxing?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-146",
+        "question": "Does the bar chart show that \"Video Games\" is a more popular hobby than \"Cooking\"?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-147",
+        "question": "Is France the country with the highest number of tourists according to the bar chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": ",\nAccording to the stacked bar chart, which political party has the least number of followers?",
+        "answer": "'Others'",
+        "choices": [
+            "Democrat",
+            "Republican",
+            "Green",
+            "Libertarian",
+            "Independent",
+            "Democratic socialist",
+            "Constitution",
+            "Socialist",
+            "Communist",
+            "Others"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-150",
+        "question": "What is the crime rate of Robbery as represented in the bar graph?",
+        "answer": "50",
+        "choices": [
+            20,
+            30,
+            50,
+            60,
+            80
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-151",
+        "question": "Do Republicans prioritize Healthcare more than Democrats?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-152",
+        "question": "Which festival has the highest number of attendees (rounded to the nearest 5k)?",
+        "answer": "'Christmas'",
+        "choices": [
+            "Diwali",
+            "Christmas",
+            "Halloween",
+            "Easter",
+            "Hanukkah"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-153",
+        "question": "How many more unmanned missions were there than manned missions according to the chart?",
+        "answer": "25",
+        "choices": [
+            5,
+            10,
+            15,
+            20,
+            25
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-154",
+        "question": "By how much did the number of aeroplane users increase from 2019 to 2020?",
+        "answer": "50",
+        "choices": [
+            "No increase",
+            "By 10000",
+            "By 50",
+            "By 50000"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-155",
+        "question": "Is the mode of travel with highest frequency 'Train'?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-156",
+        "question": "Which fitness exercise category has the highest total repetitions combined in the stacked bar chart?",
+        "answer": "'Running'",
+        "choices": [
+            "Push-ups",
+            "Sit-ups",
+            "Squats",
+            "Running",
+            "Swimming",
+            "Cycling",
+            "Yoga",
+            "Mountain climber",
+            "Planking",
+            "Burpees"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-157",
+        "question": "Which festival had the highest number of attendees according to the bar chart?",
+        "answer": "Christmas",
+        "choices": [
+            "Holi",
+            "Easter",
+            "Diwali",
+            "Christmas",
+            "Halloween",
+            "Thanksgiving",
+            "Hanukkah",
+            "Raksha Bandhan",
+            "Pongal",
+            "Navratri"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-158",
+        "question": "Is the highest usage of Internet for social media at 11AM?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-159",
+        "question": "In the age group of '41-50', do the average hours of physical activity exceed the average hours of sleep?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-160",
+        "question": "What is the event with the least impact score?",
+        "answer": "Invention of Wheel",
+        "choices": [
+            "Invention of Wheel",
+            "Discovery of Fire",
+            "Invention of the Internet",
+            "WWII"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-161",
+        "question": "What field has the smallest number of employees?",
+        "answer": "Tourism",
+        "choices": [
+            "Healthcare",
+            "Technology",
+            "Sales",
+            "Education",
+            "Finance",
+            "Retail",
+            "Tourism"
+        ]
+    },
+    {
+        "id": "Music-bar_charts_visual_linguistic-train-164",
+        "question": "Did the student score more than 70 in English?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-4",
+        "question": "Was the crime rate for burglary in 2019 higher than that in 2015?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-163",
+        "question": "Looking at the bar chart, does the sales of Smartphones is around twice as much as the sales of Landline phones?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-164",
+        "question": "Does the 'Renaissance' era have more paintings in the 21st Century than in the 20th Century?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Is the `Services` sector contributing 35% to the economy based on the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-166",
+        "question": "Which political party had the least number of votes in the 2019 election?",
+        "answer": "Party D",
+        "choices": [
+            "Party A",
+            "Party B",
+            "Party C",
+            "Party D",
+            "Party E",
+            "Party F",
+            "Party G"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Which type of property has the same number of real estate listings as Vacant Land and Co-ops combined?",
+        "answer": "Apartments",
+        "choices": [
+            "Houses",
+            "Apartments",
+            "Condos",
+            "Townhouses",
+            "Mobile Homes",
+            "Multi-Family Homes",
+            "Commercial"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-1",
+        "question": "\"Is the number of Violent Crimes less than the number of Property Crimes?\"",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Which country received the majority of adventure tourists from the given chart?",
+        "answer": "Italy",
+        "choices": [
+            "USA",
+            "UK",
+            "France",
+            "Spain",
+            "Italy",
+            "Australia",
+            "Japan"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-170",
+        "question": "What is the total number of Labrador dogs according to the bar chart?",
+        "answer": "70",
+        "choices": [
+            "70",
+            "90",
+            "80",
+            "60"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-171",
+        "question": "Which fashion item has a popularity value of 45?",
+        "answer": "T-Shirts",
+        "choices": [
+            "Jeans",
+            "T-Shirts",
+            "Sneakers",
+            "Hats",
+            "Bags"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-172",
+        "question": "Is the participation of girls in Soccer is less than the participation in Hockey?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-173",
+        "question": "What is the animal type with the second highest number according to the bar chart?",
+        "answer": "Cows",
+        "choices": [
+            "Dogs",
+            "Cats",
+            "Rabbits",
+            "Horses",
+            "Fishes",
+            "Birds",
+            "Cows"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-174",
+        "question": "Which architectural style has around 25 structures according to the bar chart?",
+        "answer": "'Gothic'",
+        "choices": [
+            "Renaissance",
+            "Gothic",
+            "Modern",
+            "Postmodern"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-175",
+        "question": "Which sport has the least number of players according to the chart?",
+        "answer": "Baseball",
+        "choices": [
+            "Baseball",
+            "Football",
+            "Basketball"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-0",
+        "question": "What was the percentage of global forest area lost due to deforestation in the year 2020?",
+        "answer": "50%.",
+        "choices": [
+            "45%",
+            "50%",
+            "35%"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-178",
+        "question": "Does the Industry sector employ less people in 2019 than in 2018?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-179",
+        "question": "Did the user base of Facebook increase from the year 2015 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-180",
+        "question": "Which energy domain from the provided options has 40 arbitrary units of energy?",
+        "answer": "Nuclear",
+        "choices": [
+            "Hydropower",
+            "Wind",
+            "Solar",
+            "Coal",
+            "Natural Gas",
+            "Nuclear",
+            "Biomass",
+            "Geothermal",
+            "Oil"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-181",
+        "question": "Are Floods causing more total deaths than Fires?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-182",
+        "question": "Is Facebook the social media platform with the most number of users (in billions) depicted in the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-184",
+        "question": "Has Europe received the highest number of visitations among all continents?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-185",
+        "question": "Which music genre has 60 million listeners?",
+        "answer": "Rock",
+        "choices": [
+            "Pop",
+            "Rock",
+            "Jazz",
+            "Blues",
+            "Country",
+            "Rap",
+            "Reggae",
+            "Classical",
+            "Folk",
+            "Electronic"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-186",
+        "question": "Is the Trout count greater than the Salmon count in the Fishing category?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-187",
+        "question": "Which region has the least percentage of internet usage as per the bar chart?",
+        "answer": "Antarctica",
+        "choices": [
+            "Americas",
+            "Europe",
+            "Asia",
+            "Africa",
+            "Australia/Oceania",
+            "Middle East",
+            "Antarctica"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-189",
+        "question": "Did energy production from solar sources increase from 2010 to 2020?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-190",
+        "question": "Which category received more charitable contributions than the 'Environment' category, but less than the 'Human Services' category?",
+        "answer": "Health",
+        "choices": [
+            "Education",
+            "Health",
+            "Animals",
+            "Arts",
+            "International",
+            "Public Benefit",
+            "Religion",
+            "Human Rights"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-191",
+        "question": "In 2020, did the cumulative units sold of 'Smartphone', 'Feature Phone', and 'Tablet' exceed that of 'Laptop' and 'Desktop'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-192",
+        "question": "Is \"Blocks\" the category that has the highest quantity of toys?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-193",
+        "question": "Does the PC platform has more games than the Xbox platform?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Which event happened in a year that starts with digit 1?",
+        "answer": "'Event 1 (1600)', 'Event 2 (1700)', 'Event 3 (1800)', 'Event 4 (1900)'",
+        "choices": [
+            "Event 1 (1600)",
+            "Event 2 (1700)",
+            "Event 3 (1800)",
+            "Event 4 (1900)"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-195",
+        "question": "Did Brand B sell more 'Hats' than Brand A?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-196",
+        "question": "Is the storage of Computer 1 greater than that of Computer 2?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-197",
+        "question": "Does 'Desert' category have the same value in both bars?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-198",
+        "question": "Which sport has the most total participants?",
+        "answer": "Soccer",
+        "choices": [
+            "Basketball",
+            "Soccer",
+            "Baseball"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-199",
+        "question": "Approximately which mark does the 'Push-ups' category reach in the chart?",
+        "answer": "35",
+        "choices": [
+            "25",
+            "30",
+            "35",
+            "40",
+            "45"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-200",
+        "question": "Which crime has seen an increase from 2018 to 2019?",
+        "answer": "'Rape', 'Assault', 'Theft'",
+        "choices": [
+            "Murder",
+            "Rape",
+            "Robbery",
+            "Assault",
+            "Burglary",
+            "Theft",
+            "Vehicle Theft",
+            "Arson"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Which weather type is experienced in equal number of days in a month according to the bar chart?",
+        "answer": "['Sunny', 'Windy', 'Sleet']",
+        "choices": [
+            "Sunny",
+            "Cloudy",
+            "Rainy",
+            "Snowy",
+            "Windy",
+            "Foggy",
+            "Hail",
+            "Thunderstorm",
+            "Sleet"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-202",
+        "question": "In which decade was the total global warming indicator (sum of CO2 Levels, Temperature Increase, and Arctic Sea Ice Decline) the highest?",
+        "answer": "460",
+        "choices": [
+            "1900s",
+            "1910s",
+            "1920s",
+            "1930s",
+            "1940s",
+            "1950s",
+            "1960s",
+            "1970s",
+            "1980s",
+            "1990s",
+            "2000s"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-6",
+        "question": "Is 'Painkillers' the category with the highest number of prescriptions?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-204",
+        "question": "Is the donation amount to Charity Organizations more than $15 million?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-205",
+        "question": ": Is the funding for the conservation of Pandas higher than that of Rhinos?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-206",
+        "question": "Which game title has the highest sales according to the bar chart?",
+        "answer": "Mario",
+        "choices": [
+            "Mario",
+            "Zelda",
+            "Metroid",
+            "Star Fox"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-207",
+        "question": "Is the Distance Travelled by Air greater than that Travelled by Bus?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-208",
+        "question": "Is 'Information Security' the most popular computer science category among students?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-210",
+        "question": "According to the chart, how many more sparrow birds were sighted in summer than in winter?",
+        "answer": "15.",
+        "choices": [
+            "5",
+            "15",
+            "10",
+            "20"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-211",
+        "question": "Which language has a total of about 1750 million speakers and learners combined?",
+        "answer": "English.",
+        "choices": [
+            "English",
+            "French",
+            "Spanish"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-213",
+        "question": "Did the Democrats get more votes than the Republicans in the 2020 Election according to this graph?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-214",
+        "question": "Based on the grouped bar chart, which architectural style has the least number of monuments in Asia?",
+        "answer": "Baroque",
+        "choices": [
+            "Renaissance",
+            "Baroque",
+            "Neoclassical",
+            "Romanticism",
+            "Modernism",
+            "Postmodernism",
+            "Deconstructivism",
+            "Sustainable",
+            "Expressionism",
+            "Brutalism"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-215",
+        "question": "How many more medium dogs were there in 2020 compared to 2019?",
+        "answer": "5",
+        "choices": [
+            0,
+            5,
+            10,
+            15,
+            20
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Which type of forestry program in the 'North Forest' has the least investment?",
+        "answer": "Hardwood Exploration  ",
+        "choices": [
+            "Hardwood Exploration",
+            "Softwood Exploration",
+            "Forest Restoration",
+            "Wildlife Conservation"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-218",
+        "question": "Are there more unmanned space missions than manned ones?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-219",
+        "question": "If the bookstore has 30 more books and the fraction of fiction and non-fiction books remain the same, how many more fiction books would be there compared to the current scenario?",
+        "answer": "2",
+        "choices": [
+            5,
+            10,
+            15,
+            20
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "Is 'Personal Car' the transportation type with the most number of users according to the bar chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-222",
+        "question": "Which sector is contributing the most to the economy?",
+        "answer": "'IT'",
+        "choices": [
+            "Banking",
+            "IT",
+            "Manufacturing",
+            "Healthcare"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-223",
+        "question": "During which historical event did men experience the highest number of something according to the chart?",
+        "answer": "'Vietnam War'",
+        "choices": [
+            "World War I",
+            "Great Depression",
+            "World War II",
+            "Cold War",
+            "Space Race",
+            "Vietnam War",
+            "Fall of Berlin Wall",
+            "Digital Age"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-224",
+        "question": "Is Python the most popular language according to the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-225",
+        "question": "Which advertising channel has the second highest advertising expenditure?",
+        "answer": "Online",
+        "choices": [
+            "Television",
+            "Radio",
+            "Newspaper",
+            "Online"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-226",
+        "question": "Is the price of terraced houses higher than the price of detached houses?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "What is the total advertising spend for Google and Twitter together?",
+        "answer": "95",
+        "choices": [
+            70,
+            75,
+            95,
+            100
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-228",
+        "question": "Based on the bar chart, which category has the greatest increase in the number of missions from 2000s to 2010s?",
+        "answer": "Manned missions",
+        "choices": [
+            "Satellite Deployments",
+            "Manned missions",
+            "Unmanned missions",
+            "Space Stations",
+            "Space Telescopes",
+            "Lunar missions",
+            "Mars missions",
+            "Research Missions",
+            "Astrobiology",
+            "Interstellar"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-229",
+        "question": "Based on the Bar chart, which type of energy source had a decrease in consumption from 2015 to 2020?",
+        "answer": "Non-Renewable Energy",
+        "choices": [
+            "Renewable Energy",
+            "Non-Renewable Energy",
+            "Both",
+            "Neither"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Which department, according to the bar chart, treats the highest number of patients?",
+        "answer": "Cardiology.",
+        "choices": [
+            "Oncology",
+            "Cardiology",
+            "Orthopaedics",
+            "Vaccination",
+            "Ophthalmology",
+            "Gastroenterology",
+            "Dermatology",
+            "Paediatrics",
+            "Neurology"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-232",
+        "question": "Are there more male than female employees in the 'Agriculture' sector?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-233",
+        "question": "Is 'Positive' opinion greater than 'Neutral' and 'Negative' opinions combined in the Public Opinion Polls towards Climate Change?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-4",
+        "question": "Is the count of the 'GPU' category the highest compared to any other category in the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-235",
+        "question": "What does the chart indicate as the most severe environmental issue based on the given severity index?",
+        "answer": "'Waste Management'",
+        "choices": [
+            "Deforestation",
+            "Air Pollution",
+            "Water Pollution",
+            "Climate Change",
+            "Endangered Species",
+            "Waste Management"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-236",
+        "question": "In which year the sales of Laptop was maximum?",
+        "answer": "'2021'",
+        "choices": [
+            "2019",
+            "2020",
+            "2021"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-237",
+        "question": "What category has 30 books?",
+        "answer": "'Romance', 'Science Fiction'",
+        "choices": [
+            "Mystery",
+            "Romance",
+            "Thriller",
+            "Biography",
+            "Fantasy",
+            "History",
+            "Science Fiction",
+            "Children's Books"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-239",
+        "question": "Does the 'Romantic Novels' category has the minimum number of books?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-241",
+        "question": "Is Agricultural Land more than Residential Land?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-243",
+        "question": "Is the number of Villas more than number of Flats?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "Is 'Interest' the least source of income in the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-245",
+        "question": "Which area has the largest Green Land cover?",
+        "answer": "'Forest Area'",
+        "choices": [
+            "Urban Area",
+            "Military Area",
+            "Forest Area",
+            "Water bodies"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-247",
+        "question": "Which space exploration activity saw the largest increase from 2020 to 2021?",
+        "answer": "Satellite Launches",
+        "choices": [
+            "Satellite Launches",
+            "Manned Missions",
+            "Interplanetary Probes",
+            "Telescopes Deployed"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-248",
+        "question": "\"How much more travellers visited Japan compared to Italy in 2020?\"",
+        "answer": "10",
+        "choices": [
+            0,
+            5,
+            10,
+            15
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-249",
+        "question": "In the health factors represented in the bar chart, which has the highest relative importance for the elderly group?",
+        "answer": "Smoking",
+        "choices": [
+            "Diet",
+            "Exercise",
+            "Sleep",
+            "Stress",
+            "Pollution",
+            "Smoking",
+            "Alcohol",
+            "Body Mass",
+            "Age"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-250",
+        "question": ": Which movie has an Audience rating of 75?",
+        "answer": "\"Movie_5\"",
+        "choices": [
+            "Movie_1",
+            "Movie_2",
+            "Movie_3",
+            "Movie_4",
+            "Movie_5"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-251",
+        "question": "What income does an artist profession yield according to the chart?",
+        "answer": "75",
+        "choices": [
+            75,
+            80,
+            85,
+            95
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-252",
+        "question": "In what fashion category did Brand A and B have the highest combined sales?",
+        "answer": "Denim",
+        "choices": [
+            "Shirts",
+            "Pants",
+            "Shoes",
+            "Accessories",
+            "Dresses",
+            "Tops",
+            "Denim",
+            "Coats",
+            "Sweatshirts"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-253",
+        "question": "Did the Internet usage in \"Gaming\" increase from 2020 to 2021?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-254",
+        "question": "Is Subway more popular mode of transportation than Bicycle according to the chart?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-255",
+        "question": "Does the Technology sector employ more people than the Healthcare sector?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Did the category 'Agree' had more responders than 'Disagree'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-259",
+        "question": "Do more male students take STEM courses than female students?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-260",
+        "question": "Are the scores for women using bikes higher than for men?",
+        "answer": "Yes",
+        "choices": [
+            [
+                "Yes",
+                "No"
+            ]
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-261",
+        "question": "Does the graph show that the 'Single Income' category has a higher average income than the 'Dual Income' category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-263",
+        "question": "Is the category 'Sports Cars' the one with the least amount of units sold for Manufacturer A?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-264",
+        "question": "Do we have fewer teddy bears than blocks?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-265",
+        "question": ": Does \"Fossil Fuels\" has the highest contribution to global warming according to the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-266",
+        "question": "What is the popularity score for the Technology Field \"5G\"?",
+        "answer": "15",
+        "choices": [
+            "10",
+            "15",
+            "20",
+            "25"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-267",
+        "question": "On the bar chart, which sector has the second least contribution to GDP?",
+        "answer": "Information",
+        "choices": [
+            "Agriculture",
+            "Manufacturing",
+            "Mining",
+            "Construction",
+            "Wholesale Trade",
+            "Retail Trade",
+            "Transportation",
+            "Information",
+            "Finance & Insurance"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-268",
+        "question": "How many elephants were conserved in 2020 according to the bar chart?",
+        "answer": "45",
+        "choices": [
+            30,
+            35,
+            40,
+            45
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-269",
+        "question": "Is the count of Penguins more than the count of Eagles?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-270",
+        "question": "Is the 'Furniture' category the highest earning category in terms of sales?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-271",
+        "question": "How many more Mars Rover Missions has Russia conducted compared to the USA?",
+        "answer": "Answer: 5 more missions",
+        "choices": [
+            "5 more missions",
+            "0 more missions",
+            "10 more missions",
+            "15 more missions"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-272",
+        "question": "Did the population of Cats increase from 2020 to 2021?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-275",
+        "question": "What category of land use occupies the largest area according to the chart?",
+        "answer": "Parks and Recreation",
+        "choices": [
+            "Agriculture",
+            "Residential",
+            "Commercial",
+            "Industrial",
+            "Parks and Recreation",
+            "Unutilized"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-276",
+        "question": "How much investment was made in AI and VR combined in 2020?",
+        "answer": "55 Billion",
+        "choices": [
+            "55 Billion",
+            "65 Billion",
+            "75 Billion",
+            "80 Billion"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Which category has the highest health index for females?",
+        "answer": "Mental Health",
+        "choices": [
+            "Physical Health",
+            "Mental Health",
+            "Nutritional Health"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-278",
+        "question": "Which area has the highest combined rate of burglary and murder?",
+        "answer": "Either Area4 or Area5.",
+        "choices": [
+            "Area1",
+            "Area2",
+            "Area3",
+            "Area4",
+            "Area5"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-279",
+        "question": "Does the \"Sunny\" weather category have fewer nighttime occurrences than daytime occurrences?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-281",
+        "question": "The question is: Which mode of travel is less preferred according to the chart?",
+        "answer": "Train",
+        "choices": [
+            "Car",
+            "Train"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-282",
+        "question": "What type of plant has a count of 30 in the garden?",
+        "answer": "The question asks for the type of plant that has a count of 30 in the garden. By viewing the bar chart you created, we can see that the 'Grass' has a count of 30 in the garden. So, the answer is 'Grass'. ",
+        "choices": [
+            "Tree",
+            "Grass",
+            "Rose",
+            "Apple"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-283",
+        "question": "Which dog breed has the largest total number of dogs across all sizes?",
+        "answer": "German Shepherd",
+        "choices": [
+            "Husky",
+            "Labrador",
+            "German Shepherd",
+            "Golden Retriever",
+            "Bulldog",
+            "Poodle",
+            "Chihuahua"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-284",
+        "question": "Which festival had the highest attendance in the year 2017?",
+        "answer": "Christmas",
+        "choices": [
+            "Carnival",
+            "Oktoberfest",
+            "Mardi Gras",
+            "Chinese New Year",
+            "Diwali",
+            "Hanukkah",
+            "Christmas"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-286",
+        "question": "Is the percentage of girls more than boys in the Postgraduate level?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-287",
+        "question": "Does the real estate home values are always higher than rent values in each city portrayed in the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Which technology device has the highest usage according to the chart?",
+        "answer": "Mobiles",
+        "choices": [
+            "Mobiles",
+            "Laptops",
+            "Desktops",
+            "Tablets"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-289",
+        "question": "Is Python the most popular programming language according to our bar chart?')\n\n# Choices\nprint('",
+        "answer": "Yes')",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-290",
+        "question": "Is the contribution of the Axis Powers in the 'Cold War' more than the Allied Powers?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-291",
+        "question": "Did 'iPhone' sell more phones in 2020 than in 2019?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-292",
+        "question": ": Which country had the highest number of Satellite launches?",
+        "answer": "'USA'",
+        "choices": [
+            "USA",
+            "Russia",
+            "China",
+            "EU"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-5",
+        "question": "Is the \"Jazz\" category represented by less than 50 million listeners in the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-296",
+        "question": "What is the difference in the performance score between the RAM of a Desktop Computer and a Laptop Computer?",
+        "answer": "40",
+        "choices": [
+            "40",
+            "45",
+            "50",
+            "55"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-297",
+        "question": "Did the number of enrollments for 'PhD' decrease from 2018 to 2019?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-298",
+        "question": ": Is the score for 'Shirts' category higher for 'Men' than 'Women'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-300",
+        "question": "Is the number of paintings categorized under Cubism is greater than those under Renaissance?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-301",
+        "question": "Which Medicine Category has a value of 30?",
+        "answer": "'Pain Relief', 'Anti-diabetic'",
+        "choices": [
+            "Pain Relief",
+            "Antibiotics",
+            "Cough Mixture",
+            "Eye Drops",
+            "Antacids",
+            "Vaccines",
+            "Anti-diabetic",
+            "Antiseptics"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-302",
+        "question": "Which weather type has the least occurrences according to the bar chart?",
+        "answer": "Windy",
+        "choices": [
+            "Sunny",
+            "Rainy",
+            "Windy",
+            "Snowy"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-303",
+        "question": "Which effect of global warming is scored the highest severity level in the chart?",
+        "answer": "Extreme Weather Events",
+        "choices": [
+            "Carbon Dioxide Levels",
+            "Melting Ice Caps",
+            "Average Global Temperature",
+            "Rising Sea Levels",
+            "Ocean Acidification",
+            "Extreme Weather Events",
+            "Impact on Wildlife"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-304",
+        "question": "Which festival has seen an increase in attendance from 2019 to 2020?",
+        "answer": "'Festival 2'",
+        "choices": [
+            "Festival 1",
+            "Festival 2",
+            "Festival 3",
+            "Festival 4",
+            "Festival 5",
+            "Festival 6"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-305",
+        "question": "What is the total measured impact of Environmental Issues in the UK?",
+        "answer": "170 units",
+        "choices": [
+            "135 units",
+            "170 units",
+            "120 units",
+            "160 units"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-306",
+        "question": "Is the average daily water consumption about 100 litres in a household?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-308",
+        "question": "Is the energy output from solar power greater in 2020 than in 2019?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-309",
+        "question": "What are the two categories with the highest relative importance in the Health category?",
+        "answer": "'Nutrition, Obesity'",
+        "choices": [
+            "Physical Activity, Nutrition",
+            "Nutrition, Obesity",
+            "Obesity, Mental Health",
+            "Tobacco, Alcohol Abuse"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-310",
+        "question": "Is the count of non-veg health issues in females less than the count in males?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-311",
+        "question": "Which painting has popularity percentage closest to 30%?",
+        "answer": "'The Girl with a Pearl Earring'",
+        "choices": [
+            "The Starry Night",
+            "The Persistence of Memory",
+            "The Girl with a Pearl Earring",
+            "The Last Supper",
+            "The Birth of Venus",
+            "The Scream"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-313",
+        "question": "What food category has the highest consumption?",
+        "answer": "Burger",
+        "choices": [
+            "Pizza",
+            "Burger",
+            "Pasta"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-314",
+        "question": "Does the severity of Air pollution increase from 2019 to 2020?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-315",
+        "question": "Is the water usage for Toilet Flushing higher in Home Use than Industrial Use?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-316",
+        "question": "Is Carbon Dioxide the largest contributor to Global Warming?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-317",
+        "question": "Based on the data presented in the bar chart, select the correct answer: What was the percentage of the 'School Enrolment' category?",
+        "answer": "90",
+        "choices": [
+            80,
+            90,
+            75,
+            85
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-318",
+        "question": "Which type of fish was caught more in winter?",
+        "answer": "Salmon",
+        "choices": [
+            "Salmon",
+            "Tuna"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-320",
+        "question": "Does the grade 'B+' correspond to a mark of 80?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-322",
+        "question": "Which field has more investment in 2020 according to the chart: AI research or Cybersecurity?",
+        "answer": "Cybersecurity",
+        "choices": [
+            "AI research",
+            "Cybersecurity",
+            "Both have the same investment",
+            "The chart does not provide this information"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-324",
+        "question": "Is the scaled impact of water pollution in 2020 higher than it was in 2018?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-325",
+        "question": "Is the bar for \"Fall of USSR\" taller than the bar for \"Roaring 20s\"?",
+        "answer": "no",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-326",
+        "question": "Is Solar energy source producing more than Coal energy source according to the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-327",
+        "question": "Is the number of Abstract paintings greater than Romanticism paintings?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-329",
+        "question": "Is the total of album sales and concerts for Hip-Hop less than for Country?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-330",
+        "question": "Is 'Facebook' the social media platform with the highest number of inactive users?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-331",
+        "question": "What is the usage percentage of the Processor according to the bar chart?",
+        "answer": "30",
+        "choices": [
+            "20%",
+            "25%",
+            "30%",
+            "35%"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-332",
+        "question": "What is the difference between the score of men and women in the Street fashion category?",
+        "answer": "30",
+        "choices": [
+            "5",
+            "10",
+            "20",
+            "30"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-333",
+        "question": "Did the population of Denver increase from 2015 to 2020 according to the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-335",
+        "question": "Is \"The Last Supper\" the painting with the highest quantity in the museum?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-336",
+        "question": "Is the number of repetitions for Push-ups less than 30?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-337",
+        "question": "Does the 'Education' charity have more funds than 'Animal Welfare' charity?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-338",
+        "question": "What is the difference in charity expenditure between Education and Health care?",
+        "answer": "30 thousand",
+        "choices": [
+            "30 thousand",
+            "60 thousand",
+            "15 thousand",
+            "45 thousand"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-339",
+        "question": "What is the total number of students (in thousands) that were enrolled in the 'Science' field in 2021?",
+        "answer": "1340",
+        "choices": [
+            "1260",
+            "1340",
+            "1440",
+            "1540"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-340",
+        "question": "Is Modernist style more popular than Postmodern style in the chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-341",
+        "question": "What is the total number of hours group1 spends on email, social media and online shopping per week?",
+        "answer": "105",
+        "choices": [
+            85,
+            100,
+            105,
+            115
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-342",
+        "question": "Is Facebook the social media platform represented by the bar with the color '#10d970'?",
+        "answer": "'No'",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-343",
+        "question": "Which sector has the highest employment rate according to the bar chart?",
+        "answer": "Services",
+        "choices": [
+            "Manufacturing",
+            "Services",
+            "IT",
+            "Education",
+            "Healthcare"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-344",
+        "question": "Is Soccer the sport with the highest total participation (men + women)?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-345",
+        "question": ": According to the bar chart, how many rape incidents were reported in 2020 (in thousands)?",
+        "answer": "20.",
+        "choices": [
+            "15",
+            "20",
+            "25",
+            "30"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-346",
+        "question": "What is the total magnitude for the 'Deforestation' category?",
+        "answer": "70",
+        "choices": [
+            50,
+            55,
+            60,
+            70,
+            75
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-347",
+        "question": "Was more Tuna fished in 2021 than in 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-348",
+        "question": "Is Facebook the most used social media platform among the 18-24 age group?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-349",
+        "question": "Comparing the donations made to Charity A and Charity B in 2019 and 2020, which charity had the highest increase in donations from 2019 to 2020?",
+        "answer": "Charity A",
+        "choices": [
+            "Charity A",
+            "Charity B",
+            "Charity C",
+            "None"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-350",
+        "question": "Does Facebook have more usage than TikTok?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Is 'Classical' the most collected music albums category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-352",
+        "question": "Which car category has the average price closest to $40,000?",
+        "answer": "Truck",
+        "choices": [
+            "Sedan",
+            "SUV",
+            "Sports",
+            "Truck"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-353",
+        "question": "Based on the bar chart, which area saw the most population growth from 2000 to 2020?",
+        "answer": "Urban",
+        "choices": [
+            "Urban",
+            "Rural",
+            "Underdeveloped"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-4",
+        "question": "Based on the bar chart, which animal category has been allocated the second highest conservation funds?",
+        "answer": "'Tigers'",
+        "choices": [
+            "Elephants",
+            "Tigers",
+            "Rhinos",
+            "Pandas",
+            "Gorillas"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-355",
+        "question": "Which person has the highest income from `Investment Income` ?",
+        "answer": "'Tim'",
+        "choices": [
+            "Tom",
+            "Dick",
+            "Harry",
+            "Jim",
+            "Joe",
+            "John",
+            "Tim"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-356",
+        "question": "Based on the chart, is travel frequency by Air more than travel frequency by Road and Rail combined?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-357",
+        "question": "Are there more Eagles in the wild than in zoos?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-358",
+        "question": "Did Europe experience the highest number of tourists among all continents in 2019?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-360",
+        "question": "Does the Brisbane Zoo have more Turtles than the Gold Coast Zoo?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-362",
+        "question": "What is the cost of Luxury Housing per SqFt in Seattle?",
+        "answer": "270",
+        "choices": [
+            250,
+            270,
+            335,
+            580
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-363",
+        "question": "Which phone model had the second most units sold?",
+        "answer": "Samsung Galaxy S10",
+        "choices": [
+            "iPhone 11",
+            "Samsung Galaxy S10",
+            "Google Pixel 4",
+            "OnePlus 7T",
+            "Huawei P30"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-364",
+        "question": "Which bird has the largest combined count across both groups?",
+        "answer": "Hawks",
+        "choices": [
+            "Hawks",
+            "Woodpecker",
+            "Sparrow",
+            "Nightingale",
+            "Kingfisher",
+            "Hummingbird",
+            "Dove",
+            "Crow"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-365",
+        "question": "What category has the second highest expense?",
+        "answer": "'Rent'",
+        "choices": [
+            "Rent",
+            "Utilities",
+            "Maintenance",
+            "Mortgage"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-366",
+        "question": "Which category has the highest sales?",
+        "answer": "Electronics",
+        "choices": [
+            "Electronics",
+            "Clothing",
+            "Cosmetics"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-367",
+        "question": "Did the 'America' category have more tourists than the 'Asia' category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": "Which country demonstrates the highest use of wind energy?",
+        "answer": "China",
+        "choices": [
+            "US",
+            "China",
+            "Germany"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-369",
+        "question": "Which sector received the least amount of charity donations?",
+        "answer": "Arts & Culture.",
+        "choices": [
+            "Education",
+            "Human Rights",
+            "Health",
+            "Animals",
+            "Environment",
+            "Arts & Culture"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-370",
+        "question": "In Rural Areas, what is the category of expenditure that people spend the most?",
+        "answer": "Mortgage",
+        "choices": [
+            "Rent",
+            "Mortgage",
+            "Utilities",
+            "Maintenance",
+            "Insurance"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-371",
+        "question": "\"Did 'Economic Policies' receive more interest than 'Education Policies' as per the bar chart?\"",
+        "answer": "no",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-372",
+        "question": "Is 'Exercise' more impactful to mental health than 'Adequate Water'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-373",
+        "question": "Is the population of New York greater than Los Angeles?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-374",
+        "question": "Was the funding for Panda conservation less than $40 million?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-375",
+        "question": "What economic sector had the largest combined contribution for 2010 and 2020?",
+        "answer": "Technology",
+        "choices": [
+            "Agriculture",
+            "Manufacturing",
+            "Services",
+            "Technology",
+            "Real Estate"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-376",
+        "question": "Which travel mode has the highest distance traveled but the least carbon emission?",
+        "answer": "'Train'",
+        "choices": [
+            "Car",
+            "Train",
+            "Bus",
+            "Plane",
+            "Bike",
+            "Foot",
+            "Boat",
+            "Subway"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-377",
+        "question": "Based on the chart, which planet had the highest number of successful space exploration missions?",
+        "answer": "Jupiter",
+        "choices": [
+            "Mars",
+            "Moon",
+            "Jupiter"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-378",
+        "question": "Which Painting has a popularity of 50?",
+        "answer": "'The Scream'",
+        "choices": [
+            "The Starry Night",
+            "The Last Supper",
+            "Mona Lisa",
+            "The Scream",
+            "Girl with a Pearl Earring",
+            "The Creation of Adam",
+            "The Persistence of Memory"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-379",
+        "question": "Is the total value of Real Estate (sum of Residential, Commercial, and Industrial) highest in California?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-381",
+        "question": "Does the 'Agricultural Land' have the highest value among all categories?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-382",
+        "question": "What is the population (in 1000s) of Phoenix as given in the bar chart?",
+        "answer": "1750",
+        "choices": [
+            "1530",
+            "1750",
+            "2325",
+            "2700",
+            "3975",
+            "8350"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-384",
+        "question": "What event has the highest magnitude according to the bar chart?",
+        "answer": "'The Cold War'",
+        "choices": [
+            "The Industrial Revolution",
+            "World War I",
+            "World War II",
+            "The Cold War"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-385",
+        "question": "Does Group B have the highest advertising expenditure on TV?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-386",
+        "question": "Did more people attend the Tomorrowland than the Glastonbury festival?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-0",
+        "question": "How many tourists are represented in the chart?",
+        "answer": "100",
+        "choices": [
+            80,
+            90,
+            100,
+            110
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-388",
+        "question": "Which category received the second lowest donations from Group 1?",
+        "answer": "Education",
+        "choices": [
+            "Health",
+            "Education",
+            "Emergency",
+            "Environment",
+            "Arts",
+            "International",
+            "Human Services",
+            "Animal Rights",
+            "Research"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-389",
+        "question": "Is 'Polar Bears' the category with highest allocation of conservation funds?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-390",
+        "question": "Which country has the highest total pollution in the given data?",
+        "answer": "'Indonesia'",
+        "choices": [
+            "China",
+            "USA",
+            "India",
+            "Russia",
+            "Brazil",
+            "Indonesia"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-391",
+        "question": ": Does 'Fiction' category have more books than 'History' category?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-392",
+        "question": "Does the 'Construction' category have more employees than the 'Information Technology' category?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-393",
+        "question": "Which type of land is present on more area in Asia than in Africa?",
+        "answer": "mountain",
+        "choices": [
+            "farmland",
+            "mountain",
+            "desert",
+            "forest",
+            "coast",
+            "rainforest",
+            "tundra",
+            "grassland",
+            "swamp"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-394",
+        "question": "Does Candidate A have more public opinion poll support than Candidate B?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-395",
+        "question": "Is Python the most popular language according to this chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-396",
+        "question": "Is 'Electronics' category sales higher in 2020 than in 2019?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-397",
+        "question": "Is the average wind speed of Cloudy weather, as shown on the chart, higher than that of the Windy weather?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "Has the temperature increase in Canada been greater than in Alaska?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-400",
+        "question": "What is the total number of participants (in thousands) for Independence Day?",
+        "answer": "75",
+        "choices": [
+            70,
+            75,
+            80,
+            85
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-401",
+        "question": "Does the bar chart depict that more people care about Quality Sleep more than Physical Exercise?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-402",
+        "question": "Does the chart show that there are 20 cats named Mittens?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-403",
+        "question": "Does the 'Strength Training' category have a total of 100 improvement points?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-404",
+        "question": "What is the total number of hours played for Fortnite and Minecraft?",
+        "answer": "75 hours",
+        "choices": [
+            "35 hours",
+            "40 hours",
+            "70 hours",
+            "75 hours"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-406",
+        "question": ": What is the income value (in thousands) associated with the 'Middle Income' category in the given chart?",
+        "answer": "70",
+        "choices": [
+            "15",
+            "35",
+            "70",
+            "100"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-407",
+        "question": "What was the total agricultural production (Fruits + Vegetables) in the year 2018?",
+        "answer": "100 tonnes",
+        "choices": [
+            "90 tonnes",
+            "100 tonnes",
+            "110 tonnes",
+            "120 tonnes",
+            "130 tonnes"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-408",
+        "question": "Is \"Running\" the most preferred fitness activity among the three in the chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-409",
+        "question": "Do more people pay attention to Election Results compared to Foreign Policies?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-410",
+        "question": "Does the UK have a higher population than Italy?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-411",
+        "question": "Is there more Stuffed Animals than Action Figures in the chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-412",
+        "question": "Which weather type has the least percentage of sunshine?",
+        "answer": "Thunderstorm",
+        "choices": [
+            "Sunny",
+            "Cloudy",
+            "Rainy",
+            "Snowy",
+            "Windy",
+            "Foggy",
+            "Thunderstorm",
+            "Hail",
+            "Misty",
+            "Overcast"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-413",
+        "question": "Does the Xiaomi brand sell more units in Region 2 than in Region 1?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-414",
+        "question": "By what percentage did phone sales increase for Samsung from 2019 to 2020?",
+        "answer": "10%",
+        "choices": [
+            "5%",
+            "10%",
+            "30%",
+            "15%"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-415",
+        "question": "Is the number of Available Units of Apartments greater than the number of Sold Units in the same category?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-416",
+        "question": "Which game genre has the lowest total number of games in the three types (Action, Adventure, and Simulation)?",
+        "answer": "Strategy",
+        "choices": [
+            "RPG",
+            "Shooter",
+            "Strategy"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-417",
+        "question": "What is the most popular fashion category according to the bar chart?",
+        "answer": "Outerwear",
+        "choices": [
+            "Tops",
+            "Dresses",
+            "Suits",
+            "Outerwear",
+            "Socks"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-418",
+        "question": "Did the number of attendees increase for all festivals from 2020 to 2021?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-419",
+        "question": "What is the total area of rented land in both cities?",
+        "answer": "70",
+        "choices": [
+            50,
+            90,
+            70,
+            40
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-421",
+        "question": "Which technology has the highest usage rating in the Finance sector?",
+        "answer": "In the grouped bar chart, we can see that in the Finance sector, the AI usage rating is the highest. It stands at 85, compared to 75 for IoT and 65 for cloud computing.",
+        "choices": [
+            "Cloud computing",
+            "Internet of Things(IoT)",
+            "Artificial Intelligence(AI)"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-422",
+        "question": "How many more books in the category 'Children' are in stock compared to 'Non-Fiction'?",
+        "answer": "20",
+        "choices": [
+            5,
+            10,
+            15,
+            20
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-423",
+        "question": "Does \u201cPhysical Activity\u201d have a lower impact than \u201cMental Stress\u201d on Heath according to the bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-424",
+        "question": "Was Russia's population higher in 2000 than in 1950?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-425",
+        "question": "Is the Labrador Retriever less popular than the Chihuahua breed according to the bar chart?",
+        "answer": "no",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Did the population in Africa increase continually from 2000 to 2030 according to the chart?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-427",
+        "question": "Is 'Missions Completed' the category with the highest value?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-428",
+        "question": "Did Teddy Bears sell more than Building Sets?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Is Corn the most produced crop in the U.S. according to the given bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-430",
+        "question": "Is the conservation effort for Tigers more than that for Kangaroos?\n\nTo answer this question, we'll compare the values associated with 'Tigers' and 'Kangaroos'. The options for a Boolean (yes/no) question will always be [yes, no].",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-431",
+        "question": "Did the scores of all global warming-related categories increase from the year 2000 to the year 2020?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-432",
+        "question": "Does the Liberal Party have more seats in the house than the Conservative Party?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "Smart Wearables sold-bar_charts_visual_linguistic-train-434",
+        "question": "\"As represented in the bar chart, how many tablets were sold?\"",
+        "answer": "35",
+        "choices": [
+            30,
+            35,
+            40,
+            45
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-434",
+        "question": "Which gas reduced its contribution towards Global Warming the most from 2020 to 2021?",
+        "answer": "Nitrous Oxide",
+        "choices": [
+            "CO2",
+            "Methane",
+            "Nitrous Oxide"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-435",
+        "question": "What is the total number of employees in the \"Sales & Marketing\" category?",
+        "answer": "95",
+        "choices": [
+            85,
+            70,
+            95,
+            80
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "Is 'To Kill a Mockingbird' the least counted book in the library?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-437",
+        "question": "Is 'Storage' more relevant than 'Durability' in this bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-438",
+        "question": "Is the enrollment in community college greater than the enrollment in university according to the bar chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-439",
+        "question": "Does the Golden Retriever breed have more male dogs than female dogs in the stacked bar chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-7",
+        "question": "What breed of dog has the highest number of registrations according to the bar chart?",
+        "answer": "Huskies",
+        "choices": [
+            "Huskies",
+            "Poodles",
+            "Bulldogs",
+            "Labradors",
+            "Golden Retrievers",
+            "Pit Bulls",
+            "German Shepherds",
+            "Dalmatians"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-441",
+        "question": "From the Fishing chart, what was the type of fish caught in lesser number in 2020 compared to 2019?",
+        "answer": "Bass",
+        "choices": [
+            "Trout",
+            "Salmon",
+            "Bass",
+            "Mackerel",
+            "Sardine",
+            "Tuna"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-442",
+        "question": "Based on the bar chart, which sport has a total of 45 participants?",
+        "answer": "Soccer",
+        "choices": [
+            "Basketball",
+            "Soccer",
+            "Tennis",
+            "Baseball",
+            "Swimming",
+            "Cycling"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-443",
+        "question": "Is 'Solar' the Energy Source with the highest energy units?\n\nThe possible answers can be as follows:",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-444",
+        "question": "Does the Healthcare sector has more employees than the IT sector?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-445",
+        "question": "Did we launch more satellites than manned missions?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-446",
+        "question": "Is 'Education' the charity category with the second highest donations?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-447",
+        "question": "Is the total land usage in Region 3 equal to 65 000 square kilometres?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-448",
+        "question": "Is the score of Desktop is higher than Laptop?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-449",
+        "question": "Did earthquakes occur more frequently than floods?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-450",
+        "question": "Did the Plane cover the highest average distance per trip?",
+        "answer": "yes",
+        "choices": [
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-451",
+        "question": "Is the count of male Labradors higher than the count of female Labradors?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-454",
+        "question": "Is the number of male employees in the Management department higher than the number of female employees?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-457",
+        "question": "Is the number of employees who are Artists higher than that of Doctors?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-458",
+        "question": "Which political party won the highest number of seats?",
+        "answer": "Republicans",
+        "choices": [
+            "Conservatives",
+            "Liberals",
+            "Socialists",
+            "Libertarians",
+            "Independents",
+            "Greens",
+            "Democrats",
+            "Republicans",
+            "Others"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-460",
+        "question": "Which continent has the largest number of travel places?",
+        "answer": "'Europe'",
+        "choices": [
+            "Asia",
+            "Europe",
+            "North America",
+            "South America",
+            "Africa",
+            "Australia",
+            "Antarctica"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-462",
+        "question": "Is 'Books' store the category with the lowest annual revenue in the chart?\n\nThe options for the answer are:",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-463",
+        "question": "Which genre has seen a decline in the number of movies launched from 2019 to 2020?",
+        "answer": "['Horror', 'Adventure']",
+        "choices": [
+            "Action",
+            "Drama",
+            "Comedy",
+            "Horror",
+            "Adventure",
+            "Mystery",
+            "Sci-fi"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-464",
+        "question": "What is the total height of the bar for 'German Shepherd'?",
+        "answer": "130",
+        "choices": [
+            110,
+            120,
+            130,
+            140,
+            150
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-466",
+        "question": "How many more Action Movies are there than Comedy Movies in our dataset?",
+        "answer": "35",
+        "choices": [
+            10,
+            20,
+            35,
+            40
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-467",
+        "question": "Has \"New Horizons mission\" the highest number of missions among the categories?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-468",
+        "question": "Is the adoption rate for Internet of Things (IoT) Devices higher than that for Artificial Intelligence?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-469",
+        "question": "Is Psychiatry the category with the lowest number of patients?\n\nThe possible answers to the question:",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-470",
+        "question": "Which energy source has the least usage percentage represented in the bar chart?",
+        "answer": "Oil",
+        "choices": [
+            "Solar",
+            "Wind",
+            "Nuclear",
+            "Hydro",
+            "Natural Gas",
+            "Coal",
+            "Biofuel",
+            "Geothermal",
+            "Oil",
+            "Tidal"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-472",
+        "question": "According to the chart, what Type of Transport is used by 20 thousand commuters?",
+        "answer": "Boats",
+        "choices": [
+            "Buses",
+            "Trains",
+            "Cars",
+            "Bicycles",
+            "Motorbikes",
+            "Airplanes",
+            "Boats",
+            "Trams",
+            "Subways"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-473",
+        "question": "Is 'Desert' the largest land type according to the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-474",
+        "question": "Did the usage of Internet for 'Online Education' increase from 2019 to 2020?",
+        "answer": "YES",
+        "choices": [
+            "YES",
+            "NO"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-475",
+        "question": "Based on the chart, which conservation activity has more number in thousands?",
+        "answer": "Animals Rescued",
+        "choices": [
+            "Trees Planted",
+            "Animals Rescued"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-8",
+        "question": "Which field of medicine has the highest number of patients according to the bar chart?",
+        "answer": "Neurology",
+        "choices": [
+            "General Surgery",
+            "Orthopedics",
+            "Internal Medicine",
+            "Cardiology",
+            "Dermatology",
+            "Gynecology",
+            "Neurology",
+            "Radiology",
+            "Pediatrics"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-477",
+        "question": "Based on the bar chart, which of the following music genres is the least popular?",
+        "answer": "Country",
+        "choices": [
+            "Rock",
+            "Blues",
+            "Country",
+            "Reggae",
+            "Hip Hop",
+            "Classical"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-478",
+        "question": "Which language has the least number of speakers?",
+        "answer": "'German'",
+        "choices": [
+            "English",
+            "Spanish",
+            "Chinese",
+            "French",
+            "German"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-480",
+        "question": "The category 'Robotic Missions' has less than 20 missions or telescopes, yes or no?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-481",
+        "question": "Was the least caught type of fish the Halibut?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-482",
+        "question": "Which social media platform has the highest number of users?",
+        "answer": "'Facebook'",
+        "choices": [
+            "Facebook",
+            "Instagram",
+            "Twitter",
+            "Snapchat",
+            "LinkedIn",
+            "Pinterest",
+            "TikTok",
+            "YouTube",
+            "WhatsApp",
+            "Reddit"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-483",
+        "question": "Is the metropolitan population of Los Angeles more than 50 thousand?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-2",
+        "question": ":\nWhat is the season with the highest number of rainy days?",
+        "answer": "'Winter'",
+        "choices": [
+            "Spring",
+            "Summer",
+            "Autumn",
+            "Winter"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": "What is the highest number of total plants observed in a category?",
+        "answer": "'Herbs'",
+        "choices": [
+            "Trees",
+            "Shrubs",
+            "Herbs",
+            "Grass",
+            "Ferns",
+            "Vines",
+            "Mosses"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-489",
+        "question": "The question could be something like - Which car model had the highest sales according to the bar chart?",
+        "answer": "Dodge Challenger",
+        "choices": [
+            "Ford Mustang",
+            "Chevy Camaro",
+            "Dodge Challenger",
+            "Toyota Supra",
+            "Nissan GTR",
+            "Acura NSX",
+            "BMW M3"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-490",
+        "question": "Which country has conducted most total space missions (Both Manned and Unmanned) in accordance to our bar chart?",
+        "answer": "'Europe'",
+        "choices": [
+            "USA",
+            "Russia",
+            "China",
+            "Europe"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-492",
+        "question": "What is the total income from both sources (Salaried and Business) for an individual earning 35 thousand?",
+        "answer": "35 thousand",
+        "choices": [
+            "30 thousand",
+            "35 thousand",
+            "40 thousand",
+            "45 thousand"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-493",
+        "question": "Is the number of Baroque buildings more than the Romanesque buildings?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-494",
+        "question": "In the year 2030, what is the difference in the area of Residential Land and Industrial Land?",
+        "answer": "The prediction for Residential Land in 2030 is 65 square miles while that for Industrial Land is 80 square miles. To find the difference, subtract the smaller number from the larger one. Thus, 80 - 65 = 15 square miles.",
+        "choices": [
+            "5 square miles",
+            "10 square miles",
+            "15 square miles",
+            "20 square miles"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-495",
+        "question": "Does the Elementary Education category have more schools than the Secondary Education category?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-496",
+        "question": "Did the Cactus grow more in Summer compared to Spring?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-497",
+        "question": "Which plant type has the highest total number across all seasons?",
+        "answer": "'Violets'",
+        "choices": [
+            "Roses",
+            "Tulips",
+            "Daisies",
+            "Lilies",
+            "Sunflowers",
+            "Orchids",
+            "Violets"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-498",
+        "question": "In which technology field does Company B have the least number of employees?",
+        "answer": "Cybersecurity",
+        "choices": [
+            "Artificial Intelligence",
+            "Cybersecurity",
+            "Data Science",
+            "Web Development"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-499",
+        "question": "In the generated bar chart, which game genre has the lowest average playtime?",
+        "answer": "Adventure",
+        "choices": [
+            "Adventure",
+            "Action",
+            "Strategy"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-9",
+        "question": "Based on the bar chart, which energy source produces the least amount of energy measured in Gigawatt-hours?",
+        "answer": "Tidal",
+        "choices": [
+            "Solar",
+            "Wind",
+            "Hydroelectric",
+            "Nuclear",
+            "Natural Gas",
+            "Coal",
+            "Oil",
+            "Biofuels",
+            "Geothermal",
+            "Tidal"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-692",
+        "question": "Which income category has the highest level of income?",
+        "answer": "Investment Income",
+        "choices": [
+            "Self-Employed Income",
+            "Employee Income",
+            "Investment Income",
+            "Retirement Income"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-694",
+        "question": "Which company had the maximum revenue?",
+        "answer": "Zara",
+        "choices": [
+            "Zara",
+            "H&M",
+            "Primark",
+            "Forever21"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-695",
+        "question": "Which weather condition represents 15 days in a quarter?",
+        "answer": "Thunderstorms",
+        "choices": [
+            "Sunny",
+            "Cloudy",
+            "Rainy",
+            "Snowy",
+            "Foggy",
+            "Wind",
+            "Thunderstorms"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-3",
+        "question": ": Is 'Modern' architecture style has more designs than 'Renaissance'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-698",
+        "question": "Has Russia sent more satellites than USA?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-699",
+        "question": "Does City A have higher burglary incidents than City B?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": "bar_charts-bar_charts_visual_linguistic-train-700",
+        "question": "Is the Beagle more popular than the Rottweiler based on this chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ]
+    }
+]
