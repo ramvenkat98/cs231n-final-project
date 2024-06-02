@@ -43,7 +43,8 @@ with open('llm_as_judge_prompts.json', 'w') as f:
 from openai import OpenAI
 client = OpenAI()
 
-corrects, wrongs = [], []
+corrects, wrongs, unknowns = [], [], []
+
 for i in range(len(prompts)):
     prompt_messages = [
         {
@@ -56,7 +57,7 @@ for i in range(len(prompts)):
         },
     ]
     # if L[i]['id'] == 'bar_charts-bar_charts_visual_linguistic-train-31':
-    if i <= 100:
+    if i <= 1000:
         print(prompts[i])
         print(prompt_messages)
         response = client.chat.completions.create(
@@ -70,12 +71,16 @@ for i in range(len(prompts)):
         if matches:
             last_match = matches[-1]  # Get the last item from the list of matches
             print(last_match)
+        else:
+            last_match = 'unknown'
         if last_match == 'correct':
             corrects.append(L[i]['id'])
-        else:
+        elif last_match == 'wrong':
             wrongs.append(L[i]['id'])
+        else:
+            unknowns.append(L[i]['id'])
 
-print(corrects, wrongs)
+print(corrects, wrongs, unknowns)
 
 with open('llm_as_judge_results.json', 'w') as f:
-    json.dump({"corrects": corrects, "wrongs": wrongs}, f, indent = 4)
+    json.dump({"corrects": corrects, "wrongs": wrongs, "unknowns": unknowns}, f, indent = 4)
