@@ -5,7 +5,7 @@
 from my_utils import * 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-finetuned = False
+finetuned = True
 if not finetuned:
     ckpt_path = "internlm/internlm-xcomposer2-vl-1_8b"
     tokenizer = AutoTokenizer.from_pretrained(ckpt_path, trust_remote_code=True) # .cuda()
@@ -15,14 +15,16 @@ if not finetuned:
     print("Loaded model")
     # model = model.eval()
     model.tokenizer = tokenizer
-    filename = 'model_eval_1_8b_lora_on_339_sample_barchart_fixed_vit.pkl'
+    filename = 'model_eval_1_8b.pkl'
 else:
     from peft import AutoPeftModelForCausalLM
     path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_339_sample_barchart_fixed_vit/finetune'
     model = AutoPeftModelForCausalLM.from_pretrained(path_to_adapter, device_map="auto", trust_remote_code=True).eval()
     tokenizer = AutoTokenizer.from_pretrained(path_to_adapter, trust_remote_code = True)
     model.tokenizer = tokenizer
-    filename = 'model_eval_1_8b_finetuned.pkl'
+    # filename = 'model_eval_1_8b_finetuned.pkl'
+    filename = 'model_eval_1_8b_lora_on_339_sample_barchart_fixed_vit.pkl'
+    print(f"Finetuned model at path {path_to_adapter}")
 # Load Dataset
 from datasets import load_dataset
 dataset = load_dataset("AI4Math/MathVista")
