@@ -66,5 +66,938 @@
         ],
         "gpt_response": "Here is your Python code to generate the scatter plot:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Series 1 data for 'Party A'\nyears = [2000, 2004, 2008, 2012, 2016, 2020]\nrating_partyA = [45, 48, 53, 51, 47, 52]\n\n# Series 2 data for 'Party B'\nrating_partyB = [55, 52, 47, 49, 53, 48]\n\nplt.figure(figsize=(10,5))\nplt.scatter(years, rating_partyA, label='Party A', marker='o')\nplt.scatter(years, rating_partyB, label='Party B', marker='x')\n\nplt.title('Popularity Ratings of Two Political Parties Over Years')\nplt.xlabel('Year')\nplt.ylabel('Popularity Rating (%)')\n\nplt.legend(loc='best')\nplt.grid(True)\n\n# Make sure to create 'line_charts/line_charts_visual_linguistic/test/' directory before saving\nplt.savefig('line_charts/line_charts_visual_linguistic/test/8.png')  \n\nplt.show()\n```\nThis code creates a scatter plot for two political parties over years. Two scatter series are created for the 'Party A' and 'Party B'. The popularity ratings are made up numbers but represent a kind of contest between the two parties over the years.\n\n<<<QUESTION>>>:\nIn which year did Party B achieve higher popularity rating than Party A?\n\n<<<CHOICES>>>\n['2000', '2004', '2008', '2012', '2016', '2020']\n<<<CHOICES>>>\n\nFrom the plot, we can see that Party B has higher popularity rating than Party A in the years 2000, 2004, and 2016. In other years, Party A has a higher rating.\n\nAnswer: ['2000', '2004', '2016']",
         "image": "line_charts/line_charts_visual_linguistic/test/8.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-9",
+        "question": "The scatter plot visualizes employment in different sectors for the years from 2001 to 2019. Can you tell in which sector steady employment increase can be observed?",
+        "answer": "Management",
+        "choices": [
+            "IT",
+            "Sales",
+            "Management",
+            "Engineering",
+            "Finance"
+        ],
+        "gpt_response": "Here is Python code which uses matplotlib to create a scatter plot.\n\n```python\nimport matplotlib.pyplot as plt\n\n# data\nyear = list(range(2001, 2020, 2))\nIT = [57, 73, 70, 65, 75, 72, 74, 90, 95, 105]\nSales = [65, 67, 74, 72, 75, 74, 80, 85, 87, 90]\nManagement = [70, 75, 80, 85, 90, 95, 98, 100, 100, 110]\nEngineering = [92, 95, 97, 99, 100, 99, 98, 95, 95, 94]\nFinance = [85, 80, 78, 82, 88, 95, 98, 90, 85, 80]\n\nplt.figure(figsize = (10, 6)) # To make the plot larger\n\nplt.scatter(year, IT, color='#cd5eb8', marker=\"o\", label=\"IT\")\nplt.scatter(year, Sales, color='#3c35e5', marker=\"o\", label=\"Sales\")\nplt.scatter(year, Management, color='#f86c89', marker=\"o\", label=\"Management\")\nplt.scatter(year, Engineering, color='#e5c03c', marker=\"o\", label=\"Engineering\")\nplt.scatter(year, Finance, color='#89f36f', marker=\"o\", label=\"Finance\")\n\nplt.title(\"Employment in Different Sectors\")\nplt.xlabel(\"Year\")\nplt.ylabel(\"No. of Employees (in thousands)\")\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/9.png')\nplt.show()\n```\n<<<QUESTION>>>\n\nThe scatter plot visualizes employment in different sectors for the years from 2001 to 2019. Can you tell in which sector steady employment increase can be observed?\n\n<<<CHOICES>>>\n['IT', 'Sales', 'Management', 'Engineering', 'Finance']\n<<<CHOICES>>>\n\nStep-by-step reasoning of your question answer\n\n- From the generated graph, it can be observed that IT, Sales, and Finance sectors show irregular movements in employment over the years. These sectors do not show a steady increase in employment.\n- In the Engineering sector, it can be observed that the employment initially increased but then showed signs of remain steady.\n- In the Management sector, there is a continuous and steady increase in the employment from the year 2001 to 2019.\n\nAnswer: Management",
+        "image": "line_charts/line_charts_visual_linguistic/test/9.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-10",
+        "question": "Is the 'Smoking Rates' line chart using the color '#0fcd91'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is a python program that generates a line chart related to health data.\n\n```python\nimport matplotlib.pyplot as plt\n\n# data\nyears = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]\nphysical_activity = [50, 52, 54, 55, 56, 58, 59, 62, 60, 63, 62]\nhealthy_eating = [45, 47, 50, 52, 54, 58, 60, 62, 65, 67, 68]\nsmoking_rates = [30, 29, 28, 26, 24, 22, 20, 19, 18, 16, 15]\nalcohol_consumption = [40, 42, 44, 42, 40, 38, 36, 35, 33, 32, 31]\n\n# plot\nfig, ax = plt.subplots(figsize=(12, 8))\nax.plot(years, physical_activity, color='#6a2c89', marker='o', label='Physical Activity Levels')\nax.plot(years, healthy_eating, color='#7a55a0', marker='o', label='Healthy Eating Rates')\nax.plot(years, smoking_rates, color='#0fcd91', marker='o', label='Smoking Rates')\nax.plot(years, alcohol_consumption, color='#e4312c', marker='o', label='Alcohol Consumption Levels')\n\nax.set_title('Health Trends Over the Years', fontsize=20)\nax.set_xlabel('Years', fontsize=15)\nax.set_ylabel('% of Population', fontsize=15)\nax.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/10.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIs the 'Smoking Rates' line chart using the color '#0fcd91'?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nStep by step rationale:\n1. From the python code given, the color for the 'Smoking Rates' line chart is set using the color parameter in the ax.plot() function. \n2. The color for the 'Smoking Rates' line chart is defined as '#0fcd91'.\n3. The question asks if the 'Smoking Rates' line chart is using the color '#0fcd91'.\n4. Comparing the color given in the question with the color used in the code, they match.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/10.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-11",
+        "question": "Is the level of water pollution in the year 2020 higher than that of air pollution?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your python code:\n\n```python\nimport matplotlib.pyplot as plt\n\ndef create_line_chart():\n\n    # Data for the chart\n    air_pollution = [73, 78, 85, 90, 96, 100, 107]\n    water_pollution = [63, 67, 72, 77, 83, 90, 97]\n\n    years = [2015, 2016, 2017, 2018, 2019, 2020, 2021]\n    \n    # Plotting the data\n    plt.figure(figsize=(10, 5))\n    plt.plot(years, air_pollution, marker='o', color='#3a0724', label = \"Air Pollution\")\n    plt.plot(years, water_pollution, marker='o', color='#00be41', label = \"Water Pollution\")\n\n    # Providing labels for the chart\n    plt.xlabel('Year')\n    plt.ylabel('Pollution Level')\n    \n    # Title and legend for the chart\n    plt.title('Increase in Air and Water Pollution over Years (2015 - 2021)')\n    plt.legend()\n\n    # Save the figure\n    plt.savefig('line_charts/line_charts_visual_linguistic/test/11.png')\n    plt.show()\n\n#Run the function\ncreate_line_chart()\n```\nThis generates a line chart for two diverse types of environmental pollution - Air and Water pollution from 2015 to 2021.\n\n<<<QUESTION>>>\nIs the level of water pollution in the year 2020 higher than that of air pollution?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nHere is the reasoning for the question:\n\n- Air Pollution levels in 2020 are given by the sixth value in the 'air_pollution' list, which is 100.\n- Water Pollution levels in 2020 are given by the sixth value in the 'water_pollution' list, which is 90.\n- By comparing these two values, we can determine which type of pollution was higher in 2020.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/11.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-12",
+        "question": "Looking at the line chart, which type of crime rate decreased more dramatically from 1990 to 2010?",
+        "answer": "Property Crime Rate",
+        "choices": [
+            "Violent Crime Rate",
+            "Property Crime Rate"
+        ],
+        "gpt_response": "Sure, here is a simple program that creates a line chart on crime rates and an accompanying question.\n\nThe Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# data\nyears = list(range(1990, 2011))\nviolent_crime_rt = [15.2, 14.5, 14.7, 13.9, 12.8, 11.2, 10.5, 9.3, 8.7, 7.6, 7.3, 6.9, 6.6, 6.2, 5.8, 5.3, 4.9, 4.4, 3.6, 3.2, 3.0]\nproperty_crime_rt = [34.2, 33.3, 32.8, 32.1, 31.3, 29.7, 28.6, 27.5, 25.8, 24.5, 24.0, 23.6, 23.2, 22.0, 21.5, 21.1, 20.6, 19.9, 19.2, 18.6, 18.1]\n\n# create figure and ax\nfig, ax = plt.subplots()\n\n# draw lines\nax.plot(years, violent_crime_rt, '#166d8f', marker='o', label='Violent Crime Rate')\nax.plot(years, property_crime_rt, '#ff7373', marker='x', label='Property Crime Rate')\n\n# legends and labels\nax.legend(loc='upper right')\nplt.title('Crime rates in US (1990-2010)')\nplt.xlabel('Years')\nplt.ylabel('Crime Rate')\n\n# save figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/12.png')\nplt.show()\n```\n\nThe multiple choice question:\n\n<<<QUESTION>>>\nLooking at the line chart, which type of crime rate decreased more dramatically from 1990 to 2010?\n<<<CHOICES>>>\n['Violent Crime Rate', 'Property Crime Rate']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the line chart, the violent crime rate in 1990 was about 15.2 and decreased to about 3.0 in 2010. This gives us a drop of about 12.2 over 20 years. The property crime rate, on the other hand, started at about 34.2 in 1990 and decreased to about 18.1 in 2010, for a drop of about 16.1 over the same 20 year period. Although all crime rates decreased over this time period, the Property crime rate decreased more dramatically than the violent crime rate.\n\nAnswer: Property Crime Rate",
+        "image": "line_charts/line_charts_visual_linguistic/test/12.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-13",
+        "question": "Has Versace seen a continuous increase in sales from 2019 to 2022?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "```python\nimport matplotlib.pyplot as plt\n\n# Data\nbrands = ['Zara', 'H&M', 'Gucci', 'Versace']\nsales_2019 = [100, 150, 50, 60] # Millions \nsales_2020 = [90, 155, 55, 63]\nsales_2021 = [105, 160, 58, 70]\nsales_2022 = [115, 170, 67, 75]\n\n# Create scatter plot\nfig, ax = plt.subplots(figsize=(10, 6))\n\nax.scatter(brands, sales_2019, c='r', marker='o', label='2019')\nax.scatter(brands, sales_2020, c='g', marker='^', label='2020')\nax.scatter(brands, sales_2021, c='b', marker='s', label='2021')\nax.scatter(brands, sales_2022, c='y', marker='*', label='2022')\n\nax.set_ylabel('Sales (in millions)')\nax.set_xlabel('Brands')\nax.set_title('Fashion Brands Sales Over the Years')\nax.grid(True)\nax.legend(title='Years')\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/13.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nHas Versace seen a continuous increase in sales from 2019 to 2022? \n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nIf we inspect the data, we can see that the values for the sales of Versace increases successfully from 2019 - 60, 2020 - 63, 2021 - 70, 2022 - 75. Hence the reason for the question. \n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/13.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-14",
+        "question": "What day of the week recorded the highest temperature?",
+        "answer": "'Thursday'",
+        "choices": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "gpt_response": "Here is your Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\ndays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']\ntemp_high = [21, 19, 23, 24, 22, 20, 21]\n\nplt.figure(figsize=(10,6))\nplt.scatter(days, temp_high, color='red', marker='o')\n\nplt.title('Daily High Temperature for a Week')\nplt.xlabel('Day')\nplt.ylabel('Temperature (\u00b0C)')\nplt.grid(True)\nplt.legend(['Temperature'], loc='upper right')\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/14.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nWhat day of the week recorded the highest temperature?\n\n<<<CHOICES>>>\n['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']\n<<<CHOICES>>>\n\nThe question relates to the data visualized in the scatter plot. To answer it, one should check the scatter plot and identify the marker positioned at the highest point along the y-axis representing the highest temperature. This marker will correspond to the day of the week with the highest recorded temperature.\n\nAnswer: 'Thursday'",
+        "image": "line_charts/line_charts_visual_linguistic/test/14.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-15",
+        "question": "In which year, the population of Eagles surpassed the population of Sparrows if ever?",
+        "answer": "Never surpassed",
+        "choices": [
+            "Never surpassed",
+            "2012",
+            "2015",
+            "2020"
+        ],
+        "gpt_response": "Here is your Python program:\n\n```python\nimport matplotlib.pyplot as plt\nimport os\n\n# Sample data\nyears = list(range(2010, 2022))\nsparrows_population = [50, 55, 60, 59, 58, 60, 65, 70, 65, 64, 65, 66]\neagles_population = [30, 32, 33, 35, 37, 40, 45, 47, 48, 50, 52, 55]\nowls_population = [20, 22, 25, 27, 29, 30, 35, 37, 42, 50, 55, 58]\n\n# Make sure the directory exists \nos.makedirs('line_charts/line_charts_visual_linguistic/test/', exist_ok=True)\n\n# Create figure and plot space\nfig, ax = plt.subplots(figsize=(10, 10))\n\n# Add x-axis and y-axis\nax.plot(years, sparrows_population, color='#7acafd', marker='o', label='Sparrows')\nax.plot(years, eagles_population, color='#6288b3', marker='v', label='Eagles')\nax.plot(years, owls_population, color='#3b490b', marker='s', label='Owls')\n\n# Set title and labels for axes\nax.set(xlabel=\"Year\",\n       ylabel=\"Population (in thousands)\",\n       title=\"Birds Population Over Years\")\n\n# Create a legend\nax.legend()\n\n# Output file\nplt.savefig('line_charts/line_charts_visual_linguistic/test/15.png')\nplt.show()\n```\nFollowing the chart, here is a question related to the chart:\n\n<<<QUESTION>>> In which year, the population of Eagles surpassed the population of Sparrows if ever?\n\n<<<CHOICES>>>\n['Never surpassed', '2012', '2015', '2020']\n<<<CHOICES>>>\n\nReasoning: By observing the chart, Sparrows population has always been larger than the Eagles population throughout the years from 2010 to 2021.\n\nAnswer: Never surpassed",
+        "image": "line_charts/line_charts_visual_linguistic/test/15.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-16",
+        "question": "Did the Employment Rate steadily increase from 2010 to 2021?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the code to produce the chart:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = range(2010, 2022)\nemployment_rate = [79.6, 79.1, 80.1, 80.2, 81.0, 81.5, 82.5, 83.2, 83.7, 84.3, 84.5, 84.7]\n\nplt.figure(figsize=(10,5))\nplt.plot(years, employment_rate, marker='o', label='Employment Rate')\n\nplt.title('Employment Rates from 2010 to 2021')\nplt.xlabel('Year')\nplt.ylabel('Employment Rate (%)')\nplt.legend()\nplt.grid(True)\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/16.png')\nplt.show()\n```\n\n<<<QUESTION>>> Did the Employment Rate steadily increase from 2010 to 2021?\n\n<<<CHOICES>>> ['Yes', 'No'] <<<CHOICES>>>\n\nLet's reason about the question. The question asks if the Employment rate steadily increased from 2010 to 2021. Looking at the `employment_rate` list, we see that the value in 2011 is less than the value in 2010. Thus, the employment rate did not steadily increase for all years, as there was at least one dip in 2011. \n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/16.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-17",
+        "question": "Does vegetable consumption ever exceed fruit consumption according to the line chart?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\nfruit_consumption = [10, 15, 12, 18, 20, 24, 26, 22, 19, 15, 13, 11]\nvegetable_consumption = [15, 12, 14, 17, 22, 25, 28, 27, 23, 17, 15, 14]\n\n# Figure size\nplt.figure(figsize=(10,5))\n\n# Plot series\nplt.plot(months, fruit_consumption, marker='o', color='#3aa30f', label='Fruits')\nplt.plot(months, vegetable_consumption, marker='o', color='blue', label='Vegetables')\n\n# Labels\nplt.xlabel('Months')\nplt.ylabel('Consumption (kg)')\nplt.title('Monthly Fruit and Vegetable Consumption')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/17.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nDoes vegetable consumption ever exceed fruit consumption according to the line chart?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nGiven the arrays `fruit_consumption` and `vegetable_consumption` which represent consumption data for each month, it can be seen that the values in `vegetable_consumption` are generally higher than corresponding values in `fruit_consumption`. Therefore,\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/17.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-18",
+        "question": "Has the CO2 level shown a steady increase from the years 2000 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code that fits the provided instructions:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Relevant data\nyears = [2000, 2005, 2010, 2015, 2020]\nglobal_temperatures = [14.3, 14.5, 14.6, 14.8, 15.0] \nocean_levels = [0, 0.5, 1.0, 1.6, 2.3]\nco2_levels = [369.5, 379.8, 389.9, 400.8, 412.5]\n\n# Plotting\nplt.figure(figsize=[10,5])\nplt.plot(years, global_temperatures, color=\"#27d93e\", marker=\"o\", label=\"Global Average Temperature (\u00b0C)\")\nplt.plot(years, ocean_levels, color=\"#ee31eb\", marker=\"o\", label=\"Ocean Level Increase (mm)\")\nplt.plot(years, co2_levels, color=\"#0000ff\", marker=\"o\", label=\"CO2 levels (ppm)\")\n\n# Labels, title, and legend\nplt.xlabel('Year')\nplt.ylabel('Measurements')\nplt.title('Environmental Issues Over Years')\nplt.legend()\n\n# save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/18.png')\nplt.show()\n```\nHere is the the question, answer choices and final answer:\n\n``` \n<<<QUESTION>>>\nHas the CO2 level shown a steady increase from the years 2000 to 2020?\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: \nThe line representing the CO2 levels shows us that from the year 2000, where the CO2 level was 369.5 ppm, to the year 2020, where the CO2 level reached 412.5 ppm, there has been a steady increase.\n\nAnswer: Yes\n```",
+        "image": "line_charts/line_charts_visual_linguistic/test/18.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-19",
+        "question": "Is the water usage highest in the month of December?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's the Python code that uses matplotlib to create a scatter plot.\n\n```python\nimport matplotlib.pyplot as plt\n\nwater_usage = [100, 200, 300, 160, 120, 180, 250, 220, 280, 350, 400, 450]\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\n\nplt.figure(figsize=(10, 8))\nplt.scatter(months, water_usage, marker='o')\nplt.title('Monthly Water Usage')\nplt.xlabel('Months')\nplt.ylabel('Water Usage (in gallons)')\nplt.legend(['Water Usage'], loc='upper left')\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/19.png')\nplt.show()\n```\nThis plot shows the water usage in gallons over the months of a year.  \n\n<<<QUESTION>>> Is the water usage highest in the month of December? \n\n<<<CHOICES>>> ['Yes', 'No'] <<<CHOICES>>>\n\nTo answer this question, we look at the last entry of water usage data which corresponds to the month of December, and then compare it with other entries. If it is greater than other entries, then the answer is Yes, otherwise No.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/19.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-20",
+        "question": "Was the rate of technology adoption higher in the year 2010 compared to the year 2005?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the python code to generate a scatter plot chart related to Technology:\n\n```python\nimport matplotlib.pyplot as plt\n\nyear = [2000, 2005, 2010, 2015, 2020]\ntech_adoption = [2.5, 5.5, 25.3, 41.1, 60.0]\n\nplt.figure(figsize=(10, 6))\n\nplt.scatter(year, tech_adoption, color='#e68316', marker='o', label='Rate of tech adoption')\n\nplt.title('Rate of Technology Adoption from 2000 to 2020')\nplt.xlabel('Year')\nplt.ylabel('Percentage of global population (%)')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/20.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nWas the rate of technology adoption higher in the year 2010 compared to the year 2005?\n    \n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nThe question asks if the rate of Technology adoption was higher in 2010 compared to 2005. From the plotted scatter chart, it can be seen that the technology adoption rate was indeed higher in 2010 than in 2005. We can see the corresponding values for each year from the 'tech_adoption' data series.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/20.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-21",
+        "question": "Based on the bar chart, were vegetables sold more than fruits in April?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python code that generates the matplotlib line chart according to your specs:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Initial data\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\nfruit_sold = [120, 150, 170, 220, 290, 360, 412, 365, 300, 240, 190, 140]\nveg_sold = [90, 120, 130, 190, 240, 280, 300, 280, 260, 200, 180, 150]\n\nplt.figure(figsize=(10,6))\n\n# Plotting data\nplt.plot(months, fruit_sold, color='#9cdc88', marker='o', label='Fruits Sold')\nplt.plot(months, veg_sold, color='#2e86c1', marker='s', label='Veg Sold')\n\n# Adding labels and title\nplt.title('Monthly Sales Trends of Fruits vs Vegetables')\nplt.xlabel('Month')\nplt.ylabel('No. of Units Sold')\nplt.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/21.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the bar chart, were vegetables sold more than fruits in April?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nIf we look at our plotted line chart, we can see the number of fruits and vegetables sold for each month. We then identify the data point for the month of April. We look at the heights of the respective lines and compare. \n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/21.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-22",
+        "question": "Based on the scatter plot, how many paintings did Da Vinci produce in the 4th year?\n\nA: 60\nB: 58\nC: 50\nD: 65",
+        "answer": "60",
+        "choices": [
+            "60",
+            "58",
+            "50",
+            "65"
+        ],
+        "gpt_response": "Here is your python program. It creates a scatter plot with 5 different series of data. The plot will be saved as 'line_charts/line_charts_visual_linguistic/test/22.png'. The multiple choice question is related to the chart.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nPicasso = [50, 55, 52, 58, 63]\nMonet = [42, 45, 46, 48, 50]\nVanGogh = [70, 74, 77, 75, 73]\nDaVinci = [55, 56, 58, 60, 65]\nRembrandt = [60, 65, 65, 68, 70]\nyears = [1, 2, 3, 4, 5]\n\n# Create the figure and the axes\nfig, ax = plt.subplots(figsize=(10,5))\n\n# Plot data\nax.scatter(years, Picasso, color='#ff1536', label='Picasso')\nax.scatter(years, Monet, color='#e39128', label='Monet')\nax.scatter(years, VanGogh, color='#2c1766', label='Van Gogh')\nax.scatter(years, DaVinci, color='#dc7343', label='Da Vinci')\nax.scatter(years, Rembrandt, color='#61b98b', label='Rembrandt')\n\n# Set the title and labels\nax.set_title('Number of Paintings produced by Five Artists over time', fontsize=14)\nax.set_xlabel('Years', fontsize=12)\nax.set_ylabel('Number of Paintings', fontsize=12)\n\n# Add the legend\nax.legend()\n\n# Display the plot\nplt.grid(True)\nplt.tight_layout()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/22.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the scatter plot, how many paintings did Da Vinci produce in the 4th year?\n\nA: 60\nB: 58\nC: 50\nD: 65\n\n<<<CHOICES>>>\n['60', '58', '50', '65']\n<<<CHOICES>>>\n\nLet's reason about the answer,\n\nFrom the scatter plot, the vertical coordinate of Da Vinci's dot at the 4th year corresponds to the number of paintings.\n\nAnswer: 60",
+        "image": "line_charts/line_charts_visual_linguistic/test/22.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-23",
+        "question": "Did the Sunflower grow the most in the month of July?\n    \nChoices:",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Python Code:\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the line graph\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']\nplant1 = [15, 18, 22, 27, 35, 39, 42, 40, 33, 27, 20, 17]\nplant2 = [10, 12, 15, 20, 25, 30, 35, 33, 27, 22, 15, 12]\nplant3 = [20, 23, 28, 33, 39, 44, 47, 45, 38, 30, 24, 21]\n\n# Create the plot\nplt.figure(figsize = (10,6))\nplt.plot(months, plant1, marker='o', color='#bc1092', label='Daisy Growth (cm/month)')\nplt.plot(months, plant2, marker='o', color='#841b5c', label='Rose Growth (cm/month)')\nplt.plot(months, plant3, marker='o', color='#008000', label='Sunflower Growth (cm/month)')\n\n# Add the labels, title and legend\nplt.xlabel('Months')\nplt.ylabel('Plant Growth (cm)')\nplt.title('Plant Growth per Month')\nplt.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/23.png') \nplt.show()\n```\n\nQuestion:\n<<<QUESTION>>>Did the Sunflower grow the most in the month of July?\n    \nChoices:\n<<<CHOICES>>>['Yes', 'No']<<<CHOICES>>>\n\nThe Sunflower data indicates that the height of a Sunflower is maximum at July when it reaches 47cm. Therefore, the month when the Sunflower grows the most is July.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/23.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-24",
+        "question": "By end of 2020, which continent had the most land?",
+        "answer": "'Asia'",
+        "choices": [
+            "South America",
+            "North America",
+            "Europe",
+            "Asia",
+            "Africa"
+        ],
+        "gpt_response": "Here is an example of Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = [2015, 2016, 2017, 2018, 2019, 2020]\nland_in_south_america = [15.3, 15.4, 15.5, 15.6, 15.7, 15.8]\nland_in_north_america = [24.7, 24.8, 24.9, 25.0, 25.1, 25.2]\nland_in_europe = [10.5, 10.6, 10.7, 10.8, 10.9, 11.0]\nland_in_asia = [44.5, 44.6, 44.7, 44.8, 44.9, 45.0]\nland_in_africa = [30.2, 30.3, 30.4, 30.5, 30.6, 30.7]\n\nplt.figure(figsize=(10,6))\n\n# plotting the line chart\nplt.plot(years, land_in_south_america, '#0f9bf3', marker='o', label='South America')\nplt.plot(years, land_in_north_america, '#296be0', marker='s', label='North America')\nplt.plot(years, land_in_europe, '#952c39', marker='p', label='Europe')\nplt.plot(years, land_in_asia, '#12c987', marker='h', label='Asia')\nplt.plot(years, land_in_africa, '#e9c912', marker='d', label='Africa')\n\n# adding title and labels\nplt.title('Land Distribution (in Million sq km) from 2015 to 2020')\nplt.xlabel('Year')\nplt.ylabel('Land (in Million sq km)')\n\n# adding legend\nplt.legend()\n\n# save chart to a file\nplt.savefig('line_charts/line_charts_visual_linguistic/test/24.png')\n\nplt.show()\n\n```\n\n<<<QUESTION>>>\nBy end of 2020, which continent had the most land?\n\n<<<CHOICES>>>\n['South America', 'North America', 'Europe', 'Asia', 'Africa']\n<<<CHOICES>>>\n\nIf we look at the line chart, as per the 'Year' (X-axis) and 'Land (in Million sq km)' (Y-axis), by the end of 2020, Asia had the most land followed by Africa, North America, South America, and Europe.\n\nAnswer: 'Asia'",
+        "image": "line_charts/line_charts_visual_linguistic/test/24.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-25",
+        "question": "Which phone company had the highest sales in the year 2016?",
+        "answer": "iPhone",
+        "choices": [
+            "iPhone",
+            "Samsung",
+            "Huawei",
+            "Xiaomi"
+        ],
+        "gpt_response": "Here is your Python program:\n\n```python\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Data\nyears = np.array([2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019])\niphone = np.array([20, 30, 40, 50, 70, 80, 100, 120, 150, 200])\nsamsung = np.array([25, 30, 35, 40, 55, 75, 80, 150, 180, 200])\nhuawei = np.array([5, 10, 15, 20, 30, 45, 70, 85, 90, 110])\nxiaomi = np.array([0, 0, 5, 10, 15, 25, 35, 50, 70, 90])\n\nplt.figure(figsize=(12, 6))\n\n# Plotting\nplt.plot(years, iphone, marker='o', color='#ee3ee5', label=\"iPhone\")\nplt.plot(years, samsung, marker='o', color='blue', label=\"Samsung\")\nplt.plot(years, huawei, marker='o', color='green', label=\"Huawei\")\nplt.plot(years, xiaomi, marker='o', color='red', label=\"Xiaomi\")\n\n# Labels and Title\nplt.xlabel('Years')\nplt.ylabel('Millions of Units Sold')\nplt.title('Phone Sales Per Year')\n\n# Legend\nplt.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/25.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nWhich phone company had the highest sales in the year 2016?\n\n<<<CHOICES>>>\n['iPhone', 'Samsung', 'Huawei', 'Xiaomi']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the chart, each line corresponds to a different phone company. In 2016, we can see that the peak of the plots corresponds to iPhone and Samsung. Comparing the value at 2016 for both, we can see that iPhone's sales were the highest.\n\nAnswer: iPhone",
+        "image": "line_charts/line_charts_visual_linguistic/test/25.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-26",
+        "question": "Did the publication of books increase consistently every year from 1990 to 2010?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is a Python code for generating a line chart representing different series of data.\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(1990, 2010))\n\nbooks_published = [12, 15, 7, 9, 10, 11, 10, 15, 17, 14, 12, 17, 20, 21, 22, 18, 19, 25, 30, 32]\npoems_published = [10, 11, 12, 14, 13, 10, 11, 10, 12, 15, 14, 16, 18, 17, 20, 15, 14, 16, 18, 20]\nplays_published = [5, 7, 9, 8, 6, 7, 9, 8, 10, 9, 8, 7, 10, 11, 12, 9, 10, 12, 13, 15]\n\nplt.figure(figsize=(10, 5))\n\nplt.plot(years, books_published, marker='o', label='Books')\nplt.plot(years, poems_published, marker='o', label='Poems')\nplt.plot(years, plays_published, marker='o', label='Plays')\n\nplt.title('Literature Trends (1990-2010)')\nplt.xlabel('Years')\nplt.ylabel('Publications')\n\nplt.legend()\nplt.grid(True)\nplt.tight_layout()\nplt.savefig('line_charts/line_charts_visual_linguistic/test/26.png')\nplt.show()\n```\n\nThis code creates a line chart displaying trends in different literature types (books, poems, plays) published between the years 1990 and 2010. Each line represents a literature type and is plotted using a unique marker.\n\n<<<QUESTION>>> Did the publication of books increase consistently every year from 1990 to 2010?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nThe question focuses on the books publishing trend over the period 1990-2010. By looking at the line chart and the `books_published` list in the code, we can evaluate that the number of books published from 1990-1992 decreased, but after that, there are both decreases and increases in different years. Therefore, the publication of books did not increase consistently each year from 1990 to 2010.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/26.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-27",
+        "question": "Has the index of Ocean Pollution been above the index of CO2 Emissions every year?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code:\n\n```python\nimport matplotlib.pyplot as plt\n\nco2_emissions = [15, 18, 20, 22, 26, 31, 36] \nocean_pollution = [60, 65, 68, 68, 75, 82, 90]\n\nyears = range(2014, 2021)\n  \nfig, ax = plt.subplots(figsize=(10, 5)) \n\nax.scatter(years, co2_emissions, c='g', marker='o', label='CO2 Emissions')\nax.scatter(years, ocean_pollution, c='b', marker='x', label='Ocean Pollution')\n\nplt.title('Environmental Issues')\nplt.xlabel('Years')\nplt.ylabel('Index')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/27.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nHas the index of Ocean Pollution been above the index of CO2 Emissions every year?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nFrom the plot, it is clear that the index of Ocean Pollution has been consistently higher than the index of CO2 Emissions for every year.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/27.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-28",
+        "question": "Which animal category has the highest average weight?",
+        "answer": "Hippos",
+        "choices": [
+            "Elephants",
+            "Lions",
+            "Giraffes",
+            "Crocodiles",
+            "Hippos"
+        ],
+        "gpt_response": "Sure, here is your python program:\n\n```python\nimport matplotlib.pyplot as plt\n\nnum_animals = [10, 20, 15, 17, 36]\nnum_births = [2, 4, 3, 4, 8]\nnum_deaths = [2, 1, 0, 3, 2]\navg_age = [7, 5, 8, 3, 6]\navg_weight = [200, 400, 250, 350, 600]\n\ncategories=['Elephants', 'Lions', 'Giraffes', 'Crocodiles', 'Hippos']\n\nplt.figure(figsize=(15, 7))\n\nplt.plot(categories, num_animals, marker='s', color='#1e4172', label='Number of Animals')\nplt.plot(categories, num_births, marker='o', color='red', label='Number of Births')\nplt.plot(categories, num_deaths, marker='d', color='green', label='Number of Deaths')\nplt.plot(categories, avg_age, marker='^', color='purple', label='Average Age')\nplt.plot(categories, avg_weight, marker='*', color='orange', label='Average Weight(kg)')\n\nplt.xlabel('Animal Categories')\nplt.ylabel('Values')\nplt.title('Animal Statistics')\nplt.legend()\n\nplt.grid(True)\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/28.png')\n\nplt.show()\n```\n\n<<<QUESTION>>> Which animal category has the highest average weight?\n<<<CHOICES>>> ['Elephants', 'Lions', 'Giraffes', 'Crocodiles', 'Hippos']\n<<<CHOICES>>>\n\nTo answer this question, we look at the 'Average Weight(kg)' line in the plot. The line peaks at the 'Hippos' category, indicating that hippos have the highest average weight among the five animal categories.\n\nAnswer: Hippos",
+        "image": "line_charts/line_charts_visual_linguistic/test/28.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-29",
+        "question": "In which year did the number of tourists peaked in the given chart?",
+        "answer": "2019",
+        "choices": [
+            2018,
+            2019,
+            2020,
+            2021
+        ],
+        "gpt_response": "Here's an example Python program that meets these constraints, and the related multiple choice question and step-by-step reasoning.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Our tourism data: year vs number of tourists\nyears = list(range(2010, 2022))\nnumber_of_tourists = [5, 6, 7, 8, 10, 13, 15, 18, 20, 21, 10, 8] \n\n# Create a new matplotlib figure and axes\nfig, ax = plt.subplots(figsize=(10, 6))\n\n# Plot our data\nax.plot(years, number_of_tourists, marker='o', color='#fe5d56', label='Number of Tourists (in millions)')\n\n# Set labels for x and y axis\nax.set_xlabel('Year')\nax.set_ylabel('Number of Tourists')\n\n# Set the title\nax.set_title('Tourism over the years')\n\n# Show the legend\nax.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/29.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nIn which year did the number of tourists peaked in the given chart?\n\n<<<CHOICES>>>\n[2018, 2019, 2020, 2021] \n<<<CHOICES>>>\n\nThe question asks for the year which had the highest number of tourists. Looking at the chart above, the peak of the \"Number of Tourists\" line chart is in the year 2019. Hence the answer is 2019.\n\nAnswer: 2019",
+        "image": "line_charts/line_charts_visual_linguistic/test/29.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-31",
+        "question": "Is Movie A's rating higher than its budget?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the python program as per your requirement:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Movie Ratings\nratings = [3.1, 4.5, 4.2, 3.8, 4.7, 4.1, 3.9, 4.4, 4.3]\n\n# Movie Box Office Revenues ($M)\nrevenues = [100, 150, 120, 130, 160, 140, 110, 155, 125]\n\n# Movie Runtimes (Minutes)\nruntimes = [120, 140, 135, 130, 150, 132, 125, 145, 140]\n\n# Movie Budgets ($M)\nbudgets = [100, 200, 150, 120, 210, 130, 110, 180, 150]\n\nmovies=[\"Movie A\", \"Movie B\", \"Movie C\", \"Movie D\", \"Movie E\", \"Movie F\", \"Movie G\", \"Movie H\", \"Movie I\"]\n\nplt.figure(figsize=(10,5))\n\nplt.scatter(movies, ratings, marker='o', color='r', label=\"Ratings\")\nplt.scatter(movies, revenues, marker='v', color='g', label=\"Revenues($M)\")\nplt.scatter(movies, runtimes, marker='s', color='b', label=\"Runtimes(minutes)\")\nplt.scatter(movies, budgets, marker='D', color='c', label=\"Budgets($M)\")\n\nplt.xlabel('Movies')\nplt.xticks(rotation=45)\nplt.ylabel('Values')\nplt.title('Movies')\nplt.legend()\nplt.grid(True)\nplt.tight_layout()\nplt.savefig('line_charts/line_charts_visual_linguistic/test/31.png')\nplt.show()\n```\nScenario: The scatter plot shows 4 different series of data for 9 different movies. The data includes the movie rating, revenue in millions, runtime in minutes, and budget in millions.\n\n<<<QUESTION>>>Is Movie A's rating higher than its budget?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: In the scatter plot, the red marker represents the movie ratings and the cyan marker represents the movie budgets. If we compare two markers for Movie A, we see that the budget (around 100 $M) is much higher than the rating (around 3.1), \n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/31.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-32",
+        "question": "Does the number of tourists increase each year?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the line chart\nyears = list(range(2010, 2021))\ntourists_count = [5, 8, 10, 12, 15, 18, 20, 25, 28, 30, 33]\n\n# Create the line chart\nplt.figure(figsize=(10, 6))\nplt.plot(years, tourists_count, marker='o', label='Tourists Count')\n\n# Setting the labels and title\nplt.xlabel('Year', fontsize=12)\nplt.ylabel('Number of Tourists (in Millions)', fontsize=12)\nplt.title('Number of Tourists Over the Years', fontsize=15)\nplt.grid(True)\nplt.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/32.png')\n\n# Display the plot\nplt.show()\n```\n\n<<<QUESTION>>>\nDoes the number of tourists increase each year?\n    \n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the 'tourists_count' list, we can see that the number of tourists does indeed increase each year.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/32.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-34",
+        "question": ": Did Python's popularity index increase from 2020 to 2021?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python program.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nlanguages = ['Python', 'Java', 'C++', 'JavaScript', 'C#', 'Ruby', 'Swift', 'Go', 'Kotlin', 'Rust']\npopularity_2020 = [100, 95.3, 87.5, 79.7, 77.5, 74.2, 71.5, 69.7, 67.8, 65]\npopularity_2021 = [101, 96.5, 86, 81, 76, 73.5, 72, 68.5, 68, 66]\n\nplt.figure(figsize=(10, 6))\n\n# Plotting\nplt.scatter(languages, popularity_2020, marker='o', label='2020')\nplt.scatter(languages, popularity_2021, marker='v', label='2021')\n\n# Title, labels, and legend\nplt.title('Languages Popularity')\nplt.xlabel('Languages')\nplt.ylabel('Popularity Index')\nplt.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/34.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>: Did Python's popularity index increase from 2020 to 2021?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nSince we're looking whether Python's popularity index increased from 2020 to 2021, we just need to examine the first value from our popularity lists (since Python is the first in our language list).\n\nFor 2020, Python's popularity index was 100, and for 2021, Python's popularity index was 101.\n\nSo, our Answer is Yes.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/34.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-35",
+        "question": "Based on the line chart, has the production of rice and wheat been consistent over the years?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the line chart\nyears = list(range(2000, 2021))\nwheat_production = [65034, 67890, 69600, 70678, 71540, 72340, 73590, 74520, 75000, 75010, 75550, 75980, 76543, 77776, 77560, 78050, 78500, 79033, 79500, 80050, 80200]\ncorn_production = [98200, 99050, 99500, 100000, 100250, 100500, 101000, 101400, 101600, 101800, 102000, 102300, 102680, 102990, 103300, 103500, 103800, 104000, 104350, 104700, 105000]\npotato_production = [35079, 37826, 41000, 42500, 43500, 44500, 45000, 45500, 46000, 46500, 47000, 47500, 48000, 48500, 49000, 49500, 50000, 50500, 50700, 51000, 51500]\nrice_production = [68132, 69034, 70000, 71000, 71850, 72400, 72900, 73459, 74000, 74500, 75000, 75500, 76000, 76500, 77000, 77500, 78000, 78500, 79000, 79500, 80000]\nsoybean_production = [75000, 76000, 77000, 78000, 79000, 80000, 81000, 82000, 83000, 84000, 85000, 86000, 87000, 88000, 89000, 90000, 91000, 92000, 93000, 94000, 95000]\n\nplt.figure(figsize=(12, 6))\n\n# Plotting the lines\nplt.plot(years, wheat_production, marker='o', color='#20aa30', label='Wheat')\nplt.plot(years, corn_production, marker='o', color='#325722', label='Corn')\nplt.plot(years, potato_production, marker='o', color='#efc93c', label='Potato')\nplt.plot(years, rice_production, marker='o', color='#20B2AA', label='Rice')\nplt.plot(years, soybean_production, marker='o', color='#FFFF00', label='Soybean')\n\nplt.xlabel('Years', fontsize=14)\nplt.ylabel('Production in thousands of tonnes', fontsize=14)\nplt.title('Agriculture Production over the years', fontsize=16)\nplt.legend(loc='upper left')\n\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/35.png')\nplt.show()\n```\n\n<<<QUESTION>>> Based on the line chart, has the production of rice and wheat been consistent over the years?\n\n<<<CHOICES>>> ['Yes', 'No'] <<<CHOICES>>>\n\nStep 1: Observe the lines representing rice and wheat.\n\nStep 2: Notice if these lines are increasing or staying steady.\n\nStep 3: A consistent production would mean the line is steady and hasn't decreased or increased significantly.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/35.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-36",
+        "question": "Which type of car shows an overall increase in sales from 2015 to 2020?",
+        "answer": "SUV",
+        "choices": [
+            "Sedan",
+            "Coupe",
+            "SUV",
+            "Truck"
+        ],
+        "gpt_response": "Here's a python program that creates a line chart with the constraints provided, and also a relevant multiple choice question.\n\n```python\nimport matplotlib.pyplot as plt\n\n# The data for car purchase\nyear = [2015, 2016, 2017, 2018, 2019, 2020]\nsedan = [25, 30, 27, 22, 21, 19]\ncoupe = [15, 17, 16, 20, 21, 23]\nsuv = [45, 48, 53, 55, 59, 63]\ntruck = [15, 5, 4, 3, -1, -2]\n\n# Creating line chart\nplt.figure(figsize=[10,6])\nplt.plot(year, sedan, color='#741799', marker='o', label='Sedan')\nplt.plot(year, coupe, color='#295794', marker='o', label='Coupe')\nplt.plot(year, suv, color='#D62728', marker='o', label='SUV')\nplt.plot(year, truck, color='#2CA02C', marker='o', label='Truck')\n\nplt.title('Number of Cars Sold Over the Years')\nplt.xlabel('Year')\nplt.ylabel('Number of Cars (in thousands)')\nplt.legend(loc=\"best\")\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/36.png')\n\n```\n<<<QUESTION>>>\nWhich type of car shows an overall increase in sales from 2015 to 2020?\n\n<<<CHOICES>>>\n['Sedan', 'Coupe', 'SUV', 'Truck']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the chart, it's clear that the number of SUVs sold each year has been increasing every year. All other types of automobiles show a decrease or fluctuation with no clear trend.\n  \nAnswer: SUV",
+        "image": "line_charts/line_charts_visual_linguistic/test/36.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-37",
+        "question": "How has the popularity of Spanish changed from 2016 to 2019 according to the chart?",
+        "answer": "It increased by 60",
+        "choices": [
+            "It decreased by 60",
+            "It increased by 60",
+            "It remained the same",
+            "There is no data for Spanish in the chart"
+        ],
+        "gpt_response": "Here is your Python program which uses Matplotlib to create a line chart that shows the popularity of different languages over 4 years:\n\n```python\nimport matplotlib.pyplot as plt\n\nlanguages = ['English', 'Chinese', 'Spanish', 'Arabic', 'Hindi']\npopularity_2016 = [950, 1250, 480, 420, 640]\npopularity_2017 = [980, 1300, 500, 440, 650]\npopularity_2018 = [1000, 1350, 520, 460, 660]\npopularity_2019 = [1020, 1400, 540, 480, 670]\n\nplt.figure(figsize=[10,8])\nplt.plot(languages, popularity_2016, marker='o', color='#5a102c', label=\"2016\")\nplt.plot(languages, popularity_2017, marker='o', color='b', label=\"2017\")\nplt.plot(languages, popularity_2018, marker='o', color='g', label=\"2018\")\nplt.plot(languages, popularity_2019, marker='o', color='r', label=\"2019\")\n\nplt.title('Languages Popularity Over the Years')\nplt.xlabel('Language')\nplt.ylabel('Popularity')\nplt.legend()\nplt.savefig('line_charts/line_charts_visual_linguistic/test/37.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nHow has the popularity of Spanish changed from 2016 to 2019 according to the chart?\n\n<<<CHOICES>>>\n['It decreased by 60', 'It increased by 60', 'It remained the same', 'There is no data for Spanish in the chart']\n<<<CHOICES>>>\n\nThe question asks about the change in popularity for Spanish language from 2016 to 2019. According to the data in the plot, the popularity of Spanish in 2016 was 480 and in 2019, it was 540. Hence, we can see that it increased by 60 over these years.\n\nAnswer: It increased by 60",
+        "image": "line_charts/line_charts_visual_linguistic/test/37.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-38",
+        "question": "What was the change in global temperature in 2002 as per the scatterplot?",
+        "answer": "0.63",
+        "choices": [
+            0.54,
+            0.63,
+            0.61,
+            0.68
+        ],
+        "gpt_response": "Here is your Python program:\n\n```python\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\n# Create a data frame with some data on global warming\ndf = pd.DataFrame({\n    'Year': [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],\n    'GlobalTempChange': [0.54, 0.63, 0.61, 0.54, 0.68, 0.63, 0.66, 0.54, 0.64, 0.71]\n})\n\nfig = plt.figure(figsize=(10, 5))\n\n# Generate the scatter plot\nplt.scatter(df['Year'], df['GlobalTempChange'], marker='o')\n\n# Add some labels\nplt.title('Global Warming')\nplt.xlabel('Year')\nplt.ylabel('Change in Global Temperature (\u00b0C)')\n\n#Add legend\nplt.legend(['Global Temperature Change'])\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/38.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nWhat was the change in global temperature in 2002 as per the scatterplot?\n\n<<<CHOICES>>>\n[0.54, 0.63, 0.61, 0.68]\n<<<CHOICES>>>\n\nReasoning: \n\nLooking at our data frame, we have the 'Year' column representing the years from 2001 to 2010 and the 'GlobalTempChange' column representing the change in global temperature for each year. We are asked for the change in global temperature in the year 2002. By looking at the row with 'Year'==2002, we can see that the change in global temperature is 0.63.\n\nAnswer: 0.63",
+        "image": "line_charts/line_charts_visual_linguistic/test/38.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-39",
+        "question": "At which year was the robbery rate the lowest?",
+        "answer": "2018",
+        "choices": [
+            2000,
+            2002,
+            2004,
+            2006,
+            2008,
+            2010,
+            2012,
+            2014,
+            2016,
+            2018
+        ],
+        "gpt_response": "Here is a Python program that creates the requested line chart:\n\n```python\nimport matplotlib.pyplot as plt\nimport os \n\nyears  = [2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018]\nburglary_rate = [763.2, 746.0, 730.3, 733.1, 732.0, 701.0, 670.2, 610.0, 570.1, 500.0]\nrobbery_rate = [145.2, 133.1, 136.7, 128.6, 148.3, 119.1, 112.9, 102.2, 101.4, 80.8]\nvehicle_theft = [412.2, 400.0, 388.3, 377.8, 363.9, 359.0, 345.1, 336.3, 328.7, 300.6]\nassault_rate = [336.2, 320.0, 310.2, 306.1, 300.9, 299.0, 290.2, 280.0, 270.2, 260.0]\n\nplt.figure(figsize=(10,6))\nplt.plot(years, burglary_rate, marker='o', color='#20ae08', label='Burglary')\nplt.plot(years, robbery_rate, marker='o', color='#c5e4d6', label='Robbery')\nplt.plot(years, vehicle_theft, marker='o', color='#131377', label='Vehicle theft')\nplt.plot(years, assault_rate, marker='o', color='#d5a967', label='Assault')\nplt.title('Crime Rates per 1000 Residents 2000-2018')\nplt.xlabel('Year')\nplt.ylabel('Rate')\nplt.legend()\n\ndirectory = 'line_charts/line_charts_visual_linguistic/test/' \nif not os.path.exists(directory):\n    os.makedirs(directory)\n\nplt.savefig(directory + '39.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nAt which year was the robbery rate the lowest?\n    \n<<<CHOICES>>>\n[2000, 2002, 2004, 2006, 2008, 2010, 2012, 2014, 2016, 2018]\n<<<CHOICES>>>\n\nThis question requires looking at the robbery series on the line chart. By following the line for robbery rates, one can see where it reaches its lowest point. \n\nAnswer: 2018",
+        "image": "line_charts/line_charts_visual_linguistic/test/39.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-40",
+        "question": "Are fruits consumed in greater quantity than meat over the 5 days period?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code to generate a scatter plot with Matplotlib. For the \"Food\" topic, I will represent four types of food (fruits, vegetables, dairy, and meat) and their consumption quantity.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for four series\nfruits = [100, 150, 200, 250, 300]\nvegetables = [50, 100, 90, 200, 210]\ndairy = [300, 200, 150, 100, 50]\nmeat = [200, 250, 300, 350, 400]\ndays = range(1, 6)  # X axis values\n\nplt.figure(figsize=(10, 6))  # Set figure size to avoid label overlap\n\n# Plot 4 series with respective colors and markers\nplt.scatter(days, fruits, color='#a44b38', marker='o', label='Fruits')\nplt.scatter(days, vegetables, color='#f77f00', marker='s', label='Vegetables')\nplt.scatter(days, dairy, color='#2d7f5e', marker='v', label='Dairy')\nplt.scatter(days, meat, color='#0a9396', marker='*', label='Meat')\n\n# Set labels for the axes and the legend\nplt.xlabel('Days')\nplt.ylabel('Consumption Quantity (in grams)')\nplt.title('Food Consumption over 5 days')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/40.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nAre fruits consumed in greater quantity than meat over the 5 days period?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nThe generated scatter plot shows the consumption quantity of different types of food over a period of 5 days. While comparing fruits with meat, it is observed that fruits have been consumed lesser than meat over 5 consecutive days. This observation is made based on the markers on the plot where you can see that 'fruit' markers are always below the 'meat' markers.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/40.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-41",
+        "question": "Which party had the highest percentage in public opinion polls in 2005?",
+        "answer": "Party A",
+        "choices": [
+            "Party A",
+            "Party B",
+            "Party C",
+            "Party D"
+        ],
+        "gpt_response": "Here is a python program that meets your specifications:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Dataset\nyears = list(range(2000, 2020))\npartyA = [58, 50, 63, 48, 55, 65, 50, 48, 51, 52, 60, 59, 55, 51, 52, 59, 63, 60, 62, 58]\npartyB = [42, 50, 37, 52, 45, 35, 50, 52, 49, 48, 40, 41, 45, 49, 48, 41, 37, 40, 38, 42]\npartyC = [40, 35, 39, 42, 40, 48, 48, 42, 44, 45, 49, 47, 48, 46, 45, 49, 39, 40, 43, 47]\npartyD = [60, 65, 61, 58, 60, 52, 52, 58, 56, 55, 51, 53, 52, 54, 55, 51, 61, 60, 57, 53]\n\n# Create line chart\nplt.figure(figsize=(15, 10))\nplt.plot(years, partyA, marker='o', label=\"Party A\")\nplt.plot(years, partyB, marker='o', label=\"Party B\")\nplt.plot(years, partyC, marker='o', label=\"Party C\")\nplt.plot(years, partyD, marker='o', label=\"Party D\")\n\n# Adding chart elements\nplt.title('Public Opinion Polls from 2000 to 2019')\nplt.xlabel('Years')\nplt.ylabel('Percentage')\nplt.ylim(20, 70)\nplt.xticks(years)\nplt.legend()\nplt.grid(True)\n\n# Saving the chart\nplt.savefig('line_charts/line_charts_visual_linguistic/test/41.png')\nplt.show()\n```\n\n<<<QUESTION>>>Which party had the highest percentage in public opinion polls in 2005?\n<<<CHOICES>>>['Party A', 'Party B', 'Party C', 'Party D']\n<<<CHOICES>>>\n\nReasoning:\nThe answer to this question can be received by just a simple lookup in the 'partyA', 'partyB', 'partyC' and 'partyD' lists at the 5th index (zero-based indexing), corresponding to the year 2005.\n\nFinal Answer: \nAnswer: Party A\nCode to get the answer:\n\n```python\nparties = ['Party A', 'Party B', 'Party C', 'Party D']\npercentages = [partyA[5], partyB[5], partyC[5], partyD[5]]\nanswer = parties[percentages.index(max(percentages))]\nprint('Answer:', answer)\n```\nThis code creates a list 'percentages' of the poll percentage of all parties in 2005, and the index of the maximum value in 'percentages' is used to get the party with the highest percentage from the 'parties' list.",
+        "image": "line_charts/line_charts_visual_linguistic/test/41.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-42",
+        "question": "What was the gross income (in millions) of Movie 4 in the 9th year?",
+        "answer": "64",
+        "choices": [
+            59,
+            63,
+            67,
+            69
+        ],
+        "gpt_response": "Sure, Here is the code.\n\n```python\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# Create data\nx = np.arange(0,10,1)\ny1 = np.array([18, 23, 28, 33, 38, 43, 48, 53, 58, 63])\ny2 = np.array([20, 25, 30, 35, 40, 45, 50, 55, 60, 65])\ny3 = np.array([22, 27, 32, 37, 42, 47, 52, 57, 62, 67])\ny4 = np.array([24, 29, 34, 39, 44, 49, 54, 59, 64, 69])\ny5 = np.array([26, 31, 36, 41, 46, 51, 56, 61, 66, 71])\n\n# Plot data\nplt.figure(figsize=[15,10])\nplt.scatter(x, y1, color='#5ed4b2', label=\"Movie 1\")\nplt.scatter(x, y2, color='#451000', label=\"Movie 2\")\nplt.scatter(x, y3, color='#b0e7c2', label=\"Movie 3\")\nplt.scatter(x, y4, color='#df4e28', label=\"Movie 4\")\nplt.scatter(x, y5, color='#000000', label=\"Movie 5\")\n\n# Add labels and legend\nplt.title('Movies')\nplt.ylabel('Gross income (in millions)')\nplt.xlabel('Time (in years)')\nplt.legend(loc=\"upper left\")\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/42.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nWhat was the gross income (in millions) of Movie 4 in the 9th year?\n  \n<<<CHOICES>>>\n[59, 63, 67, 69]\n<<<CHOICES>>>\n\nThe gross income data for the movies is explicitly given on the y-axis in the scatter plot. For Movie 4, in the 9th year (x = 9), we can visually verify from the scatter plot that the gross income was 64 million.\n\nAnswer: 64\n",
+        "image": "line_charts/line_charts_visual_linguistic/test/42.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-43",
+        "question": "Is the `USA` series represented in the color `#a1e97b`?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your python program.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the 4 different series\nusa = [10, 20, 30, 40, 50]\nchina = [50, 40, 30, 20, 10]\nrussia = [20, 30, 20, 30, 20]\nindia = [40, 30, 20, 40, 30]\n\n# Creating scatter plot\nfig, ax = plt.subplots(figsize=(15, 10))\n\n# Scatter plots for each country\nax.scatter(range(len(usa)), usa, c='#a1e97b', marker='o', label='USA')\nax.scatter(range(len(china)), china, c='#043b66', marker='x', label='China')\nax.scatter(range(len(russia)), russia, c='#a3c65c', marker='x', label='Russia')\nax.scatter(range(len(india)), india, c='#89f86b', marker='x', label='India')\n\nax.set_title('Scatter Plot representing some data of 4 countries')\nax.set_xlabel('Time')\nax.set_ylabel('Values')\nax.legend()\n\n# Save plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/43.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIs the `USA` series represented in the color `#a1e97b`?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: \nThe color for the `USA` series is set to `#a1e97b` in the line `ax.scatter(range(len(usa)), usa, c='#a1e97b', marker='o', label='USA')`. \n\nAnswer: Yes\n",
+        "image": "line_charts/line_charts_visual_linguistic/test/43.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-44",
+        "question": "In which season did the team score the highest average number of goals per match?",
+        "answer": "2020",
+        "choices": [
+            "2018",
+            "2019",
+            "2020"
+        ],
+        "gpt_response": "Sure, I will create a simple line chart about the average number of goals scored by a fictional football team over 3 seasons. The question will be regarding the interpretation of the chart.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Define seasons and scores\nseasons = [\"2018\", \"2019\", \"2020\"]\naverages = [2.5, 2.3, 2.8]\n\n# Create the line chart\nplt.figure(figsize=(10,5))\nplt.plot(seasons, averages, color='#6862a5', marker='o')\n\nplt.title(\"Average Number of Goals per Match by Season\")\nplt.xlabel(\"Season\")\nplt.ylabel(\"Average Goals\")\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/44.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nIn which season did the team score the highest average number of goals per match?\n\n<<<CHOICES>>>\n[\"2018\", \"2019\", \"2020\"]\n<<<CHOICES>>>\n\nReasoning:\nLooking at the line chart, we can see that the highest point on the graph, representing the highest average number of goals scored per match, corresponds to the season of 2020. \n\nAnswer: 2020",
+        "image": "line_charts/line_charts_visual_linguistic/test/44.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-45",
+        "question": "Was there a steady increase in the number of books published in literature from the year 2000 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python program that uses Matplotlib to generate a line chart, and the question.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the line chart\nyears = [2000, 2005, 2010, 2015, 2020]\nbooks_published = [30000, 45000, 60000, 75000, 100000] \n\n# Create a figure and a set of subplots\nfig, ax = plt.subplots(figsize=(10, 6))\n\n# Plot the data\nax.plot(years, books_published, marker='o')\n\n# Set the labels and title\nax.set_xlabel('Year')\nax.set_ylabel('Number of Books Published')\nax.set_title('Number of Books Published per Year in Literature')\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/45.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nWas there a steady increase in the number of books published in literature from the year 2000 to 2020?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\n1. The line chart represents the number of books published in literature per year from 2000 to 2020.\n2. Each year, the number of books published increases.\n3. Therefore, there is a steady increase in the number of books published in literature from 2000 to 2020.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/45.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-46",
+        "question": "Which month of 2019 had higher travel expenses compared to the same month in 2020?",
+        "answer": "'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'",
+        "choices": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "gpt_response": "Here is your Python code to meet all the requirements:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Defining data\nmonths = [\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"]\ntravel_expense_2019 = [200, 250, 300, 350, 400, 500, 600, 700, 800, 900, 1000, 1200]\ntravel_expense_2020 = [150, 200, 250, 300, 350, 500, 550, 600, 650, 700, 750, 800]\n\n# Creating the figure and the axes\nfig, ax = plt.subplots(figsize=(12, 6))  # Setting a big enough size\n\n# Plotting the data\nax.plot(months, travel_expense_2019, color=\"#b03a96\", marker=\"o\", label=\"Travel Expense 2019\")\nax.plot(months, travel_expense_2020, color=\"#8e5abd\", marker=\"o\", label=\"Travel Expense 2020\")\n\n# Setting the legend\nax.legend()\n\n# Setting the title and labels\nax.set_title(\"Monthly Travel Expense Comparison (2019 vs 2020)\")\nax.set_xlabel(\"Month\")\nax.set_ylabel(\"Expense in $\")\n\n# Saving the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/46.png', bbox_inches=\"tight\")\n\n# Showing the plot\nplt.show()\n```\n\n<<<QUESTION>>>\nWhich month of 2019 had higher travel expenses compared to the same month in 2020?\n\n<<<CHOICES>>>\n['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\n<<<CHOICES>>>\n\nReasoning:\nThe question asks for the month in 2019 that had higher travel expenses compared to the same month in 2020. By observing the line chart, it could be noticed that all the months from January to December in 2019 have higher expenses compared to the same months in 2020. The markers for the 2019 travel expenses plot are always above the markers for the 2020 travel expenses plot.\n\nAnswer: 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'",
+        "image": "line_charts/line_charts_visual_linguistic/test/46.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-47",
+        "question": "Does the Chevrolet Bolt EV has higher miles per gallon in October than the Ford Focus?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Car models \nmodels = ['Tesla Model S', 'BMW X1', 'Chevrolet Bolt EV', 'Ford Focus', 'Toyota Corolla']\n\n# Miles per gallon for each car model in different months\ntesla = [101, 102, 103, 102, 102]\nbmw = [23, 24, 25, 24, 25]\nchevrolet = [127, 128, 129, 130, 130]\nford = [27, 28, 29, 29, 30]\ntoyota = [30, 31, 32, 33, 33]\n\n# Months\nmonths = ['June', 'July', 'August', 'September', 'October']\n\nplt.figure(figsize=(10,6))\n\nplt.plot(months, tesla, label=models[0], marker='o')\nplt.plot(months, bmw, label=models[1], marker='o')\nplt.plot(months, chevrolet, label=models[2], marker='o')\nplt.plot(months, ford, label=models[3], marker='o')\nplt.plot(months, toyota, label=models[4], marker='o')\n\nplt.xlabel('Months')\nplt.ylabel('Miles Per Gallon')\nplt.title('Miles Per Gallon Of Different Car Models Over Time')\nplt.legend()\nplt.grid(True)\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/47.png')\nplt.show()\n```\n\n<<<QUESTION>>> Does the Chevrolet Bolt EV has higher miles per gallon in October than the Ford Focus?\n\n<<<CHOICES>>> ['Yes', 'No']\n<<<CHOICES>>>\n\nThe miles per gallon of Chevrolet Bolt EV in October is given by `chevrolet[-1]` which is 130. The miles per gallon of Ford Focus in October is given by `ford[-1]` which is 30. So, comparing these two values, we can answer the question.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/47.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-48",
+        "question": "Did the popularity of the Persian cat breed increase continually from 2010 to 2020?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is a Python program using the matplotlib library to create a line chart with the given constraints:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the chart\nyears = list(range(2010, 2021))\ncat_breeds = {\"Ragdoll\": [10, 12, 15, 18, 20, 18, 19, 21, 23, 22, 26],\n              \"British Shorthair\": [12, 15, 16, 17, 16, 15, 18, 20, 22, 25, 26],\n              \"Persian\": [14, 15, 17, 19, 18, 20, 18, 19, 20, 21, 23],\n              \"Siamese\": [8, 9, 10, 12, 14, 15, 17, 18, 17, 16, 17]}\ncolors = ['#7d5df7', '#b6be91', '#0dc222', '#f7347a']\n\nfig, ax = plt.subplots(figsize=(10, 6))\n\nfor breed, color in zip(cat_breeds, colors):\n    ax.plot(years, cat_breeds[breed], marker='o', linestyle='-', color=color, label=breed)\n\nax.set_xlabel('Years', fontsize=14)\nax.set_ylabel('Number of Cats (in thousands)', fontsize=14)\nax.set_title('Popularity of Cat Breeds per year', fontsize=16)\nax.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/48.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nDid the popularity of the Persian cat breed increase continually from 2010 to 2020?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nFrom the plot, we see that the number of Persian cats increased until 2019 but then it decreased to 23 thousand in 2020. So the answer to if the popularity of the Persian breed increased continually is No as there is one drop in 2020.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/48.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-50",
+        "question": "Based on the chart, which mode of transport shows a steady increase in travel distance over the weeks?",
+        "answer": "'Train Travel'",
+        "choices": [
+            "Bus Travel",
+            "Car Travel",
+            "Train Travel"
+        ],
+        "gpt_response": "Here is a Python program using matplotlib to create a scatter plot:\n\n```python\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nweeks = np.array([1, 2, 3, 4, 5])\n\n# Defining data sets\nbus_travel = np.array([20, 30, 40, 35, 50])\ncar_travel = np.array([15, 25, 35, 45, 55])\ntrain_travel = np.array([40, 44, 48, 52, 56])\n\nfig = plt.figure(figsize=(10, 6))\n\nplt.scatter(weeks, bus_travel, c='#f9e76e', marker='o', label='Bus Travel')\nplt.scatter(weeks, car_travel, c='#e8f078', marker='s', label='Car Travel')\nplt.scatter(weeks, train_travel, c='#5d26ee', marker='^', label='Train Travel')\n\nplt.title(\"Weekly Travel Distance (in miles) for Different Modes of Transport\")\nplt.xlabel(\"Weeks\")\nplt.ylabel(\"Miles\")\nplt.legend()\n\nplt.grid(True)\n\n# Save figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/50.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the chart, which mode of transport shows a steady increase in travel distance over the weeks?\n\n<<<CHOICES>>>\n['Bus Travel', 'Car Travel', 'Train Travel'] \n<<<CHOICES>>>\n\nThe question is about observing the trend in the three scatter plots. It requires a student to look at the trend of increase in distance travelled across weeks for each mode of transportation.\n\nFrom the data provided in the scatter plot, we can see that 'Bus Travel' and 'Car Travel' do not show a steady increase - their distance travelled fluctuates over weeks. However, 'Train Travel' shows a steady increase with each week.\n\nAnswer: 'Train Travel'",
+        "image": "line_charts/line_charts_visual_linguistic/test/50.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-51",
+        "question": "In which year was the Dairy Production highest according to the line chart?",
+        "answer": "2010",
+        "choices": [
+            2001,
+            2005,
+            2010,
+            2008
+        ],
+        "gpt_response": "Here's your Python script:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Sample data\nyears = list(range(2000, 2011))\ncereal_production = [120, 130, 150, 140, 155, 165, 170, 165, 175, 180, 190]   # million tonnes\ndairy_production = [200, 210, 215, 205, 220, 225, 230, 235, 240, 245, 250]  # million tonnes\nmeat_production = [80, 85, 90, 95, 95, 100, 105, 105, 110, 115, 120]  # million tonnes\n\n# Create the plot\nplt.figure(figsize=(10, 6))\nplt.plot(years, cereal_production, marker='o', label='Cereal Production (Million Tonnes)')\nplt.plot(years, dairy_production, marker='o', label='Dairy Production (Million Tonnes)')\nplt.plot(years, meat_production, marker='o', label='Meat Production (Million Tonnes)')\n\n# Set the labels, legends and title\nplt.xlabel('Year')\nplt.ylabel('Production (Million Tonnes)')\nplt.title('Trends in Agriculture Production')\nplt.legend()\n\n# Save the plot in the specified path\nplt.savefig('line_charts/line_charts_visual_linguistic/test/51.png')\n\nplt.show()\n```\n<<<QUESTION>>>\nIn which year was the Dairy Production highest according to the line chart?\n\n<<<CHOICES>>>\n[2001, 2005, 2010, 2008]\n<<<CHOICES>>>\n\nReasoning step-by-step: \nThe question is asking for the year with the highest Dairy Production. By observing the line chart, the line representing Dairy Production increases generally over the years, with it reaching its peak in 2010.\n\nAnswer: 2010",
+        "image": "line_charts/line_charts_visual_linguistic/test/51.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-52",
+        "question": "Is the production of solar energy highest in 2020?",
+        "answer": "<<<QUESTION>>>",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code to generate the required Matplotlib line chart:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = [2000, 2005, 2010, 2015, 2020]\nsolar_energy_production = [0.7, 1.2, 7, 227.8, 724.1]\n\nplt.figure(figsize=(10, 5))\n\n# Line Plot\nplt.plot(years, solar_energy_production, color='#8659bd', marker='o', label='Solar Energy')\n\n# Labeling the plot\nplt.title('Solar Energy Production Over the Years')\nplt.xlabel('Years')\nplt.ylabel('Energy Production (in PetaWatt-Hour)')\n\n# Adding legend\nplt.legend()\n\n# Saving the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/52.png')\n\nplt.show()\n```\n\nQuestion, Choices, and Answer:\n\n<<<QUESTION>>>\nIs the production of solar energy highest in 2020?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: \n\nThe plot represents the production of solar energy from 2000 to 2020. According to the data represented, the production of solar energy was progressively increasing year by year. It can be observed that the production is highest in the year 2020.\n\nAnswer: Yes.",
+        "image": "line_charts/line_charts_visual_linguistic/test/52.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-53",
+        "question": "Was the price of 'Condos' consistently increasing every year from 2020 to 2024?",
+        "answer": "Yes.",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's an example Python program that generates the data and visualizes it with Matplotlib:\n\n```python\nimport matplotlib.pyplot as plt\n\nx = [2020, 2021, 2022, 2023, 2024]\ncondo_prices = [500000, 600000, 700000, 800000, 900000]\nhouse_prices = [700000, 800000, 900000, 1000000, 1100000]\ntownhouse_prices = [600000, 650000, 700000, 750000, 800000]\nco_op_prices = [300000, 320000, 340000, 360000, 380000]\nmulti_family_prices = [1000000, 1050000, 1100000, 1150000, 1200000]\n\nplt.figure(figsize=(10,5))\nplt.plot(x, condo_prices, marker='o', color='#d67978', label='Condos')\nplt.plot(x, house_prices, marker='o', color='#b20e47', label='Houses')\nplt.plot(x, townhouse_prices, marker='o', color='#29fc95', label='Townhouses')\nplt.plot(x, co_op_prices, marker='o', color='#29fc95', label='Co-ops')\nplt.plot(x, multi_family_prices, marker='o', color='#29fc95', label='Multi-family')\n\nplt.title(\"Real Estate Prices Over Time\")\nplt.xlabel('Year')\nplt.ylabel('Price in $1,000,000')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/53.png')\nplt.show()\n```\nThis graph displays the prices of different types of real estate properties over a five year projection.\n\n<<<QUESTION>>>\nWas the price of 'Condos' consistently increasing every year from 2020 to 2024?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nTo answer this question, you could examine the 'Condos' series on the plot. Here, it appears that the price is increasing each year, starting from $500,000 in 2020 and reaching $900,000 in 2024.\n\nAnswer: Yes.",
+        "image": "line_charts/line_charts_visual_linguistic/test/53.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-54",
+        "question": "Did the Cat's food consumption increase every week?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Python Code:\n```python\nimport matplotlib.pyplot as plt \n\n# Animals data\nanimals = ['Cat', 'Dog', 'Cow', 'Sheep']\n\n# Their weekly food consumption in kg\nfood_consumption_week1 = [3, 10, 60, 30]\nfood_consumption_week2 =  [5, 15, 70, 40]\nfood_consumption_week3 =  [4, 14, 65, 34]\nfood_consumption_week4 =  [6, 12, 75, 33]\n\nplt.figure(figsize=[10,5])\n\nplt.plot(animals, food_consumption_week1, marker='o', label='Week 1')\nplt.plot(animals, food_consumption_week2, marker='o', label='Week 2')\nplt.plot(animals, food_consumption_week3, marker='o', label='Week 3')\nplt.plot(animals, food_consumption_week4, marker='o', label='Week 4')\n\nplt.xlabel('Animals')\nplt.ylabel('Food Consumption (kg)')\nplt.title('Animal Food Consumption Per Week')\nplt.legend(loc=\"upper left\")\n\n# Save the chart\nplt.savefig('line_charts/line_charts_visual_linguistic/test/54.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nDid the Cat's food consumption increase every week?\n\n<<<CHOICES>>>\n[\"Yes\", \"No\"]\n<<<CHOICES>>>\n\nWhile the cat's food consumption increased from 3kg in the first week to 5kg in the second week, it decreased to 4kg in the third week. Hence, it did not increase every week.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/54.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-55",
+        "question": "From the scatter plot produced above, estimate which month experiences the highest ocean water level?",
+        "answer": "'July'",
+        "choices": [
+            "January",
+            "May",
+            "July",
+            "October"
+        ],
+        "gpt_response": "Here is a Python program that creates a scatter plot with 4 different series of data related to the subject of water:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data values\nx = list(range(1, 13))\ny1 = [30, 45, 60, 65, 70, 75, 80, 80, 65, 50, 35, 20]\ny2 = [20, 30, 50, 55, 60, 45, 50, 60, 45, 30, 20, 15]\ny3 = [15, 20, 25, 30, 35, 40, 50, 50, 40, 25, 20, 10]\ny4 = [10, 15, 20, 30, 25, 20, 30, 35, 25, 20, 15, 10]\n\n# Creating figure\nfig = plt.figure(figsize = (10, 5))\n\n# Creating scatter plots\nplt.scatter(x, y1, color ='#93e6a7', label =\"Ocean water level\")\nplt.scatter(x, y2, color ='#059e31', label =\"Groundwater level\")\nplt.scatter(x, y3, color ='#e67300', label =\"Reservoir water level\")\nplt.scatter(x, y4, color ='#001be6', label =\"Rainfall\")\n\n# Create a legend\nplt.legend(loc =\"upper right\")\n\n# Create titles and labels\nplt.title(\"Water levels and rainfall by month\")\nplt.xlabel(\"Month\")\nplt.ylabel(\"Water level / Rainfall (mm)\")\n\n# Saving image\nplt.savefig('line_charts/line_charts_visual_linguistic/test/55.png')\n\nplt.show()\n```\n<<<QUESTION>>>\nFrom the scatter plot produced above, estimate which month experiences the highest ocean water level?\n<<<CHOICES>>>\n['January', 'May', 'July', 'October']\n<<<CHOICES>>>\n\nLooking at the scatter plot, the green dots representing ocean water level peak around the 6th or 7th month, which correspond to June and July. Therefore, July seems to see the highest ocean water level.\n\nAnswer: 'July'",
+        "image": "line_charts/line_charts_visual_linguistic/test/55.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-57",
+        "question": "What type of land usage has remained almost constant throughout the years according to the line chart?",
+        "answer": "'Industrial land'",
+        "choices": [
+            "Forest land",
+            "Agriculture land",
+            "Residential land",
+            "Commercial land",
+            "Industrial land"
+        ],
+        "gpt_response": "Here's an example using Matplotlib to create a line chart showing land usage over different times. Note that this is a pretty much basic mock data and does not have any real-world meaning.\n\n```python\nimport matplotlib.pyplot as plt\n\n# List of years\nyears = list(range(2000, 2021))\n\n# Different series of data relating to land (here it's mock data)\nforest_land = [400, 390, 395, 375, 380, 385, 390, 400, 405, 420, 435, 450, 445, 430, 425, 435, 450, 455, 460, 455, 450]\nagriculture_land = [200, 210, 215, 217, 220, 225, 230, 235, 240, 245, 250, 255, 260, 265, 270, 275, 280, 285, 290, 295, 300]\nresidential_land = [100, 120, 130, 140, 150, 160, 170, 175, 180, 190, 195, 205, 210, 215, 220, 230, 240, 245, 250, 255, 260]\ncommercial_land = [50, 55, 60, 70, 75, 80, 90, 95, 100, 110, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170]\nindustrial_land = [50, 53, 56, 59, 62, 65, 68, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135]\n\nplt.figure(figsize=(10,6))\n\n# Plotting the data\nplt.plot(years, forest_land, marker='o', color='#b702d9', label='Forest land')\nplt.plot(years, agriculture_land, marker='o', color='blue', label='Agriculture land')\nplt.plot(years, residential_land, marker='o', color='green', label='Residential land')\nplt.plot(years, commercial_land, marker='o', color='red', label='Commercial land')\nplt.plot(years, industrial_land, marker='o', color='cyan', label='Industrial land')\n\nplt.title('Land Usage over time')\nplt.xlabel('Year')\nplt.ylabel('Land in sq km')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/57.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nWhat type of land usage has remained almost constant throughout the years according to the line chart?\n\n<<<CHOICES>>>\n['Forest land', 'Agriculture land', 'Residential land', 'Commercial land', 'Industrial land']\n<<<CHOICES>>>\n\nReasoning:\nFrom the line chart, the lines representing 'Forest land', 'Agriculture land', and 'Residential land' have a certain increase over the years, whereas, 'Commercial land' tends to have a sharper increase.\nThe 'Industrial land' line however, seems to have a steady increase, suggesting it remained almost constant throughout the years.\n\nAnswer: 'Industrial land'",
+        "image": "line_charts/line_charts_visual_linguistic/test/57.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-58",
+        "question": "Was the count of Bikes more than Cars at any given time?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's the Python code to create a scatter plot using Matplotlib, the data would be distributed between two types of Transportation: Cars and Bikes:\n\n```python\nimport matplotlib.pyplot as plt\n\ncars_data = [45, 31, 52, 27, 48]\nbikes_data = [29, 38, 17, 35, 20]\n\nplt.figure(figsize=(10,6))\nplt.scatter(range(len(cars_data)), cars_data, c='#823eff', marker='o', label='Cars')\nplt.scatter(range(len(bikes_data)), bikes_data, c='green', marker='x', label='Bikes')\n\nplt.title('Transportation')\nplt.xlabel('Time (in hours)')\nplt.ylabel('Count')\nplt.legend()\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/58.png')\nplt.show()\n```\n\n<<<QUESTION>>> \nWas the count of Bikes more than Cars at any given time?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: We can check the data arrays `cars_data` and `bikes_data`. For every corresponding time index if the count of bikes is higher than the count of cars then the answer would be 'Yes'. If not, then the answer would be 'No'.\n\nAnswer: No.",
+        "image": "line_charts/line_charts_visual_linguistic/test/58.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-60",
+        "question": "Did the yield for all three crops consistently increase over the years from 2000 to 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code to generate the requested line chart:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = list(range(2000, 2021))\nwheat_yield = [2.5, 2.6, 2.7, 2.8, 2.9, 3.0, 3.1, 3.2, 3.3, 3.5, 3.6, 3.7, 3.8, 3.9, 4, 4.1, 4.2, 4.3, 4.4, 4.5, 4.6]\nrice_yield = [6.7, 6.9, 7.0, 7.2, 7.4, 7.6, 7.8, 8.0, 8.2, 8.4, 8.6, 8.8, 9.0, 9.2, 9.5, 9.7, 9.9, 10.1, 10.3, 10.5, 10.7]\ncorn_yield = [7.0, 7.2, 7.4, 7.6, 7.8, 8.0, 8.2, 8.4, 8.6, 8.8, 9.0, 9.2, 9.4, 9.6, 9.8, 10.0, 10.2, 10.4, 10.6, 10.8, 11.0]\n\n# Create line chart\nplt.figure(figsize=(10, 6))\nplt.plot(years, wheat_yield, color='#0c626d', marker = 'o', label='Wheat Yield (tons per hectare)')\nplt.plot(years, rice_yield, color='green', marker = 'o', label='Rice Yield (tons per hectare)')\nplt.plot(years, corn_yield, color='blue', marker = 'o', label='Corn Yield (tons per hectare)')\n\n# Labels and Title\nplt.title('Agriculture Yields Over Time')\nplt.xlabel('Year')\nplt.ylabel('Yield (tons per hectare)')\nplt.legend()\nplt.grid(True)\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/60.png')\nplt.show()\n```\n\n<<<QUESTION>>> Did the yield for all three crops consistently increase over the years from 2000 to 2020?\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the line chart, the yield for all three crops (Wheat, Rice, and Corn) increased every year from 2000 to 2020. There was no year where the yield decreased for any crop. \n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/60.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-61",
+        "question": "What was the global impact score (on the arbitrary scale) of World War II in its final year also known as 1945?",
+        "answer": "100",
+        "choices": [
+            "80",
+            "100",
+            "20",
+            "70"
+        ],
+        "gpt_response": "Here's a Python script using Matplotlib to create a scatter plot with three different series of data:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Historical events dataset\ndata = {\n    'Industrial Revolution': ([1760, 1840], [0, 20], '#f08b01'),\n    'World War I': ([1914, 1918], [50, 70], '#30cdb8'),\n    'World War II': ([1939, 1945], [80, 100], 'r')\n}\n\nfig, ax = plt.subplots(figsize=[10,6])\n\nfor event, (years, effects, color) in data.items():\n    ax.scatter(years, effects, label=event, color=color)\n\nax.set_xlabel('Year')\nax.set_ylabel('Global Impact (arbitrary scale)')\nax.set_title('Historical Events')\nax.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/61.png')\nplt.show()\n```\nThis scatter plot maps three significant historical events: the Industrial Revolution, World War I, and World War II. Each event has two data points corresponding to the start and end years, and the magnitude of their global impact has been visualized using an arbitrary scale.\n\n<<<QUESTION>>>\nWhat was the global impact score (on the arbitrary scale) of World War II in its final year also known as 1945?\n\n<<<CHOICES>>>\n['80', '100', '20', '70' ]\n<<<CHOICES>>>\n\nReasoning: The global impact score for World War II in its final year (1945) can be found by checking the y-coordinate of the final data point in the \"World War II\" series in the scatter plot.\n\nAnswer: 100",
+        "image": "line_charts/line_charts_visual_linguistic/test/61.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-62",
+        "question": "Was the sales of iPhone greater than Samsung in every year from 2007 to 2021?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the code to generate line chart according to provided constraints.\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2007, 2022))\niphone_sales = [1.39, 11.63, 20.73, 39.99, 72.29, 125.05, 150.26, 169.22, 231.22, 211.88, 216.76, 217.72, 185.92, 202.03, 217.88]\nsamsung_sales = [3.42, 16.13, 24.91, 23.36, 54.77, 82.54, 102.39, 120.15, 141.75, 155.83, 157.77, 163.88, 168.42, 172.13, 180.77]\nhuawei_sales = [0.0, 0.0, 0.0, 0.0, 5.58, 8.92, 12.11, 29.89, 39.42, 48.98, 60.42, 72.66, 81.82, 92.89, 101.11]\n\nplt.figure(figsize=(10,6))\nplt.plot(years, iphone_sales, marker='o', color='#9197c6', label='iPhone Sales (in Million)')\nplt.plot(years, samsung_sales, marker='o', color='#19c650', label='Samsung Sales (in Million)')\nplt.plot(years, huawei_sales, marker='o', color='red', label='Huawei Sales (in Million)')\n\nplt.xlabel('Years')\nplt.ylabel('Phone Sales (in Million)')\nplt.title('Phone Sales by manufacturers from 2007 to 2021')\nplt.legend()\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/62.png')\nplt.show()\n```\n<<<QUESTION>>>\nWas the sales of iPhone greater than Samsung in every year from 2007 to 2021?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nFrom the line chart, it can be seen that, iPhone sales were greater than Samsung in certain years but not in all. From 2007 to 2009, Samsung had higher sales than iPhone. From 2010 onwards, iPhone outpaced Samsung in sales. But again in 2020 and 2021, Samsung had higher sales than iPhone.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/62.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-63",
+        "question": "Which company has the highest growth in 2020 according to the scatter plot?",
+        "answer": "Amazon",
+        "choices": [
+            "Apple",
+            "Microsoft",
+            "Amazon",
+            "Google"
+        ],
+        "gpt_response": "Here is a Python program that uses Matplotlib to generate a scatter plot with four different lines of data. The topic of this line chart is \"Comparing Yearly Growth of Different Tech Companies\".\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2010, 2021))\n\n# These lines represent the year-to-year growth of different tech companies as a percentage\nApple = [15, 18, 17, 20, 15, 19, 16, 23, 24, 20, 22]\nMicrosoft = [10, 11, 12, 14, 11, 15, 14, 17, 20, 18, 19]\nAmazon = [21, 24, 25, 27, 29, 30, 32, 35, 37, 40, 43]\nGoogle = [13, 15, 14, 15, 17, 18, 20, 21, 22, 24, 25]\n\nplt.figure(figsize=(10,7))\n\nplt.scatter(years, Apple, color='#ba5eee', marker='o', label='Apple')\nplt.scatter(years, Microsoft, color='#c64208', marker='o', label='Microsoft')\nplt.scatter(years, Amazon, color='#1aabea', marker='o', label='Amazon')\nplt.scatter(years, Google, color='#3e9be0', marker='o', label='Google')\n\nplt.title('Comparing Yearly Growth of Different Tech Companies')\nplt.xlabel('Years')\nplt.ylabel('Percentage Growth')\nplt.legend(loc='upper left')\nplt.savefig('line_charts/line_charts_visual_linguistic/test/63.png')\nplt.show()\n```\n\n<<<QUESTION>>> Which company has the highest growth in 2020 according to the scatter plot?\n\n<<<CHOICES>>> ['Apple', 'Microsoft', 'Amazon', 'Google']\n\n<<<CHOICES>>>\n\nThe question is asking about the company that has the highest growth in 2020 according to the scatter plot. By checking the 2020 data on the plot, we can see that the point representing Amazon is higher than all the other points, which indicates that Amazon had the highest growth rate in 2020.\n\nAnswer: Amazon",
+        "image": "line_charts/line_charts_visual_linguistic/test/63.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-64",
+        "question": "Is Football the most popular sport according to the scatter plot?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your code \n\n```python\nimport matplotlib.pyplot as plt\n\n# Sports data\nsports = ['Football', 'Basketball', 'Baseball', 'Soccer', 'Cricket']\npopularity = [25, 20, 15, 10, 5]\n\n# Increase figure size\nplt.figure(figsize=[10,8])\n\n# Create a scatter plot\nplt.scatter(sports, popularity, color='#3f1691', marker='o')\n\n# Add title and labels\nplt.title('Popularity of Different Sports')\nplt.xlabel('Sports')\nplt.ylabel('Popularity Score')\n\n# show the legend\nplt.legend(['Popularity Score'], loc='upper right')\n\nplt.grid(True)\n\n# Save the chart\nplt.savefig('line_charts/line_charts_visual_linguistic/test/64.png')\nplt.show()\n```\n\n<<<QUESTION>>> \nIs Football the most popular sport according to the scatter plot?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning: \nBy looking at the scatter plot, you can see that Football has the highest popularity score of all the sports. Therefore, Football is the most popular sport according to the scatter plot.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/64.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-65",
+        "question": "Did Class B have a higher grade than Class A on Tuesday?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's a Python program to generate a matplotlib line chart for two different series of data. Let's say the two series of data represent the grades of two different classes, 'Class A' and 'Class B', over a period of seven days.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Days\ndays = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']\n\n# Grades for Class A\nclass_a_grades = [85, 90, 89, 92, 88, 95, 90]\n\n# Grades for Class B\nclass_b_grades = [80, 86, 85, 84, 88, 92, 86]\n\nplt.figure(figsize=(10,5))\n\n# Plotting the two series\nplt.plot(days, class_a_grades, color='#ee0c93', marker='o', label='Class A Grades')\nplt.plot(days, class_b_grades, color='#4374c7', marker='o', label='Class B Grades')\n\n# Making the chart more informative\nplt.title(\"Grades of Class A and B Over a Week\")\nplt.xlabel(\"Days\")\nplt.ylabel(\"Grades\")\nplt.legend()\n\n# Saving the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/65.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nDid Class B have a higher grade than Class A on Tuesday?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nOn Tuesday(Class A has a grade of 90 and Class B has a grade of 86. Comparing the numbers, Class A has a higher grade than Class B. \n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/65.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-66",
+        "question": "Did the crime rate in City 1 always stay above the crime rate in City 2 during the years 2000 to 2010?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's how you could do it:\n\nPython Code:\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = list(range(2000, 2011))\ncrime_rate_city1 = [400, 380, 390, 410, 420, 450, 430, 440, 460, 480, 500]\ncrime_rate_city2 = [350, 360, 370, 410, 420, 410, 400, 390, 400, 420, 430]\n\n# Create a figure\nplt.figure(figsize=(12, 6))\n\n# Plot data\nplt.plot(years, crime_rate_city1, color='#037bd1', marker='o', label='City 1')\nplt.plot(years, crime_rate_city2, color='#62e7ee', marker='o', label='City 2')\n\n# Add a legend\nplt.legend(loc='upper left')\n\n# Add labels and a title\nplt.xlabel('Year')\nplt.ylabel('Crime Rate')\nplt.title('Crime Rates in City 1 and City 2 from 2000 to 2010')\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/66.png')\n\n# Display the plot\nplt.show()\n```\n\n<<<QUESTION>>>\nDid the crime rate in City 1 always stay above the crime rate in City 2 during the years 2000 to 2010?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nLooking at the line chart, it can be seen that the crime rate of City 1 had been greater than the crime rate of City 2 for years 2000 to 2002. However, in year 2003, both cities had the same crime rate. After that, the crime rate in City 1 was again consistently higher than City 2. Therefore, it can't be said that the crime rate in City 1 has ALWAYS been higher.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/66.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-67",
+        "question": "From the line chart, what is the difference in sales between store 1 and store 2 in 2018?",
+        "answer": "20",
+        "choices": [
+            "10",
+            "20",
+            "30",
+            "40"
+        ],
+        "gpt_response": "Sure, here's a python program that achieves what you've asked for:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the line chart\nyears = [2016, 2017, 2018, 2019, 2020]\nstore1_sales = [230, 250, 280, 300, 320]\nstore2_sales = [200, 240, 260, 280, 310]\n\nplt.figure(figsize=(10,6))\n\n# Plotting the first line \nplt.plot(years, store1_sales, marker='o', label='Store 1 Sales')\n\n# Plotting the second line \nplt.plot(years, store2_sales, marker='s', label='Store 2 Sales')\n\n# Adding labels\nplt.xlabel('Years')\nplt.ylabel('Sales (in thousands)')\nplt.title('Stores Sales Over Years')\nplt.legend()\n\n# Saving the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/67.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>    \nFrom the line chart, what is the difference in sales between store 1 and store 2 in 2018?\n\n<<<CHOICES>>>\n[\"10\", \"20\", \"30\", \"40\"]\n<<<CHOICES>>>\n\nReasoning:\nIn 2018, store 1 had sales of 280 and store 2 had sales of 260. The difference is therefore 280 - 260 = 20.\n\nAnswer: 20",
+        "image": "line_charts/line_charts_visual_linguistic/test/67.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-68",
+        "question": "Did the investment in Vaccine Research exceed investment in Cancer Research in every year from 2010 to 2020?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your python code to generate the line chart:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = list(range(2010, 2021))\nvaccine_research = [10, 12, 15, 14, 18, 22, 24, 28, 30, 36, 40]\ncancer_research = [8, 9, 13, 16, 15, 19, 21, 24, 25, 27, 32]\ndiabetes_research = [6, 8, 9, 11, 10, 14, 15, 17, 20, 22, 28]\n\n# Plot\nplt.figure(figsize=(12,8))\nplt.plot(years, vaccine_research, color='#d4ed6d', marker='o', linestyle='dashed', linewidth=2, markersize=5, label=\"Vaccine Research\")\nplt.plot(years, cancer_research, color='#a76d81', marker='o', linestyle='dashed', linewidth=2, markersize=5, label=\"Cancer Research\")\nplt.plot(years, diabetes_research, color='#FF5733', marker='o', linestyle='dashed', linewidth=2, markersize=5, label=\"Diabetes Research\")\n\nplt.title('Investment in Medical Research (in billion $) from 2010 to 2020')\nplt.xlabel('Year')\nplt.ylabel('Investment in billion $')\nplt.legend()\nplt.grid(True)\n\n# Save figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/68.png')\n\nplt.show()\n```\n\n<<<QUESTION>>> \nDid the investment in Vaccine Research exceed investment in Cancer Research in every year from 2010 to 2020?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\n\nIn the generated plot, you can see that in the starting years, the investment in Vaccine Research is higher than the Cancer Research. But there's a time in the middle where investment in Cancer Research surpassed the Vaccine Research (2013). Later, Vaccine Research took the lead again. \n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/68.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-72",
+        "question": "Did the population of rhinos decrease from 2015 to 2019?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the python program.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019]\nelephants = [10000, 9500, 9000, 8400, 7000, 6500, 6400, 6000, 5200, 5000]\nrhinos = [5000, 4600, 4200, 3800, 3200, 2900, 2800, 2600, 2300, 2000]\nlions = [2000, 1900, 1600, 1300, 1000, 900, 800, 800, 750, 700]\n\n# Creating line chart\nplt.figure(figsize=[15,10])\nplt.plot(years, elephants, label='Elephants', marker='o')\nplt.plot(years, rhinos, label='Rhinos', marker='o')\nplt.plot(years, lions, label='Lions', marker='o')\n\n# Setting plot properties\nplt.title('Wildlife Conservation (2010-2019)')\nplt.xlabel('Years')\nplt.ylabel('Estimated Population')\nplt.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/72.png')\n\nplt.show()\n```\n\nHere is the math problem\n\n<<<QUESTION>>>\nDid the population of rhinos decrease from 2015 to 2019?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nThe population of rhinos in 2015 is 2900 and in 2019 is 2000. It is clear that the population decreased in this period.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/72.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-73",
+        "question": "In the scatter plot saved in 'line_charts/line_charts_visual_linguistic/test/73.png', which car type has the highest average price?",
+        "answer": "Convertible",
+        "choices": [
+            "Sedan",
+            "Hatchback",
+            "SUV",
+            "Convertible",
+            "Coupe",
+            "Van",
+            "Station Wagon"
+        ],
+        "gpt_response": "Sure, here is a Python program that meets all of the requirements.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\ncar_types = ['Sedan', 'Hatchback', 'SUV', 'Convertible', 'Coupe', 'Van', 'Station Wagon']\naverage_speeds = [120, 100, 140, 145, 150, 90, 115]\naverage_prices = [20000, 15000, 22000, 26000, 25000, 18000, 19000]\n\n# Create scatter plot\nplt.figure(figsize=(10,6))\nplt.scatter(car_types, average_speeds, color='#3cc0ce', marker='o', label='Average Speed (km/h)')\nplt.scatter(car_types, average_prices, color='#902473', marker='x', label='Average Price ($)')\n\n# Create labels, title and legend\nplt.xlabel('Car Type')\nplt.ylabel('Value')\nplt.title('Average Speed and Price of Different Types of Cars')\nplt.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/73.png')\nplt.show()\n```\n\nThis program creates a scatter plot representing average speed and price of different types of cars. The plot markers for average speed are represented by blue dots and for average price by purple crosses.\n\n<<<QUESTION>>>\nIn the scatter plot saved in 'line_charts/line_charts_visual_linguistic/test/73.png', which car type has the highest average price?\n<<<CHOICES>>>\n[\"Sedan\", \"Hatchback\", \"SUV\", \"Convertible\", \"Coupe\", \"Van\", \"Station Wagon\"]\n<<<CHOICES>>>\n\nLet's reason step-by-step to answer this question.\n\n1. We need to look at the scatter plot created by the code snippet.\n2. Each dot or cross on the scatter plot represents a type of car.\n3. We need to find the car type represented by the highest purple cross, which corresponds to the highest average price in dollars.\n4. Looking at the plot, we can see that the highest purple cross corresponds to the \"Convertible\".\n\nAnswer: Convertible",
+        "image": "line_charts/line_charts_visual_linguistic/test/73.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-74",
+        "question": "Is 'Flexibility routines' represented by the color '#0000ff'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Sure, here is the python program.\n\nPython Program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nx = list(range(1, 11))\ny1 = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]\ny2 = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]\ny3 = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]\n\n# Create the scatter plot\nplt.figure(figsize=(10, 5))\nplt.scatter(x, y1, color='#d16101', label='Cardio routines')\nplt.scatter(x, y2, color='#96cd11', label='Strength routines')\nplt.scatter(x, y3, color='#0000ff', label='Flexibility routines')\n\n# Labels and Legends\nplt.xlabel('Weeks')\nplt.ylabel('Routines Completed')\nplt.title('Fitness Over 10 Weeks')\nplt.legend()\n\n# Save the plot\nplt.savefig('line_charts/line_charts_visual_linguistic/test/74.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nIs 'Flexibility routines' represented by the color '#0000ff'?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nThe chart displays three different series of data representing cardio routines, strength routines and flexibility routines over a period of 10 weeks.\n\nAnalyzing the implemented code, it's observed that the color code for each series data is defined as follows:\n- '#d16101' for cardio routines\n- '#96cd11' for strength routines\n- '#0000ff' for flexibility routines\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/74.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-75",
+        "question": "Based on the line chart, which category of food had the maximum consumption in July?",
+        "answer": "Meat",
+        "choices": [
+            "Bread",
+            "Meat",
+            "Dairy",
+            "Fruits"
+        ],
+        "gpt_response": "Here is a Python script that generates a line chart using matplotlib, depicting four different series of data. \n\n```python\nimport matplotlib.pyplot as plt\n\n# Define the data\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', \n          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\nbread = [20, 30, 40, 40, 50, 70, 80, 80, 85, 85, 85, 100]\nmeat = [50, 60, 70, 70, 80, 210, 230, 230, 250, 250, 250, 280]\ndairy = [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 125, 130]\nfruits = [10, 20, 30, 40, 60, 70, 90, 110, 130, 150, 170, 200]\n\n# Create a line chart\n\n# Bread line \nplt.plot(months, bread, marker='o', color='#521103', label='Bread')\n\n# Meat line \nplt.plot(months, meat, marker='o', color='blue', label='Meat')\n\n# Dairy line \nplt.plot(months, dairy, marker='o', color='green', label='Dairy')\n\n# Fruits line \nplt.plot(months, fruits, marker='o', color='purple', label='Fruits')\n\nplt.title('Food Consumption per Month')\nplt.xlabel('Months')\nplt.ylabel('Food Consumption')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/75.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the line chart, which category of food had the maximum consumption in July?\n \n<<<CHOICES>>>\n[\"Bread\", \"Meat\", \"Dairy\", \"Fruits\"] \n<<<CHOICES>>>\n\nReasoning:\nBy looking at the line chart in the month of July, the line representing 'Meat' has the highest value. Hence, 'Meat' had the maximum consumption in July. \n\nAnswer: Meat",
+        "image": "line_charts/line_charts_visual_linguistic/test/75.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-76",
+        "question": "Did the sales of skirts exceed the sales of trousers in every year between 2005 and 2020?",
+        "answer": "No.",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the python program that uses matplotlib to create a line chart:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2005, 2021))\nseries1 = [10, 15, 17, 19, 23, 25, 28, 31, 33, 37, 39, 42, 45, 48, 50, 56] # Skirts\nseries2 = [12, 18, 20, 22, 24, 27, 30, 33, 36, 38, 40, 43, 46, 49, 52, 58] # Trousers\nseries3 = [11, 16, 19, 21, 22, 26, 28, 31, 35, 37, 39, 43, 45, 48, 52, 55] # Shirts\nseries4 = [13, 15, 18, 20, 23, 27, 29, 33, 35, 38, 41, 44, 47, 50, 54, 58] # Jackets\nseries5 = [14, 17, 20, 24, 25, 28, 32, 34, 37, 40, 43, 46, 48, 52, 55, 60] # Sneakers\n\nplt.figure(figsize=(15, 8))\n\nplt.plot(years, series1, marker='o', color='#f53fb2', label='Skirts')\nplt.plot(years, series2, marker='o', color='blue', label='Trousers')\nplt.plot(years, series3, marker='o', color='green', label='Shirts')\nplt.plot(years, series4, marker='o', color='yellow', label='Jackets')\nplt.plot(years, series5, marker='o', color='orange', label='Sneakers')\n\nplt.title('Sales of Different Clothing Items Over Years')\nplt.xlabel('Year')\nplt.ylabel('Units Sold (in thousands)')\nplt.legend()\n\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/76.png') \nplt.show()\n```\n\n<<<QUESTION>>>\nDid the sales of skirts exceed the sales of trousers in every year between 2005 and 2020?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:  \nBy comparing the sales data of skirts and trousers, we can see that the sales of skirts did not exceed the sales of trousers every year between 2005 and 2020.\n\nOur comparison for each year was such: For 2005, skirts sold 10 thousand units while trousers sold 12 thousand units. For 2006, skirts 15 and trousers 18, and so on. Then, comparing the numbers each year, the sales of skirts is always less than the sales of trousers.\n\nAnswer: No.",
+        "image": "line_charts/line_charts_visual_linguistic/test/76.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-77",
+        "question": "Did 'Charity D' receive more donations in 2019 than 'Charity C'?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python code:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Creating the data for the chart.\nyears = [2015, 2016, 2017, 2018, 2019, 2020]\ncharities = [\n    {\"name\": \"Charity A\", \"donations\": [150, 200, 250, 300, 350, 400]},\n    {\"name\": \"Charity B\", \"donations\": [50, 75, 100, 125, 150, 175]},\n    {\"name\": \"Charity C\", \"donations\": [100, 125, 150, 175, 200, 225]},\n    {\"name\": \"Charity D\", \"donations\": [200, 225, 250, 275, 300, 325]},\n    {\"name\": \"Charity E\", \"donations\": [250, 275, 300, 325, 350, 375]},\n]\n\n# Building the plot.\nplt.figure(figsize=(10, 8))\n\nfor charity in charities:\n    plt.plot(years, charity[\"donations\"], marker='o', color='#29513f')\n\nplt.title('Charity Donations Over Time')\nplt.xlabel('Year')\nplt.ylabel('Donations (in thousands)')\nplt.legend([charity[\"name\"] for charity in charities])\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/77.png')\nplt.show()\n```\n\n<<<QUESTION>>> \nDid 'Charity D' receive more donations in 2019 than 'Charity C'?\n\n<<<CHOICES>>>\n['Yes', 'No']\n\n<<<CHOICES>>>\n\nReasoning:\nTo find the answer, we need to look at the donations for 'Charity D' and 'Charity C' in 2019. In the data, the year 2019 corresponds to index 4 in the 'donations' list. The donation of 'Charity D' for 2019 is 300 and for 'Charity C' is 200. \n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/77.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-78",
+        "question": "In which Medical Field, according to the scatter plot, has the number of patients treated increased at the fastest rate over the years 2010-2019?",
+        "answer": "Cardiology",
+        "choices": [
+            "Cardiology",
+            "Neurology",
+            "Psychiatry",
+            "Oncology",
+            "Dermatology"
+        ],
+        "gpt_response": "Here is a Python script that creates a scatter plot (not a line chart) with five different series of data relating to the Medicine field. The plot shows the number of patients (in thousands) treated for five different categories of diseases over the span of 10 years. \n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = list(range(2010, 2020))\n\n# Number of patients (in thousands) treated for each category of disease per year\ncardiology_patients = [120, 130, 137, 145, 149, 152, 160, 165, 170, 175]\nneurology_patients = [85, 90, 95, 98, 100, 105, 110, 115, 120, 125]\npsychiatry_patients = [60, 65, 70, 75, 80, 85, 90, 95, 100, 105]\noncology_patients = [70, 75, 80, 85, 90, 95, 100, 105, 110,115]\ndermatology_patients = [120, 125, 130, 135, 140, 145, 150, 155, 160, 165]\n\n# Plotting\nplt.figure(figsize=(10,8))\nplt.scatter(years, cardiology_patients, color='#4157e3', marker='o', label='Cardiology')\nplt.scatter(years, neurology_patients, color='#3c1521', marker='s', label='Neurology')\nplt.scatter(years, psychiatry_patients, color='green', marker='v', label='Psychiatry')\nplt.scatter(years, oncology_patients, color='orange', marker='*', label='Oncology')\nplt.scatter(years, dermatology_patients, color='black', marker='x', label='Dermatology')\n\nplt.xlabel('Year')\nplt.ylabel('Patients treated (in thousands)')\nplt.title('Number of Patients Treated in Different Medical Fields (2010-2019)')\nplt.legend(loc='upper left')\nplt.savefig('line_charts/line_charts_visual_linguistic/test/78.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIn which Medical Field, according to the scatter plot, has the number of patients treated increased at the fastest rate over the years 2010-2019?\n\n<<<CHOICES>>>\n['Cardiology', 'Neurology', 'Psychiatry', 'Oncology', 'Dermatology']\n<<<CHOICES>>>\n\nTo find the answer to the question, we would compare the rates of increase in the number of patients over the years for each field. The answer seems to be visible from the plotted chart. However, we can reconfirm this by calculating the slope of the line connecting the first and last points of each series. The greater the slope, the faster the rate of increase.\n\nFor the 'Cardiology' field, the slope was (175-120)/10 = 5.5;\nFor the 'Neurology' field, the slope was (125-85)/10 = 4;\nFor the 'Psychiatry' field, the slope was (105-60)/10 = 4.5;\nFor the 'Oncology' field, the slope was (115-70)/10 = 4.5;\nFor the 'Dermatology' field, the slope was (165-120)/10 = 4.5;\n\nAnswer: Cardiology",
+        "image": "line_charts/line_charts_visual_linguistic/test/78.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-79",
+        "question": "Is the iPhone 12 sales higher than Samsung S21 sales?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Sure, here is a Python program that creates a scatter plot based on provided Phone data. \n\n```python\nimport matplotlib.pyplot as plt\n\n# sample data\nmodels = ['iPhone 8', 'iPhone X', 'iPhone 11', 'iPhone 12', 'Samsung S10', 'Samsung S20', 'Samsung S21']\nsales = [1.2, 1.5, 2.0, 2.5, 1.0, 1.3, 1.8]\n\nfig, ax = plt.subplots(figsize=(10,6))  # This will ensure labels do not overlap\nscatter = ax.scatter(models, sales, marker='o')\nplt.title('Phone Sales by Model (in millions)')\nplt.xlabel('Phone Model')\nplt.ylabel('Number of Sales')\nplt.grid(True)\nplt.legend(['Sales'])\nplt.savefig('line_charts/line_charts_visual_linguistic/test/79.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIs the iPhone 12 sales higher than Samsung S21 sales?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nLooking at the chart, we can see the sales by each model. To answer the question, we would have to compare the sales of iPhone 12 to the sales of Samsung S21.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/79.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-81",
+        "question": "Did the number of significant global conflicts have a general increase across the 20th and 21st century?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python code to generate the line chart and the relevant question:\n\n```python\n# import libraries\nimport matplotlib.pyplot as plt\n\n# initialize data\nyears = [1900, 1920, 1940, 1960, 1980, 2000, 2020]\nevents_A = [10, 8, 12, 20, 23, 30, 35]  # example: significant global conflicts\nevents_B = [3, 7, 9, 14, 22, 25, 33]  # example: scientific discoveries\nevents_C = [12, 22, 18, 27, 22, 44, 60]  # example: artistic movements\nevents_D = [5, 8, 11, 8, 10, 15, 18]  # example: human rights milestones\n\nplt.figure(figsize=(10, 6))\n\n# plot the series\nplt.plot(years, events_A, marker='o', color='#bd2eaf')\nplt.plot(years, events_B, marker='s', color='green')\nplt.plot(years, events_C, marker='v', color='blue')\nplt.plot(years, events_D, marker='x', color='red')\n\n# set labels and legends\nplt.title('Historical Events over the 20th and 21st century')\nplt.xlabel('Years')\nplt.ylabel('Number of Significant Events')\nplt.legend(['Significant Global Conflicts', 'Scientific Discoveries', 'Artistic Movements', 'Human Rights Milestones'],loc='upper left', bbox_to_anchor=(1,1))\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/81.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nDid the number of significant global conflicts have a general increase across the 20th and 21st century?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nFrom the plot, we can see that the series for 'Significant Global Conflicts' depicted with the color '#bd2eaf' and marker 'o', exhibits a general trend of increasing from 1900 to 2020. \n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/81.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-82",
+        "question": "Based on the line chart, did Facebook have more users than Twitter in the year 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's your Python program that creates a matplotlib line chart with 3 series in the plot, focusing on the topic of social media:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2010, 2021))\n\nfacebook_users = [608, 845, 1056, 1228, 1393, 1580, 1860, 2129, 2388, 2644, 2964]\ntwitter_users = [54, 117, 185, 232, 271, 302, 317, 330, 335, 330, 330]\ninstagram_users = [0, 0, 30, 150, 300, 400, 600, 800, 1000, 1200, 1400]\n\nplt.figure(figsize=(8, 6))\n\nplt.plot(years, facebook_users, marker='o', label=\"Facebook\")\nplt.plot(years, twitter_users, marker='v', label=\"Twitter\")\nplt.plot(years, instagram_users, marker='s', label=\"Instagram\")\n\nplt.xlabel(\"Years\")\nplt.ylabel(\"Users Counts (in millions)\")\nplt.title(\"Social Media Users Over Time\")\nplt.legend()\n\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/82.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the line chart, did Facebook have more users than Twitter in the year 2020? \n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nTo answer the question, we first look at the line chart generated by the code. We observe the lines representing Facebook and Twitter. \n\nThe question asks for the number of users of Facebook and Twitter in the year 2020. We look specifically at this point on the chart where x=2020. \n\nObserving the y-value (representing the number of users) at x=2020 for both the Facebook and Twitter lines, it's visible that the point for Facebook is much higher on the chart than the point for Twitter, indicating more users.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/82.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-83",
+        "question": "Is the popularity rating of Classical music in the 5th decade (represented by the y1 value at x=5) greater than the popularity rating of Rock music in the same period (represented by the y2 value at x=5)?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python code:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Series of data\nx1 = [1, 2, 3, 4, 5]\ny1 = [10, 15, 7, 10, 5]\nx2 = [1, 2, 3, 4, 5]\ny2 = [5, 6, 10, 14, 10]\n\nfig, ax = plt.subplots(figsize=(10, 6))\n\n# plot series 1\nax.scatter(x1, y1, marker='o', color='blue', label='Classical music popularity')\n\n# plot series 2\nax.scatter(x2, y2, marker='x', color='red', label='Rock music popularity')\n\n# Set the chart labels and title\nax.set_xlabel('Time (in decades)', fontsize=14)\nax.set_ylabel('Popularity rating', fontsize=14)\nax.set_title('Music Popularity Over Time', fontsize=20)\n\n# Add a legend\nax.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/83.png')\n\n# Show the figure\nplt.show()\n```\n\n<<<QUESTION>>> \nIs the popularity rating of Classical music in the 5th decade (represented by the y1 value at x=5) greater than the popularity rating of Rock music in the same period (represented by the y2 value at x=5)?\n\n<<<CHOICES>>> \n['Yes', 'No']\n<<<CHOICES>>>\n\nThe y1 value for Classical music at x=5 is 5.\nThe y2 value for Rock music at x=5 is 10.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/83.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-84",
+        "question": "Did Soybean production exceed 4500 (in 1000 Tons) in 2020?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Sure, here is a python program that does what you have described:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\nyears = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]\ncorn_production = [8800, 8900, 8700, 9300, 9500, 9400, 9600, 9800, 9600, 9900, 10000]\nwheat_production = [6900, 7000, 7100, 7300, 7200, 7500, 7600, 7700, 7800, 7900, 8200]\nsoybean_production = [3600, 3700, 3800, 3900, 4000, 4500, 4200, 4300, 4400, 4500, 4600]\n\n# Create the plot\nfig, ax = plt.subplots(figsize=(12, 6))\nax.plot(years, corn_production, color='#a63b9f', marker='o', label='Corn Production')\nax.plot(years, wheat_production, color='#33a02c', marker='o', label='Wheat Production')\nax.plot(years, soybean_production, color='#6a3d9a', marker='o', label='Soybean Production')\n\n# Titles and labels\nax.set_title(\"Annual Production of Corn, Wheat, and Soybeans (in 1000 Tons)\")\nax.set_xlabel(\"Year\")\nax.set_ylabel(\"Production (in 1000 Tons)\")\n\n# Legend\nax.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/84.png')\n\nplt.show()\n```\n\n<<<QUESTION>>>\nDid Soybean production exceed 4500 (in 1000 Tons) in 2020? \n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nTo answer this question, we just need to look at the last data point for Soybean production on the line chart we created. The last point represents the production of Soybeans in 2020.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/84.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-85",
+        "question": "Is the rating of \"Movie I\" greater than the rating of \"Movie B\"?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is your Python script using matplotlib to create a scatter plot.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Movie Ratings for different Movies\nmovie_ratings = [7.1, 7.3, 8.1, 8.0, 6.9, 7.5, 5.9, 7.8, 8.5, 8.2] \n\n# Movie Names\nmovies = ['Movie A', 'Movie B', 'Movie C', 'Movie D', 'Movie E',\n          'Movie F', 'Movie G', 'Movie H', 'Movie I', 'Movie J']\n\nplt.figure(figsize=(15, 10))  \nplt.scatter(movies, movie_ratings, marker='o')\n\nplt.title('Ratings of Different Movies')\nplt.xlabel('Movies')\nplt.ylabel('Ratings')\nplt.legend(('Ratings',))\nplt.grid(True)\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/85.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIs the rating of \"Movie I\" greater than the rating of \"Movie B\"?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nI will explain the question based on the data given in the Python code. The movie ratings are given in the comment above the `movie_ratings` list in the same order as the `movies` list. So, looking at the ratings, \"Movie I\" has a rating of 8.5 and \"Movie B\" has a rating of 7.3.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/85.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-86",
+        "question": "Is the number of Classical Architecture buildings was always higher than the number of Modern Architecture buildings for the years plotted?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Below is your requested Python program:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2000, 2011))\nmodern_architecture = [5, 7, 8, 12, 15, 17, 19, 23, 27, 32, 35]\nclassical_architecture = [10, 12, 15, 18, 22, 25, 31, 33, 38, 43, 46]\n\nfig, ax = plt.subplots(figsize=(10, 7))\n\nax.plot(years, modern_architecture, marker='o', linestyle='-', color='#ec0691', label='Modern Architecture')\nax.plot(years, classical_architecture, marker='o', linestyle='--', color='blue', label='Classical Architecture')\n\nax.set_xlabel('Years')\nax.set_ylabel('Number of Buildings')\nax.set_title('Number of Buildings over the years')\nax.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/86.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nIs the number of Classical Architecture buildings was always higher than the number of Modern Architecture buildings for the years plotted?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nIn order to answer the question, we have to observe the line chart generated by the program.\n\nSteps for reasoning:\n- The blue line represents the number of Classical Architecture buildings for the respective years and the line in pink color represents the number of Modern Architecture buildings for the respective years.\n- By comparing the two lines, it is apparent that for each year, the blue line (representing Classical Architecture) is always above the pink line (representing Modern Architecture).\n- Hence, we can safely infer that the number of Classical Architecture buildings is always more than Modern Architecture buildings for the time period plotted.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/86.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-87",
+        "question": "Was the temperature on the 4th day higher than it was on the 1st day?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's the Python program related to Weather.\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\ndays = [1,2,3,4,5,6,7]\ntemp = [35, 37, 33, 32, 34, 36, 37]\n\nplt.figure(figsize=(10, 5))\n\n# Create line chart\nplt.plot(days, temp, marker='o')\n\n# Labels / Legends and title\nplt.title('Temperature Over the Week')\nplt.xlabel('Day of the Week')\nplt.ylabel('Temperature in Celsius')\nplt.legend(['Temperature'])\nplt.grid(True)\n\n# Saving the plot as png image\nplt.savefig('line_charts/line_charts_visual_linguistic/test/87.png')\nplt.show()\n```\n\n<<<QUESTION>>>  Was the temperature on the 4th day higher than it was on the 1st day?\n\n<<<CHOICES>>> ['Yes', 'No'] <<<CHOICES>>>\n\nLooking at the graph, the temperature on the 1st day was 35 degrees Celsius and on the 4th day, it was 32 degrees Celsius.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/87.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-90",
+        "question": "Who directed more movies in 2020?",
+        "answer": "Shawn",
+        "choices": [
+            "Peter",
+            "Shawn",
+            "Both directed the same number of movies",
+            "Information not available"
+        ],
+        "gpt_response": "Here's the Python code:\n\n```python\nimport matplotlib.pyplot as plt\n\nyears = list(range(2010, 2021))\nmovies_by_peter = [12, 14, 17, 20, 26, 32, 38, 50, 64, 76, 92]\nmovies_by_shawn = [10, 9, 13, 20, 29, 50, 60, 70, 82, 80, 94]\n\nplt.figure(figsize=(10, 6))\n\nplt.plot(years, movies_by_peter, marker='o', color='#23525c', label='Movies by Peter')\nplt.plot(years, movies_by_shawn, marker='o', color='#2394cd', label='Movies by Shawn')\n\nplt.title('Number of Movies Directed by Peter & Shawn (2010 - 2020)')\nplt.xlabel('Years')\nplt.ylabel('Number of Movies')\n\nplt.legend()\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/90.png')\nplt.show()\n```\n\nThis program plots a line chart representing the number of movies directed by Peter and Shawn from the year 2010 to 2020. Each point on the lines represents the number of movies directed by Peter and Shawn for a particular year. \n\nThis matplotlib line chart depicts two different series of data \u2013 \"Movies by Peter\" and \"Movies by Shawn\" and provides a comparative overview of the number of movies directed by each director over a decade.\n\nThe colors used for the 'Peter' series and 'Shawn' series are '#23525c' and '#2394cd' respectively.\n\n<<<QUESTION>>>Who directed more movies in 2020?\n\n<<<CHOICES>>>\n['Peter', 'Shawn', 'Both directed the same number of movies', 'Information not available']\n<<<CHOICES>>>\n\nReasoning:\nFrom the chart, we can visually identify the number of movies directed by Peter and Shawn in 2020, which is the last data point on each line. The line corresponding to Shawn ending at a higher point shows that Shawn directed more movies in 2020.\n\nAnswer: Shawn",
+        "image": "line_charts/line_charts_visual_linguistic/test/90.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-92",
+        "question": "What was the month with the highest sales for T-shirts?",
+        "answer": "'July'",
+        "choices": [
+            "February",
+            "July",
+            "October",
+            "December"
+        ],
+        "gpt_response": "Here is a Python program using Matplotlib, which creates a line chart that displays sales (in thousands of units) of different fashion items over 12 months:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Sales data\nmonths = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']\nsales_tshirts = [12, 15, 14, 16, 18, 20, 22, 20, 18, 16, 14, 12]\n\nplt.figure(figsize=[10, 5])\nplt.plot(months, sales_tshirts, color='#ed046e', marker='o', label='T-shirts Sales')\n\nplt.xlabel('Months')\nplt.ylabel('Sales (in thousands)')\nplt.title('Fashion Item Sales Over Time')\nplt.legend(loc=\"best\")\nplt.grid(True)\nplt.savefig('line_charts/line_charts_visual_linguistic/test/92.png')\nplt.show()\n```\n\nHere comes the question related to the chart:\n\n<<<QUESTION>>>\nWhat was the month with the highest sales for T-shirts?\n<<<CHOICES>>>\n['February', 'July', 'October', 'December']\n<<<CHOICES>>>\n\nTo answer this, we'll check the line chart created above to see where the T-Shirts Sale line peaks. \n\nAccording to the line chart, the T-Shirts sales peak in the month of July which means July had the highest sales of T-shirts.\n\nAnswer: 'July'",
+        "image": "line_charts/line_charts_visual_linguistic/test/92.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-93",
+        "question": "Is Germany the country with the highest number of international travelers in 2019 represented in the chart?",
+        "answer": "No",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here's a python script that uses matplotlib to create a scatter plot:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Travel data\ncountries = ['France', 'UK', 'Germany', 'Spain', 'Italy', 'Portugal']\ntravellers = [83.7, 37.8, 37.5, 81.8, 62.1, 22.8] # in millions\n\nplt.figure(figsize=(10,5))\nplt.scatter(countries, travellers, color='#614b4c', marker='o')\n\nplt.title('Number of International Travellers in 2019')\nplt.xlabel('Country')\nplt.ylabel('Travellers (in millions)')\nplt.grid()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/93.png') \nplt.show()\n```\n\n<<<QUESTION>>>\nIs Germany the country with the highest number of international travelers in 2019 represented in the chart?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nReasoning:\nBased on the scatter plot, we can see that the points representing the number of travelers are highest for France and Spain. Germany does not have the highest number of international travelers in 2019.\n\nAnswer: No",
+        "image": "line_charts/line_charts_visual_linguistic/test/93.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-94",
+        "question": "Did Vincent van Gogh create more paintings than Leonardo da Vinci?",
+        "answer": "Yes",
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "gpt_response": "Here is the Python code that uses matplotlib to create a scatter plot on the topic of paintings:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Define data\nartists = [\"Leonardo da Vinci\", \"Vincent van Gogh\", \"Pablo Picasso\", \"Rembrandt\", \"Claude Monet\"]\nno_of_paintings = [20, 29, 50, 34, 25]\n\n# Create a scatter plot\nplt.figure(figsize=(10, 5))\nplt.scatter(artists, no_of_paintings, marker='o')\n\n# Set chart title and labels\nplt.title('Number of Paintings by Famous Artists')\nplt.xlabel('Artist')\nplt.ylabel('Number of Paintings')\n\n# Rotate x labels to avoid overlap\nplt.xticks(rotation=45)\n\n# Save figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/94.png')\nplt.show()\n```\n<<<QUESTION>>>\nDid Vincent van Gogh create more paintings than Leonardo da Vinci?\n\n<<<CHOICES>>>\n['Yes', 'No']\n<<<CHOICES>>>\n\nExplanation of the question:\n\n1. Looking at the 'artists' list, Vincent van Gogh and Leonardo da Vinci are the second and first elements respectively.\n\n2. Looking at the 'no_of_paintings' list which corresponds with artists list, Vincent van Gogh and Leonardo da Vinci created 29 and 20 paintings respectively.\n\nAnswer: Yes",
+        "image": "line_charts/line_charts_visual_linguistic/test/94.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-3",
+        "question": "Which energy source had the smallest energy yield increase from 2000 to 2015?",
+        "answer": "'Solar','Wind','Hydro'",
+        "choices": [
+            "Solar",
+            "Wind",
+            "Hydro",
+            "Nuclear"
+        ],
+        "gpt_response": "Here is the code and as requested:\n\n```python\nimport matplotlib.pyplot as plt;\n\n# Keep the Energy Source values and their corresponding yield Values\nenergy_sources = [\"Solar\", \"Wind\", \"Hydro\", \"Nuclear\"]\nvalues_2000 = [2, 3, 4, 6]\nvalues_2005 = [3, 4, 5, 8]\nvalues_2010 = [5, 6, 7, 10]\nvalues_2015 = [7, 8, 9, 12]\n\nplt.figure(figsize=(10,5))\n\n# Mention the color codes\ncolors = ['#3cb9d6', '#10c03b', '#0d1690', '#9c5e20']\n\n# Generate the scatter plot\nfor i, energy in enumerate(energy_sources):\n    plt.scatter(['2000', '2005', '2010', '2015'], [values_2000[i], values_2005[i], values_2010[i], values_2015[i]], \n                color = colors[i], label = energy)\n\n# Set the title for the plot\nplt.title(\"Energy Production from Various Sources (2000 - 2015)\")\n\n# Set the y label for the plot\nplt.ylabel('Energy Yield (in Terawatts)')\n\n# Set the x label for the plot\nplt.xlabel('Year')\n\n# Add legend to help clarify which color is with respect to which energy source\nplt.legend()\n\n# Save the plot\nplt.tight_layout()\nplt.savefig('line_charts/line_charts_visual_linguistic/test/96.png')\n\nplt.show()\n```\n\n<<<QUESTION>>> Which energy source had the smallest energy yield increase from 2000 to 2015?\n\n<<<CHOICES>>>\n['Solar', 'Wind', 'Hydro', 'Nuclear']\n<<<CHOICES>>>\n\nReasoning: \n\nThe question asks about the energy source with the smallest energy yield increase from 2000 to 2015. \n\n1. For Solar, the yield increase from 2000 to 2015 was 7 - 2 = 5 terawatts.\n2. For Wind, the yield increase from 2000 to 2015 was 8 - 3 = 5 terawatts.\n3. For Hydro, the yield increase from 2000 to 2015 was 9 - 4 = 5 terawatts.\n4. For Nuclear, the yield increase from 2000 to 2015 was 12 - 6 = 6 terawatts.\n\nSo, the energy source which had the smallest energy yield increase from 2000 to 2015 is 'Solar', 'Wind', 'Hydro'.\n\nAnswer: 'Solar','Wind','Hydro'",
+        "image": "line_charts/line_charts_visual_linguistic/test/96.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-97",
+        "question": "Based on the scatter plot, which bird has the highest y-value at x=3?",
+        "answer": "Eagle",
+        "choices": [
+            "Sparrow",
+            "Pigeon",
+            "Eagle",
+            "Parrot"
+        ],
+        "gpt_response": "Here is the required python program, multiple choice question, and the final answer:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data Series\nsparrow_x = [1, 2, 3, 4, 5]\nsparrow_y = [5, 7, 8, 2, 6]\npigeon_x = [2, 3, 4, 5, 6]\npigeon_y = [7, 6, 8, 9, 4]\neagle_x = [3, 4, 5, 6, 7]\neagle_y = [9, 4, 7, 8, 5]\nparrot_x = [4, 5, 6, 7, 8]\nparrot_y = [8, 9, 7, 6, 5]\n\nplt.figure(figsize=(10,7))\n\nplt.scatter(sparrow_x, sparrow_y, marker='o', color='r', label='Sparrow')\nplt.scatter(pigeon_x, pigeon_y, marker='v', color='b', label='Pigeon')\nplt.scatter(eagle_x, eagle_y, marker='*', color='g', label='Eagle')\nplt.scatter(parrot_x, parrot_y, marker='s', color='y', label='Parrot')\n\nplt.title('Birds')\nplt.xlabel('X-axis')\nplt.ylabel('Y-axis')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/97.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nBased on the scatter plot, which bird has the highest y-value at x=3?\n<<<CHOICES>>>\n['Sparrow', 'Pigeon', 'Eagle', 'Parrot']\n<<<CHOICES>>>\n\nReasoning:\nObserve the scatter plot at x=3. Compare the y-values of each bird at this point. The Sparrow's y-value is at 8. The Pigeon's y-value is at 6. The Eagle's y-value is located around 9. The Parrot doesn't have a data point at x=3. Therefore, the bird with the highest y-value at x=3 is the Eagle.\n\nAnswer: Eagle",
+        "image": "line_charts/line_charts_visual_linguistic/test/97.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-98",
+        "question": "What is the cost in USD to travel to Paris?",
+        "answer": "900.",
+        "choices": [
+            1200,
+            900,
+            1300,
+            1500,
+            800
+        ],
+        "gpt_response": "Sure, here's a Python snippet that generates a scatter plot using matplotlib:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for travel destinations\ndestinations = ['New York', 'Paris', 'Tokyo', 'Dubai', 'London']\ncost = [1200, 900, 1300, 1500, 800] # Cost in USD\nrating = [8.9, 8.7, 9.3, 8.3, 8.8] # Travel ratings out of 10\n\nfig, ax = plt.subplots(figsize=(10, 5))\n\n# Creating scatter plots for cost and rating\nax.scatter(destinations, cost, color='b', label='Cost in USD')\nax.scatter(destinations, rating, color='r', label='Rating out of 10')\n\n# Setting the title and labels of the plot\nax.set_title('Cost and Ratings of Travel Destinations')\nax.set_xlabel('Destinations')\nax.set_ylabel('Cost and Ratings')\n\n# Displaying the legend\nax.legend()\n\n# Save the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/98.png')\n\nplt.show()\n```\nFor a relevant question, we could ask:\n\n<<<QUESTION>>>\nWhat is the cost in USD to travel to Paris?\n<<<CHOICES>>>\n[1200, 900, 1300, 1500, 800]\n<<<CHOICES>>>\n\nIf we look at the scatter plot and find the point representing Paris on the x-axis, we see that the blue marker (representing cost) aligns with 900 on the y-axis.\n\nConsequently, the final numerical answer is:\nAnswer: 900.",
+        "image": "line_charts/line_charts_visual_linguistic/test/98.png"
     }
 ]
