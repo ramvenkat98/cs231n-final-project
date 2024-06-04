@@ -6,11 +6,10 @@ randomize_ordering = True
 use_llm_correctness_eval = False
 
 LINE_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic_train.json'
-LINE_CHARTS_PROCESSED_FILE_PATH = 'line_charts_processed_visual_linguistic_train_randomized.json'
+LINE_CHARTS_PROCESSED_FILE_PATH = 'line_charts_processed_visual_linguistic_train_randomized_470.json'
 LLM_AS_A_JUDGE_FILE_PATH = 'line_charts/llm_as_judge_results.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
-BLOCKLIST = []
-
+BLOCKLIST = [40, 4, 53, 96, 112, 116, 117, 134, 156, 157, 185, 206, 231, 232, 250, 254, 257, 258, 297, 347, 354, 366, 367, 415, 419, 453, 456, 480, 499, 500, 503, 517, 571]
 with open(LINE_CHARTS_ORIGINAL_JSON_FILE_PATH, 'r') as file:
     data = json.load(file)
 
@@ -43,6 +42,7 @@ def generate_formatted_question_and_answer(image, question, choices, answer, id)
     )
 
 L = []
+could_not_generate = []
 already_appeared_ids = set()
 for (i, d) in enumerate(data):
     image, question, choices, answer = (
@@ -65,11 +65,11 @@ for (i, d) in enumerate(data):
     if use_llm_correctness_eval and d['id'] not in llm_as_a_judge_data['corrects']:
         print(f"Dropping {id} because not correct")
         continue
-    else:
-        print(id, "is correct")
     if id in already_appeared_ids:
         print("Id", id)
-        assert(False)
+        could_not_generate.append(id)
+        continue
+        # assert(False)
     already_appeared_ids.add(id)
     # Format choices
     assert(choices is not None) # MCQ only for now
@@ -97,7 +97,12 @@ for (i, d) in enumerate(data):
     elif answer.startswith("`Answer: "):
         answer = answer[len("`Answer: ") : -1]
     image = IMAGE_PATH + image
-    q, a = generate_formatted_question_and_answer(image, question, choices, answer, id)
+    try:
+        q, a = generate_formatted_question_and_answer(image, question, choices, answer, id)
+    except:
+        print(f"Did not generate for id {id}, moving on")
+        could_not_generate.append(id)
+        continue
     # print(q)
     # print(a)
     text = '<ImageHere>' + q
@@ -124,6 +129,7 @@ for k in sorted(STATS_BY_NUM_CHOICES.keys()):
     print(f"{sum(STATS_BY_NUM_CHOICES[k])} questions with {k} choices. Distribution is {STATS_BY_NUM_CHOICES[k]}.")
 
 print(len(L), "samples generated.")
+print("Could not generate for ids", could_not_generate)
 
 with open(LINE_CHARTS_PROCESSED_FILE_PATH, 'w') as file:
     json.dump(L, file, indent = 4)
