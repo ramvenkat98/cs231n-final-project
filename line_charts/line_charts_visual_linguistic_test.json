@@ -1,0 +1,70 @@
+[
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-2",
+        "question": "Which toy had the highest sales in the year 2020?",
+        "answer": "Dolls",
+        "choices": [
+            "Dolls",
+            "Teddy Bears",
+            "Games"
+        ],
+        "gpt_response": "Here is your Python Code:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data for the three series\ndoll_sales = [1200, 2500, 3200, 2750, 2900]\nteddy_bear_sales = [1000, 2000, 2100, 2400, 2300]\ngame_sales = [1800, 2200, 2600, 3000, 2700]\nyears = [2016, 2017, 2018, 2019, 2020]\n\n# Creating the plot\nplt.figure(figsize=[10,6])\n\nplt.scatter(years, doll_sales, color='#786fc7', marker='o', label='Doll Sales')\nplt.scatter(years, teddy_bear_sales, color='#2add51', marker='o', label='Teddy Bear Sales')\nplt.scatter(years, game_sales, color='#9db3c0', marker='o', label='Game Sales')\n\n# Adding labels and title\nplt.title('Toy Sales from 2016 - 2020')\nplt.xlabel('Years')\nplt.ylabel('Number of Toys Sold')\nplt.legend()\n\n# Saving the figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/2.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nWhich toy had the highest sales in the year 2020?\n\n<<<CHOICES>>>\n['Dolls', 'Teddy Bears', 'Games']\n<<<CHOICES>>>\n\nThe question asks for the toy that had the highest sales in the year 2020. In the scatter plot, you can see that the point for Doll sales in 2020 is higher than both Teddy Bear Sales and Game sales, indicating that Dolls were the best selling toy that year.\n\nAnswer: Dolls",
+        "image": "line_charts/line_charts_visual_linguistic/test/2.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-5",
+        "question": "As per the given scatter plot, which color is representing the Crows?",
+        "answer": "'#d14996'",
+        "choices": [
+            "#dd7831",
+            "#d14996",
+            "#b365db",
+            "#9385da",
+            "#005858"
+        ],
+        "gpt_response": "Here is a Python program that generates a scatter plot using matplotlib with 5 different series representing types of birds:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Creating data\nx = list(range(1, 101))\n\nsparrow_y = [i for i in range(1, 101)]\ncrow_y = [i**2 for i in range(1, 101)]\npigeon_y = [i**0.5 for i in range(1, 101)]\nparrot_y = [2*i for i in range(1, 101)]\neagle_y = [3*i for i in range(1, 101)]\n\n# Creating scatter plot\nplt.figure(figsize=[10,6])\nplt.scatter(x, sparrow_y, color='#dd7831', marker=\"o\", label='Sparrows')\nplt.scatter(x, crow_y, color='#d14996', marker=\"s\", label='Crows')\nplt.scatter(x, pigeon_y, color='#b365db', marker=\"v\", label='Pigeons')\nplt.scatter(x, parrot_y, color='#9385da', marker=\"*\", label='Parrots')\nplt.scatter(x, eagle_y, color='#005858', marker=\"+\", label='Eagles')\n\nplt.title('Birds Scatter Plot')\nplt.xlabel('X')\nplt.ylabel('Y')\nplt.legend()\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/5.png')\n\nplt.show()\n```\n\n<<<QUESTION>>> \nAs per the given scatter plot, which color is representing the Crows?\n  \n<<<CHOICES>>> \n['#dd7831', '#d14996', '#b365db', '#9385da', '#005858']\n<<<CHOICES>>> \n\nReasoning: The question asks about the color used to represent the Crows on the scatter plot.\nIn the code, it is clearly mentioned that the Crows are represented using the color '#d14996'. So, the answer should be '#d14996'.\n\nAnswer: '#d14996'",
+        "image": "line_charts/line_charts_visual_linguistic/test/5.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-6",
+        "question": "What is the popularity percentage of Politician B in the 5th month?",
+        "answer": "42",
+        "choices": [
+            40,
+            42,
+            45,
+            55
+        ],
+        "gpt_response": "Here is your python program:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Data\npolitician_A = [45, 50, 55, 60, 58, 56, 57, 56, 55, 56]\npolitician_B = [55, 50, 45, 40, 42, 44, 43, 44, 45, 44]\nmonths = list(range(1, 11))\n\n# Create a figure and a set of subplots\nfig, ax = plt.subplots(figsize=(10, 5))\n\n# Plot data\nax.plot(months, politician_A, marker='o', label='Politician A')\nax.plot(months, politician_B, marker='o', label='Politician B')\n\n# Set chart title and labels\nax.set_title('Public Opinion Polls', fontsize=14)\nax.set_xlabel('Month', fontsize=12)\nax.set_ylabel('Percentage %', fontsize=12)\n\n# Show legend\nax.legend()\n\n# Save figure\nplt.savefig('line_charts/line_charts_visual_linguistic/test/6.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nWhat is the popularity percentage of Politician B in the 5th month?\n\n<<<CHOICES>>>\n[40, 42, 45, 55]\n<<<CHOICES>>>\n\nReasoning: The question is about the data point for Politician B in the 5th month. We can find the answer by looking at the fifth value in the politician_B list, which corresponds to the 5th month. It is 42.\n\nAnswer: 42",
+        "image": "line_charts/line_charts_visual_linguistic/test/6.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-7",
+        "question": "Looking at the scatter plot, which of the following continents has a stable population from the year 1990 to 2025?",
+        "answer": "'Europe'",
+        "choices": [
+            "Africa",
+            "Asia",
+            "Europe",
+            "America",
+            "Antarctica"
+        ],
+        "gpt_response": "Here is your Python program using Matplotlib to create a scatter plot representing Population Growth in different continents over years and a relevant multiple choice question:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Population in 1000s\npop_africa = [11037, 11966, 13127, 14373, 15860, 17464, 19279, 21460]\npop_asia = [1408560, 1466953, 1530541, 1599443, 1671637, 1745035, 1821152, 1907804]\npop_europe = [72872, 72891, 72894, 72777, 72601, 72387, 72065, 71730]\npop_america = [83912, 87516, 91239, 95043, 98992, 103224, 107791, 112505]\npop_antarctica = [0, 0, 0, 1, 1, 2, 2, 3]\nyears = [1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025]\n\nplt.figure(figsize=(10,5))\nplt.scatter(years, pop_africa, color='#db5d04', label='Africa')\nplt.scatter(years, pop_asia, color='#90eadd',label='Asia')\nplt.scatter(years, pop_europe, color='#8b623f',label='Europe')\nplt.scatter(years, pop_america, color='purple',label='America')\nplt.scatter(years, pop_antarctica, color='green',label='Antarctica')\n\nplt.xlabel('Year')\nplt.ylabel('Population (in 1000s)')\nplt.title('Population Growth')\nplt.legend()\nplt.grid(True)\n\nplt.savefig('line_charts/line_charts_visual_linguistic/test/7.png')\nplt.show()\n```\n\n<<<QUESTION>>>\nLooking at the scatter plot, which of the following continents has a stable population from the year 1990 to 2025?\n\n<<<CHOICES>>>\n['Africa', 'Asia', 'Europe', 'America', 'Antarctica']\n<<<CHOICES>>>\n\nReasoning:\nFrom the generated scatter plot, we can see that continents Africa, Asia, and America show population growth over the years. Antarctica shows a slight increase in the population from 0 to 3 in a thousand. However, the population in Europe remains stable, showing slight decreases over the years. Hence, 'Europe' is the correct answer.\n\nAnswer: 'Europe'",
+        "image": "line_charts/line_charts_visual_linguistic/test/7.png"
+    },
+    {
+        "id": "line_charts-line_charts_visual_linguistic-test-8",
+        "question": ":\nIn which year did Party B achieve higher popularity rating than Party A?",
+        "answer": "['2000', '2004', '2016']",
+        "choices": [
+            "2000",
+            "2004",
+            "2008",
+            "2012",
+            "2016",
+            "2020"
+        ],
+        "gpt_response": "Here is your Python code to generate the scatter plot:\n\n```python\nimport matplotlib.pyplot as plt\n\n# Series 1 data for 'Party A'\nyears = [2000, 2004, 2008, 2012, 2016, 2020]\nrating_partyA = [45, 48, 53, 51, 47, 52]\n\n# Series 2 data for 'Party B'\nrating_partyB = [55, 52, 47, 49, 53, 48]\n\nplt.figure(figsize=(10,5))\nplt.scatter(years, rating_partyA, label='Party A', marker='o')\nplt.scatter(years, rating_partyB, label='Party B', marker='x')\n\nplt.title('Popularity Ratings of Two Political Parties Over Years')\nplt.xlabel('Year')\nplt.ylabel('Popularity Rating (%)')\n\nplt.legend(loc='best')\nplt.grid(True)\n\n# Make sure to create 'line_charts/line_charts_visual_linguistic/test/' directory before saving\nplt.savefig('line_charts/line_charts_visual_linguistic/test/8.png')  \n\nplt.show()\n```\nThis code creates a scatter plot for two political parties over years. Two scatter series are created for the 'Party A' and 'Party B'. The popularity ratings are made up numbers but represent a kind of contest between the two parties over the years.\n\n<<<QUESTION>>>:\nIn which year did Party B achieve higher popularity rating than Party A?\n\n<<<CHOICES>>>\n['2000', '2004', '2008', '2012', '2016', '2020']\n<<<CHOICES>>>\n\nFrom the plot, we can see that Party B has higher popularity rating than Party A in the years 2000, 2004, and 2016. In other years, Party A has a higher rating.\n\nAnswer: ['2000', '2004', '2016']",
+        "image": "line_charts/line_charts_visual_linguistic/test/8.png"
+    }
+]

@@ -1,0 +1,28 @@
+{
+    "corrects": [
+        "line_charts-line_charts_visual_linguistic-train-1",
+        "line_charts-line_charts_visual_linguistic-train-2",
+        "line_charts-line_charts_visual_linguistic-train-4",
+        "line_charts-line_charts_visual_linguistic-train-6",
+        "line_charts-line_charts_visual_linguistic-train-7",
+        "line_charts-line_charts_visual_linguistic-train-8",
+        "line_charts-line_charts_visual_linguistic-train-9",
+        "line_charts-line_charts_visual_linguistic-train-11",
+        "line_charts-line_charts_visual_linguistic-train-12",
+        "line_charts-line_charts_visual_linguistic-train-14",
+        "line_charts-line_charts_visual_linguistic-train-16",
+        "line_charts-line_charts_visual_linguistic-train-18",
+        "line_charts-line_charts_visual_linguistic-train-19",
+        "line_charts-line_charts_visual_linguistic-train-3",
+        "line_charts-line_charts_visual_linguistic-train-23",
+        "line_charts-line_charts_visual_linguistic-train-24",
+        "line_charts-line_charts_visual_linguistic-train-26"
+    ],
+    "wrongs": [
+        "line_charts-line_charts_visual_linguistic-train-10",
+        "line_charts-line_charts_visual_linguistic-train-21",
+        "line_charts-line_charts_visual_linguistic-train-22",
+        "line_charts-line_charts_visual_linguistic-train-25"
+    ],
+    "unknowns": []
+}
