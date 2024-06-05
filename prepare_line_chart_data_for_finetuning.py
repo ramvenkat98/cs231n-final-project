@@ -2,11 +2,11 @@ import json
 import ast
 import random
 
-randomize_ordering = True
-use_llm_correctness_eval = False
+randomize_ordering = False
+use_llm_correctness_eval = True
 
 LINE_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic_train.json'
-LINE_CHARTS_PROCESSED_FILE_PATH = 'line_charts_processed_visual_linguistic_train_randomized_470.json'
+LINE_CHARTS_PROCESSED_FILE_PATH = 'line_charts_processed_visual_linguistic_train_unrandomized_with_llm_as_a_judge_400.json'
 LLM_AS_A_JUDGE_FILE_PATH = 'line_charts/llm_as_judge_results.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
 BLOCKLIST = [40, 4, 53, 96, 112, 116, 117, 134, 156, 157, 185, 206, 231, 232, 250, 254, 257, 258, 297, 347, 354, 366, 367, 415, 419, 453, 456, 480, 499, 500, 503, 517, 571]

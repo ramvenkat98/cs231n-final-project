@@ -23,7 +23,11 @@ else:
     # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_fixed_vit/finetune'
     # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit/finetune'
     # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
-    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2_learning_rate_divide_4/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2_learning_rate_divide_4/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_400_sample_linechart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_340_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_400_sample_barchart_and_linechart_unrandomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
+    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_8/finetune'
     model = AutoPeftModelForCausalLM.from_pretrained(path_to_adapter, device_map="auto", trust_remote_code=True).eval()
     tokenizer = AutoTokenizer.from_pretrained(path_to_adapter, trust_remote_code = True)
     model.tokenizer = tokenizer
@@ -31,7 +35,12 @@ else:
     # filename = 'model_eval_1_8b_lora_on_339_sample_barchart_fixed_vit.pkl'
     # filename = 'output_1_8b_lora_on_530_sample_barchart_fixed_vit.pkl'
     # filename = 'model_eval_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32_finetune.pkl'
-    filename = 'model_eval_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2_learning_rate_divide_4_finetune.pkl'
+    # filename = 'model_eval_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2_learning_rate_divide_4_finetune.pkl'
+    # filename = 'model_eval_1_8_b_lora_on_400_sample_line_chart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32.pkl'
+    # filename = 'model_eval_1_8_b_lora_on_400_sample_bar_chart_and_line_chart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32.pkl'
+    # filename = 'model_eval_1_8b_lora_on_340_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32_finetune.pkl'
+    # filename = 'model_eval_1_8_b_lora_on_400_sample_bar_chart_and_line_chart_unrandomized_llm_as_judge_variable_vit_2_epochs_lora_32.pkl'
+    filename = 'model_eval_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_8_finetune.pkl'
     print(f"Finetuned model at path {path_to_adapter}")
 # Load Dataset
 from datasets import load_dataset

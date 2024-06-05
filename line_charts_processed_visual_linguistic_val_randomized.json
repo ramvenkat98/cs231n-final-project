@@ -1,0 +1,1700 @@
+[
+    {
+        "id": 2,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/2.png"
+        ],
+        "choices": [
+            "Teddy Bears",
+            "Games",
+            "Dolls"
+        ],
+        "answer": "Dolls",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which toy had the highest sales in the year 2020?\nChoices:\n(A) Teddy Bears\n(B) Games\n(C) Dolls"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/5.png"
+        ],
+        "choices": [
+            "#d14996",
+            "#dd7831",
+            "#005858",
+            "#9385da",
+            "#b365db"
+        ],
+        "answer": "#d14996",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: As per the given scatter plot, which color is representing the Crows?\nChoices:\n(A) #d14996\n(B) #dd7831\n(C) #005858\n(D) #9385da\n(E) #b365db"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/6.png"
+        ],
+        "choices": [
+            "45",
+            "40",
+            "55",
+            "42"
+        ],
+        "answer": "42",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What is the popularity percentage of Politician B in the 5th month?\nChoices:\n(A) 45\n(B) 40\n(C) 55\n(D) 42"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/7.png"
+        ],
+        "choices": [
+            "America",
+            "Antarctica",
+            "Asia",
+            "Europe",
+            "Africa"
+        ],
+        "answer": "Europe",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Looking at the scatter plot, which of the following continents has a stable population from the year 1990 to 2025?\nChoices:\n(A) America\n(B) Antarctica\n(C) Asia\n(D) Europe\n(E) Africa"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/9.png"
+        ],
+        "choices": [
+            "Management",
+            "Engineering",
+            "Sales",
+            "IT",
+            "Finance"
+        ],
+        "answer": "Management",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: The scatter plot visualizes employment in different sectors for the years from 2001 to 2019. Can you tell in which sector steady employment increase can be observed?\nChoices:\n(A) Management\n(B) Engineering\n(C) Sales\n(D) IT\n(E) Finance"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/10.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the 'Smoking Rates' line chart using the color '#0fcd91'?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/11.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the level of water pollution in the year 2020 higher than that of air pollution?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/12.png"
+        ],
+        "choices": [
+            "Property Crime Rate",
+            "Violent Crime Rate"
+        ],
+        "answer": "Property Crime Rate",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Looking at the line chart, which type of crime rate decreased more dramatically from 1990 to 2010?\nChoices:\n(A) Property Crime Rate\n(B) Violent Crime Rate"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/13.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Has Versace seen a continuous increase in sales from 2019 to 2022?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/14.png"
+        ],
+        "choices": [
+            "Saturday",
+            "Wednesday",
+            "Monday",
+            "Friday",
+            "Thursday",
+            "Sunday",
+            "Tuesday"
+        ],
+        "answer": "Thursday",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What day of the week recorded the highest temperature?\nChoices:\n(A) Saturday\n(B) Wednesday\n(C) Monday\n(D) Friday\n(E) Thursday\n(F) Sunday\n(G) Tuesday"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (E)."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/15.png"
+        ],
+        "choices": [
+            "2015",
+            "2012",
+            "Never surpassed",
+            "2020"
+        ],
+        "answer": "Never surpassed",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In which year, the population of Eagles surpassed the population of Sparrows if ever?\nChoices:\n(A) 2015\n(B) 2012\n(C) Never surpassed\n(D) 2020"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/16.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the Employment Rate steadily increase from 2010 to 2021?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/17.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does vegetable consumption ever exceed fruit consumption according to the line chart?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/18.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Has the CO2 level shown a steady increase from the years 2000 to 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/19.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the water usage highest in the month of December?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/20.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was the rate of technology adoption higher in the year 2010 compared to the year 2005?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/21.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the bar chart, were vegetables sold more than fruits in April?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/22.png"
+        ],
+        "choices": [
+            "60",
+            "50",
+            "65",
+            "58"
+        ],
+        "answer": "60",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the scatter plot, how many paintings did Da Vinci produce in the 4th year?\n\nA: 60\nB: 58\nC: 50\nD: 65\nChoices:\n(A) 60\n(B) 50\n(C) 65\n(D) 58"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/23.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the Sunflower grow the most in the month of July?\n    \nChoices:\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/24.png"
+        ],
+        "choices": [
+            "Asia",
+            "North America",
+            "Europe",
+            "South America",
+            "Africa"
+        ],
+        "answer": "Asia",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: By end of 2020, which continent had the most land?\nChoices:\n(A) Asia\n(B) North America\n(C) Europe\n(D) South America\n(E) Africa"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/25.png"
+        ],
+        "choices": [
+            "iPhone",
+            "Huawei",
+            "Xiaomi",
+            "Samsung"
+        ],
+        "answer": "iPhone",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which phone company had the highest sales in the year 2016?\nChoices:\n(A) iPhone\n(B) Huawei\n(C) Xiaomi\n(D) Samsung"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/26.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the publication of books increase consistently every year from 1990 to 2010?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/27.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Has the index of Ocean Pollution been above the index of CO2 Emissions every year?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/28.png"
+        ],
+        "choices": [
+            "Crocodiles",
+            "Elephants",
+            "Hippos",
+            "Lions",
+            "Giraffes"
+        ],
+        "answer": "Hippos",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which animal category has the highest average weight?\nChoices:\n(A) Crocodiles\n(B) Elephants\n(C) Hippos\n(D) Lions\n(E) Giraffes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/29.png"
+        ],
+        "choices": [
+            "2021",
+            "2019",
+            "2020",
+            "2018"
+        ],
+        "answer": "2019",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In which year did the number of tourists peaked in the given chart?\nChoices:\n(A) 2021\n(B) 2019\n(C) 2020\n(D) 2018"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/31.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Movie A's rating higher than its budget?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/32.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does the number of tourists increase each year?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/34.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: : Did Python's popularity index increase from 2020 to 2021?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/35.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the line chart, has the production of rice and wheat been consistent over the years?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/36.png"
+        ],
+        "choices": [
+            "SUV",
+            "Sedan",
+            "Coupe",
+            "Truck"
+        ],
+        "answer": "SUV",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which type of car shows an overall increase in sales from 2015 to 2020?\nChoices:\n(A) SUV\n(B) Sedan\n(C) Coupe\n(D) Truck"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/37.png"
+        ],
+        "choices": [
+            "It decreased by 60",
+            "There is no data for Spanish in the chart",
+            "It remained the same",
+            "It increased by 60"
+        ],
+        "answer": "It increased by 60",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: How has the popularity of Spanish changed from 2016 to 2019 according to the chart?\nChoices:\n(A) It decreased by 60\n(B) There is no data for Spanish in the chart\n(C) It remained the same\n(D) It increased by 60"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/38.png"
+        ],
+        "choices": [
+            "0.63",
+            "0.54",
+            "0.61",
+            "0.68"
+        ],
+        "answer": "0.63",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What was the change in global temperature in 2002 as per the scatterplot?\nChoices:\n(A) 0.63\n(B) 0.54\n(C) 0.61\n(D) 0.68"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/39.png"
+        ],
+        "choices": [
+            "2000",
+            "2016",
+            "2004",
+            "2018",
+            "2008",
+            "2002",
+            "2006",
+            "2010",
+            "2014",
+            "2012"
+        ],
+        "answer": "2018",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: At which year was the robbery rate the lowest?\nChoices:\n(A) 2000\n(B) 2016\n(C) 2004\n(D) 2018\n(E) 2008\n(F) 2002\n(G) 2006\n(H) 2010\n(I) 2014\n(J) 2012"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/40.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Are fruits consumed in greater quantity than meat over the 5 days period?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/41.png"
+        ],
+        "choices": [
+            "Party D",
+            "Party C",
+            "Party A",
+            "Party B"
+        ],
+        "answer": "Party A",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which party had the highest percentage in public opinion polls in 2005?\nChoices:\n(A) Party D\n(B) Party C\n(C) Party A\n(D) Party B"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/43.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the `USA` series represented in the color `#a1e97b`?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/44.png"
+        ],
+        "choices": [
+            "2018",
+            "2019",
+            "2020"
+        ],
+        "answer": "2020",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In which season did the team score the highest average number of goals per match?\nChoices:\n(A) 2018\n(B) 2019\n(C) 2020"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/45.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was there a steady increase in the number of books published in literature from the year 2000 to 2020?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/47.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Does the Chevrolet Bolt EV has higher miles per gallon in October than the Ford Focus?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/48.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the popularity of the Persian cat breed increase continually from 2010 to 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/50.png"
+        ],
+        "choices": [
+            "Train Travel",
+            "Bus Travel",
+            "Car Travel"
+        ],
+        "answer": "Train Travel",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the chart, which mode of transport shows a steady increase in travel distance over the weeks?\nChoices:\n(A) Train Travel\n(B) Bus Travel\n(C) Car Travel"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/51.png"
+        ],
+        "choices": [
+            "2001",
+            "2008",
+            "2005",
+            "2010"
+        ],
+        "answer": "2010",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In which year was the Dairy Production highest according to the line chart?\nChoices:\n(A) 2001\n(B) 2008\n(C) 2005\n(D) 2010"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/53.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was the price of 'Condos' consistently increasing every year from 2020 to 2024?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/54.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the Cat's food consumption increase every week?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/55.png"
+        ],
+        "choices": [
+            "October",
+            "July",
+            "May",
+            "January"
+        ],
+        "answer": "July",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: From the scatter plot produced above, estimate which month experiences the highest ocean water level?\nChoices:\n(A) October\n(B) July\n(C) May\n(D) January"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/57.png"
+        ],
+        "choices": [
+            "Industrial land",
+            "Agriculture land",
+            "Residential land",
+            "Commercial land",
+            "Forest land"
+        ],
+        "answer": "Industrial land",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What type of land usage has remained almost constant throughout the years according to the line chart?\nChoices:\n(A) Industrial land\n(B) Agriculture land\n(C) Residential land\n(D) Commercial land\n(E) Forest land"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/58.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was the count of Bikes more than Cars at any given time?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/60.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the yield for all three crops consistently increase over the years from 2000 to 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/61.png"
+        ],
+        "choices": [
+            "20",
+            "70",
+            "80",
+            "100"
+        ],
+        "answer": "100",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What was the global impact score (on the arbitrary scale) of World War II in its final year also known as 1945?\nChoices:\n(A) 20\n(B) 70\n(C) 80\n(D) 100"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/62.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was the sales of iPhone greater than Samsung in every year from 2007 to 2021?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/63.png"
+        ],
+        "choices": [
+            "Microsoft",
+            "Amazon",
+            "Apple",
+            "Google"
+        ],
+        "answer": "Amazon",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Which company has the highest growth in 2020 according to the scatter plot?\nChoices:\n(A) Microsoft\n(B) Amazon\n(C) Apple\n(D) Google"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/64.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Football the most popular sport according to the scatter plot?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/65.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did Class B have a higher grade than Class A on Tuesday?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/66.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the crime rate in City 1 always stay above the crime rate in City 2 during the years 2000 to 2010?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/67.png"
+        ],
+        "choices": [
+            "30",
+            "10",
+            "40",
+            "20"
+        ],
+        "answer": "20",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: From the line chart, what is the difference in sales between store 1 and store 2 in 2018?\nChoices:\n(A) 30\n(B) 10\n(C) 40\n(D) 20"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/68.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the investment in Vaccine Research exceed investment in Cancer Research in every year from 2010 to 2020?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/72.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the population of rhinos decrease from 2015 to 2019?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/73.png"
+        ],
+        "choices": [
+            "Station Wagon",
+            "Coupe",
+            "Convertible",
+            "SUV",
+            "Sedan",
+            "Van",
+            "Hatchback"
+        ],
+        "answer": "Convertible",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In the scatter plot saved in 'line_charts/line_charts_visual_linguistic/test/73.png', which car type has the highest average price?\nChoices:\n(A) Station Wagon\n(B) Coupe\n(C) Convertible\n(D) SUV\n(E) Sedan\n(F) Van\n(G) Hatchback"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (C)."
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/74.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is 'Flexibility routines' represented by the color '#0000ff'?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/75.png"
+        ],
+        "choices": [
+            "Dairy",
+            "Bread",
+            "Fruits",
+            "Meat"
+        ],
+        "answer": "Meat",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the line chart, which category of food had the maximum consumption in July?\nChoices:\n(A) Dairy\n(B) Bread\n(C) Fruits\n(D) Meat"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/76.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the sales of skirts exceed the sales of trousers in every year between 2005 and 2020?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/77.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did 'Charity D' receive more donations in 2019 than 'Charity C'?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/78.png"
+        ],
+        "choices": [
+            "Cardiology",
+            "Dermatology",
+            "Neurology",
+            "Psychiatry",
+            "Oncology"
+        ],
+        "answer": "Cardiology",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: In which Medical Field, according to the scatter plot, has the number of patients treated increased at the fastest rate over the years 2010-2019?\nChoices:\n(A) Cardiology\n(B) Dermatology\n(C) Neurology\n(D) Psychiatry\n(E) Oncology"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/79.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the iPhone 12 sales higher than Samsung S21 sales?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/81.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did the number of significant global conflicts have a general increase across the 20th and 21st century?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/82.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the line chart, did Facebook have more users than Twitter in the year 2020?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/83.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the popularity rating of Classical music in the 5th decade (represented by the y1 value at x=5) greater than the popularity rating of Rock music in the same period (represented by the y2 value at x=5)?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/84.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did Soybean production exceed 4500 (in 1000 Tons) in 2020?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/85.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the rating of \"Movie I\" greater than the rating of \"Movie B\"?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/86.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is the number of Classical Architecture buildings was always higher than the number of Modern Architecture buildings for the years plotted?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/87.png"
+        ],
+        "choices": [
+            "No",
+            "Yes"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Was the temperature on the 4th day higher than it was on the 1st day?\nChoices:\n(A) No\n(B) Yes"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/90.png"
+        ],
+        "choices": [
+            "Information not available",
+            "Shawn",
+            "Peter",
+            "Both directed the same number of movies"
+        ],
+        "answer": "Shawn",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Who directed more movies in 2020?\nChoices:\n(A) Information not available\n(B) Shawn\n(C) Peter\n(D) Both directed the same number of movies"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/92.png"
+        ],
+        "choices": [
+            "February",
+            "October",
+            "December",
+            "July"
+        ],
+        "answer": "July",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What was the month with the highest sales for T-shirts?\nChoices:\n(A) February\n(B) October\n(C) December\n(D) July"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/93.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "No",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Is Germany the country with the highest number of international travelers in 2019 represented in the chart?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (B)."
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/94.png"
+        ],
+        "choices": [
+            "Yes",
+            "No"
+        ],
+        "answer": "Yes",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Did Vincent van Gogh create more paintings than Leonardo da Vinci?\nChoices:\n(A) Yes\n(B) No"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (A)."
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/97.png"
+        ],
+        "choices": [
+            "Pigeon",
+            "Parrot",
+            "Sparrow",
+            "Eagle"
+        ],
+        "answer": "Eagle",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: Based on the scatter plot, which bird has the highest y-value at x=3?\nChoices:\n(A) Pigeon\n(B) Parrot\n(C) Sparrow\n(D) Eagle"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "image": [
+            "/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic/test/98.png"
+        ],
+        "choices": [
+            "1200",
+            "1500",
+            "1300",
+            "900",
+            "800"
+        ],
+        "answer": "900",
+        "conversations": [
+            {
+                "from": "user",
+                "value": "<ImageHere>Hint: Please answer the question and provide the correct option letter, e.g., A, B, C, D, at the end.\nQuestion: What is the cost in USD to travel to Paris?\nChoices:\n(A) 1200\n(B) 1500\n(C) 1300\n(D) 900\n(E) 800"
+            },
+            {
+                "from": "assistant",
+                "value": "The answer is (D)."
+            }
+        ]
+    }
+]

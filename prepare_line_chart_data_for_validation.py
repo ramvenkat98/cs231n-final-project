@@ -7,7 +7,7 @@ randomize_ordering = True
 LINE_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/line_charts/line_charts_visual_linguistic_test.json'
 LINE_CHARTS_PROCESSED_FILE_PATH = 'line_charts_processed_visual_linguistic_val_randomized.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
-BLOCKLIST = []
+BLOCKLIST = [8, 42, 46, 52, 3]
 
 with open(LINE_CHARTS_ORIGINAL_JSON_FILE_PATH, 'r') as file:
     data = json.load(file)

@@ -2,12 +2,14 @@ import json
 import ast
 import random
 
-randomize_ordering = True
+randomize_ordering = False
 use_llm_correctness_eval = True
+limit_data = False
+# limit = 340
 
 BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/home/ramvenkat98/cs231n-final-project/bar_charts/bar_charts_visual_linguistic_train.json'
 # BAR_CHARTS_ORIGINAL_JSON_FILE_PATH = '/Users/ramvenkat98/Desktop/stanford_courses/cs231n/cs231n_final_project/bar_charts/bar_charts_visual_linguistic_train.json'
-BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train_randomized_llm_as_a_judge_460.json'
+BAR_CHARTS_PROCESSED_FILE_PATH = 'bar_charts_processed_visual_linguistic_train_unrandomized_llm_as_a_judge_460.json'
 LLM_AS_A_JUDGE_FILE_PATH = 'bar_charts/llm_as_judge_results.json'
 IMAGE_PATH = '/home/ramvenkat98/cs231n-final-project/'
 BLOCKLIST = [i for i in range(1, 26)] + [
@@ -129,6 +131,11 @@ for k in sorted(STATS_BY_NUM_CHOICES.keys()):
     print(f"{sum(STATS_BY_NUM_CHOICES[k])} questions with {k} choices. Distribution is {STATS_BY_NUM_CHOICES[k]}.")
 
 print(len(L), "samples generated.")
+
+if limit_data:
+    random.shuffle(L)
+    L = L[:limit]
+    print(f"Limiting to {len(L)} samples")
 
 with open(BAR_CHARTS_PROCESSED_FILE_PATH, 'w') as file:
     json.dump(L, file, indent = 4)
