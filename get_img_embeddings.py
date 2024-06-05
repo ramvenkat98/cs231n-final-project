@@ -20,12 +20,12 @@ if not finetuned:
     model.tokenizer = tokenizer
     filename = 'embeddings_for_unfinetuned_model.pkl'
 else:
-    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
-    # filename = 'embeddings_for_pure_bar_chart_finetuned.pkl'
+    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
+    filename = 'embeddings_for_pure_bar_chart_finetuned.pkl'
     # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_400_sample_linechart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
     # filename = 'embeddings_for_pure_line_chart_finetuned.pkl'
-    path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_400_sample_barchart_and_linechart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
-    filename = 'embeddings_for_bar_chart_and_line_chart_finetuned.pkl'
+    # path_to_adapter = '/home/ramvenkat98/cs231n-final-project/InternLM-XComposer/finetune/output_1_8b_lora_on_400_sample_barchart_and_linechart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32/finetune'
+    # filename = 'embeddings_for_bar_chart_and_line_chart_finetuned.pkl'
     model = AutoPeftModelForCausalLM.from_pretrained(path_to_adapter, device_map="auto", trust_remote_code=True).eval()
     tokenizer = AutoTokenizer.from_pretrained(path_to_adapter, trust_remote_code = True)
     model.tokenizer = tokenizer
@@ -80,7 +80,7 @@ for x in classes_to_embeddings.keys(): print(x, len(classes_to_embeddings[x]))
 
 classes_to_embeddings_means = {
     x: [
-        np.array(torch.squeeze(classes_to_embeddings[x][i]).cpu()) for i in range(len(classes_to_embeddings[x]))
+        np.array(torch.mean(torch.squeeze(classes_to_embeddings[x][i]).cpu(), axis = 0)) for i in range(len(classes_to_embeddings[x]))
     ] for x in classes_to_embeddings
 }
 
