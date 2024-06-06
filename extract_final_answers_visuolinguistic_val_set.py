@@ -4,13 +4,14 @@ from my_utils import *
 from tqdm import tqdm
 
 # filename = 'model_eval_on_visuolinguistic_val_set_1_8b.pkl'
-# filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_530_sample_barchart_fixed_vit.pkl'
+filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_530_sample_barchart_fixed_vit.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_339_sample_barchart_fixed_vit.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judgefixed_vit.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lr_times_2.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32.pkl'
+# filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_8.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2.pkl'
 # filename = 'model_eval_1_8b_lora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_lora_2_learning_rate_divide_4.pkl'
 # filename = 'model_eval_1_8_b_lora_on_visuolinguistic_val_set_400_sample_line_chart_randomized_llm_as_judge_variable_vit_2_epochs_lora_32.pkl'
@@ -20,7 +21,9 @@ from tqdm import tqdm
 # filename = 'model_eval_1_8_b_lora_on_visuolinguistic_val_set_400_sample_bar_chart_and_line_chart_unrandomized_llm_as_judge_variable_vit_2_epochs_lora_32_on_bar_chart.pkl'
 # filename = 'model_eval_1_8_b_lora_on_visuolinguistic_val_set_400_sample_bar_chart_and_line_chart_unrandomized_llm_as_judge_variable_vit_2_epochs_lora_32_on_line_chart.pkl'
 # filename = 'model_eval_1_8b_dora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_dora_32.pkl'
-filename = 'model_eval_1_8b_dora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_dora_2.pkl'
+# filename = 'model_eval_1_8b_dora_on_visuolinguistic_val_set_460_sample_barchart_randomized_llm_as_judge_variable_vit_2_epochs_dora_2.pkl'
+# filename = 'model_eval_1_8_b_dora_on_visuolinguistic_val_set_460_sample_bar_chart_and_line_chart_randomized_llm_as_judge_variable_vit_2_epochs_dora_32_on_bar_chart.pkl'
+# filename = 'model_eval_1_8_b_dora_on_visuolinguistic_val_set_460_sample_bar_chart_and_line_chart_randomized_llm_as_judge_variable_vit_2_epochs_dora_32_on_line_chart.pkl'
 
 line_chart = False
 
@@ -93,4 +96,8 @@ for x in full_out_1_8b:
         stats_by_question_type_and_context_type[key][2] + 1
     )
 
-print(stats_by_question_type_and_context_type)
+for k in stats_by_question_type_and_context_type:
+    print(k)
+    print(stats_by_question_type_and_context_type[k])
+    print(100.0 * stats_by_question_type_and_context_type[k][0] / stats_by_question_type_and_context_type[k][2])
+
