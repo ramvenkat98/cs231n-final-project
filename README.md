@@ -1,5 +1,7 @@
-This repo contains the code for our CS231N project submission where we generate a synthetic dataset for figure-based Math problems and fine-tune a vision language model (VLM) on it. We evaluate on the MathVista dataset and observe performance improvements.
+## GAMMAS - Improving Mathematical Reasoning in Vision Language Models Through Synthetic Data Generation
+This repo contains the code for our CS231N project submission where we generate a synthetic dataset for visual Math problems and fine-tune a vision language model (VLM) on it. We evaluate on the MathVista dataset and observe performance improvements.
 
+## References
 There are two parts of this repo that do not contain original code:
 * The finetune_changes_copy/ directory: this contains files from the InternLM-XComposer repo (https://github.com/InternLM/InternLM-XComposer/tree/main) that we slightly modify in order to meet our fine-tuning needs. These are mainly just changes to the finetuning configs (we add two sample configs that we use for LoRA and DoRA), and a minor change to the finetuning script to support DoRA (in addition to LoRA).
 * The utils.py file - this contains some helper functions, some of which are taken from the InternLM repo mentioned above, and some which are taken from the MathVista repo: https://github.com/lupantech/MathVista.
