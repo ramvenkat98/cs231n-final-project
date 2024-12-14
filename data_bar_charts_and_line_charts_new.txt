@@ -1,0 +1,2 @@
+/nlp/scr/ram1998/cs231n-final-project/bar_charts_processed_visual_linguistic_train_randomized_llm_as_a_judge_460_prefix_fixed.json 1
+/nlp/scr/ram1998/cs231n-final-project/line_charts_processed_visual_linguistic_train_randomized_with_llm_as_a_judge_400_prefix_fixed.json 1
